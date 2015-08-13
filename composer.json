@@ -26,13 +26,17 @@
     {
       "type": "composer",
       "url": "http://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "../themeforest/x"
     }
   ],
   "require": {
-    "php": ">=5.4 <5.5",
+    "php": ">=5.4 <5.7",
     "johnpbloch/wordpress" : ">=4.2 <4.3",
-    "composer/installers": "~1.0",
-    "wpackagist-plugin/jonradio-multiple-themes": ">=7.1 <7.2"
+    "wpackagist-plugin/jonradio-multiple-themes": ">=7.1 <7.2",
+    "trick-e/x-theme": "^4.0"
   },
   "extra"       : {
     "wordpress-install-dir": "wp"
