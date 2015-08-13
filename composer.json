@@ -1,0 +1,40 @@
+{
+  "name": "trick-e/lux",
+  "description": "Lux Site Installer",
+  "keywords": [
+    "lux",
+    "luxblox",
+    "testimonials",
+    "blog",
+    "cms"
+  ],
+  "authors"     : [
+    {
+      "name"    : "Christopher Legan",
+      "email"   : "ceekayel@trick-e.com",
+      "homepage": "http://www.trick-e.com/"
+    }
+  ],
+  "type"        : "project",
+  "homepage": "http://www.luxblox.com/",
+  "license": "private",
+  "support": {
+    "issues": "http://www.luxblox.com/",
+    "source": "http://www.trick-e.com"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4 <5.5",
+    "johnpbloch/wordpress" : ">=4.2 <4.3",
+    "composer/installers": "~1.0",
+    "wpackagist-plugin/jonradio-multiple-themes": ">=7.1 <7.2"
+  },
+  "extra"       : {
+    "wordpress-install-dir": "wp"
+  }
+}
