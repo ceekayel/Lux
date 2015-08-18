@@ -55,7 +55,6 @@
     "trick-e/x-theme": "^4.0",
     "trick-e/cornerstone": "^1.0",
     "trick-e/revslider": "^4.6",
-    "trick-e/x-shortcodes": "^3.0",
     "trick-e/duplicator": "^0.5.24"
   },
   "extra"       : {
