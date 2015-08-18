@@ -1,0 +1,347 @@
+Templatic parent theme - Supreme.
+==================================================================================
+
+11th July 2015 (Version 1.1.4)
+----------------------------------------------------------------------------------
+Improved : Make compatibility with wpml version 3.2.2
+----------------------------------------------------------------------------------
+
+28th March 2015 (1.1.3)
+----------------------------------------------------------------------------------
+Fix : outdated templates file issue with woocommerce version 2.3.7
+----------------------------------------------------------------------------------
+supreme/woocommerce/archive-product.php
+
+----------------------------------------------------------------------------------
+supreme/woocommerce/single-product.php
+
+----------------------------------------------------------------------------------
+supreme/woocommerce/taxonomy-product_cat.php
+
+----------------------------------------------------------------------------------
+supreme/woocommerce/taxonomy-product_tag.php
+
+----------------------------------------------------------------------------------
+
+31st January 2015 (1.1.2)
+----------------------------------------------------------------------------------
+Fix: Post Title
+----------------------------------------------------------------------------------
+/library/functions/loadpopularpost.php
+
+----------------------------------------------------------------------------------
+Fix: Gallery for all supreme child themes
+----------------------------------------------------------------------------------
+Added: /image.php
+
+----------------------------------------------------------------------------------
+Fix: Changed domain for Nightlife .po file strings
+----------------------------------------------------------------------------------
+/loop-error.php
+
+----------------------------------------------------------------------------------
+Fix: Site map page template does not fetch woocommerce category
+----------------------------------------------------------------------------------
+/page-template-sitemap.php
+
+----------------------------------------------------------------------------------
+Fix: Cchange latest theme notification news code
+----------------------------------------------------------------------------------
+/functions/templatic_news.php
+
+-----------------------------------------------------------------------
+Fix: 
+1. Gives error When twitter widget is used more than once on single page
+2. Fatal error: Cannot redeclare class OAuthSignatureMethod_HMAC_SHA1
+-----------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------
+Fix: Remove textdomain mobile echo path
+-----------------------------------------------------------------------
+/library/functions/i18n.php
+
+
+
+5th June 2014 (Version: 1.1.1)
+----------------------------------------------------------------------------------------------
+Fix: Correction in a function which removes white space from XML file 
+The function was stripping other data too which caused incompatibility issue with iThemes Sync plugin
+---------------------------------------------------------------------------------------------------
+functions.php
+----------------------------------------------------------------
+
+Fix: Slider counter was not incrementing properly
+----------------------------------------------------------
+library/functions/widgets.php
+---------------------------------------------------------------
+
+Fix: Can't add additional testimonials from widget customizer
+---------------------------------------------------------------
+library/classes/widget-testimonials.php
+---------------------------------------------------------------
+
+
+
+25th April 2014 (1.0.10)
+-----------------------------------------------------------------------
+Fix: background image was not displaying on success page
+-----------------------------------------------------------------------
+functions.php
+
+-----------------------------------------------------------------------
+Fix: Vehicle detail pages are displaying blank except the header(Yoast- 
+SEO compatibility)
+-----------------------------------------------------------------------
+library/extensions/breadcrumb-trail.php
+
+-----------------------------------------------------------------------
+Fix: WP3.9 Compatibility
+-----------------------------------------------------------------------
+library/functions/sidebars.php
+library/functions/widgets.php
+functions.php
+
+-----------------------------------------------------------------------
+Fix: BBPress related fixes.
+-----------------------------------------------------------------------
+bbpress/loop-forums.php
+bbpress/loop-single-forum.php
+
+-----------------------------------------------------------------------
+Improvement: Make multiple sliders work on same page - add slider id -
+field in backend
+-----------------------------------------------------------------------
+library/functions/widgets.php
+
+
+26th February 2014 (1.0.9)
+-----------------------------------------------------------------------
+Fix: Design issues with WooCommerce 2.1
+-----------------------------------------------------------------------
+style.css
+
+---------------------------------------------------
+14th February 2014 (1.0.8)
+-----------------------------------------------------------------------
+Fix: Compatibility issues with WooCommerce 2.1
+---------------------------------------------------
+css/woocommerce.css
+functions.php
+style.css
+---------------------------------------------------
+30th January 2013 (Version: 1.0.6)
+------------------------------------------------------------------------------
+Fix: It was not possible to overwrite the single file of a new post type
+------------------------------------------------------------------------
+library/functions/template-hierarchy.php
+------------------------------------------------------
+Fix: Improved localization
+-------------------------------------
+languages/supreme-en_EN.mo
+languages/supreme-en_EN.po
+-----------------------------------------
+General Improvemnt in code
+---------------------------------------------
+library/admin/meta-box-post-template.php
+functions.php
+singular.php
+library/functions/i18n.php
+templatic_login.php
+wp-updates-theme.php
+templatic_customizer.php
+loop-error.php
+library/classes/widget-testimonials.php
+library/functions/loadpopularpost.php
+library/classes/widget-social_media.php
+library/extensions/breadcrumb-trail.php
+----------------------------------------------------
+6th September 2013 (Version : 1.0.5)
+----------------------------------------------------------
+FIX : Slider first title value is not getting translated.
+-----------------------------------------------------------
+library/functions/widgets.php
+
+----------------------------------------------------------------------------------------------------
+FIX : Plugin "Are you human" instead of recaptcha was not getting appeared over the "Contact us page".
+----------------------------------------------------------------------------------------------------
+page-template-contact.php
+
+---------------------------------------------------------------
+FIX : 404 error for dismiss image is not fetching on autoinstall box.
+---------------------------------------------------------------
+css/admin_style.css
+
+----------------------------------------
+FIX : Breadcrumb fetch sub category link.
+----------------------------------------
+library/extensions/breadcrumb-trail.php
+
+--------------------------------------
+Removed unwanted images of flexslider.
+--------------------------------------
+css/flexslider.css
+
+---------------------------------
+FIX : Removed template meta box.
+---------------------------------
+library/admin/meta-box-post-template.php
+
+------------------------------------------------------
+FIX : Map scroll was not working in hotel booking theme.
+------------------------------------------------------
+style.css
+
+------------------------------------------------------------
+FIX :
+Removed file under text from supreme related themes in pages.
+Error log issue.
+------------------------------------------------------------
+functions.php
+
+
+
+17th June 2013 (Version : 1.0.4)
+------------------------------------------------------------------------------------------------------------
+FIX :
+Aded code for twitter version 1.1 changes in "T>latest twitter feed" widget (also adding cURL validation message)
+Added Twitter Widget Guide link.
+------------------------------------------------------------------------------------------------------------
+Modified file :
+library/functions/widgets.php
+
+New added files :
+library/functions/Oauth
+library/functions/Oauth/LICENSE
+library/functions/Oauth/OAuth.php
+library/functions/Oauth/twitteroauth.php
+
+-----------------------------------------------------------------------------------------
+FIX : The Category and tags sections were not showing spaces between 2 consecutive tags.
+-----------------------------------------------------------------------------------------
+functions.php
+
+--------------------------------------------------------------------------------------------
+FIX : Changes of "Comment on page and post" option was not getting reflected from customizer.
+--------------------------------------------------------------------------------------------
+page.php
+post.php
+singular.php
+
+-----------------------------------
+FIX : Issue of warning error on slider.
+-----------------------------------
+library/functions/widgets.php
+
+-------------------------------------
+updated new supreme po and pot files.
+-------------------------------------
+languages/supreme-en_EN.mo
+languages/supreme-en_EN.po
+languages/supreme-en_EN.pot
+
+-----------------------------------------------------------
+FIX : Set Default permalink to post name on theme activation.
+-----------------------------------------------------------
+functions.php
+
+
+
+29th May 2013
+-----------------------------------------
+Mega menu plugin related changes - Done.
+-----------------------------------------
+Modified files :
+functions.php
+library/functions/widgets.php
+library/classes/widget-mega_menu.php
+
+------------------------------------------------------------------------------
+Change select box to multiple select taxonomy in home page slider widget - Done.
+------------------------------------------------------------------------------
+library/functions/widgets.php
+
+-------------------------------------------------------------------------------------
+Issue of displaying the slider post for multiple categories of the same post type - Solved.
+-------------------------------------------------------------------------------------
+library/functions/widgets.php
+
+---------------------------------------------------------
+Issue of "Show author biography on pages" option - Solved.
+---------------------------------------------------------
+loop-entry-author.php
+
+
+
+
+13th April 2013 (v:1.0.3)
+-----------------------
+Autoupdate not working
+-----------------------
+css/admin_style.css - Added
+templatic_login.php
+library/admin/admin.php
+functions.php
+wp-updates-theme.php
+
+3rd April 2013
+-----------------
+add latest pot file 
+-----------------
+languages/supreme-en_EN.pot
+languages/rainbow-en_EN.pot
+library/functions/core.php
+
+1st April 2013
+---------------------------------------------------------------------------
+In IE slider images are stacked one on another before the page is fully loaded .
+---------------------------------------------------------------------------
+fuctions.php
+library/functions/widgets.php
+
+8th March 2013
+----------------
+Warning resolved
+----------------
+library/functions/widgets.php
+library/functions/shortcodes.php
+Supreme/functions.php
+Supreme/comments.php
+library/extensions/breadcrumb-trail.php
+
+
+28th February 2013 (v:1.0.2)
+----------------------------------------------------------------
+Moved some widgets from Tevolution plugin to Supreme parent theme 
+-----------------------------------------------------------------
+library/functions/widgets.php
+
+-----------------
+8th February 2013
+-----------------
+Widget related issue - Solved.
+All the location related issue - Solve.
+.po and .mo files updated
+gravity form compatibility css - Added.
+flicker widget - Added.
+
+
+-------------------------------------------------------------------------
+added excerpts option from tevolution to supreme theme customizer - Done.
+-------------------------------------------------------------------------
+functions.php
+templatic_customizer.php
+content.php
+
+
+11th January 2013
+-------------------------------------------------------------
+Issue of author biography option not work for bbpress - Solved.
+-------------------------------------------------------------
+
+
+8th Jan 2013
+----------------------------------------
+Provided auto updates feature in Supreme
+----------------------------------------
+

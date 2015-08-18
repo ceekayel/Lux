@@ -1,0 +1,22 @@
+{
+  "name": "trick-e/supreme",
+  "description": "Supreme Wordpress Parent Theme for Catalog, by Templatic.",
+  "license": "proprietary",
+  "keywords": ["wordpress","theme","themes","supreme","catalog"],
+  "authors": [
+    {
+      "name": "Christopher Legan",
+      "email": "ceekayel@trick-e.com"
+    }
+  ],
+  "type"    : "wordpress-theme",
+  "require": {
+    "php": ">=5.4 <5.7",
+    "composer/installers": "^1.0"
+  },
+  "suggest": {
+    "trick-e/supreme-theme": " required - this is a child theme of supreme"
+  },
+
+  "minimum-stability": "stable"
+}
