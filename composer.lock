@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c3a75b67a686a501e85bd3e19552f368",
+    "hash": "1dfc53b200fc754f40641ad6d46c575b",
     "packages": [
         {
             "name": "composer/installers",
@@ -443,6 +443,51 @@
                 "issues": "https://github.com/ceekayel/supreme/issues"
             },
             "time": "2015-08-18 23:10:29"
+        },
+        {
+            "name": "trick-e/tevolution-bulkimport-plugin",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/Tevolution-BulkImport.git",
+                "reference": "50e2ab3b087b7cf837742709adc69ed6e9f8ccc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/Tevolution-BulkImport/zipball/50e2ab3b087b7cf837742709adc69ed6e9f8ccc3",
+                "reference": "50e2ab3b087b7cf837742709adc69ed6e9f8ccc3",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Tevolution Bulk Import Wordpress Plugin for Directory, by Templatic.",
+            "keywords": [
+                "bulkimport-plugin",
+                "directory-theme",
+                "plugin",
+                "plugins",
+                "templatic",
+                "tevolution",
+                "tevolution-plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/Tevolution-BulkImport/tree/1.0",
+                "issues": "https://github.com/ceekayel/Tevolution-BulkImport/issues"
+            },
+            "time": "2015-08-18 21:14:58"
         },
         {
             "name": "trick-e/tevolution-directory-plugin",

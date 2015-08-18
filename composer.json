@@ -57,6 +57,10 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/ceekayel/Tevolution-BulkImport.git"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/ceekayel/Video.git"
     },
     {
@@ -87,7 +91,8 @@
     "trick-e/catalog-theme": "^1.0",
     "trick-e/tevolution-plugin": "^2.1",
     "johnpbloch/wordpress": "^4.3",
-    "trick-e/supreme": "^1.1"
+    "trick-e/supreme": "^1.1",
+    "trick-e/tevolution-bulkimport-plugin": "^1.0"
   },
   "extra"       : {
     "wordpress-install-dir": "wp"
