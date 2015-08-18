@@ -1,0 +1,3540 @@
+	/**
+ * Theme Name: Catalog
+ * Theme URI: http://templatic.com/ecommerce-themes/supreme/
+ * Description: A sleek e-Commerce theme for showcasing your favorite products. Works with WooCommerce & Jigoshop plugins, To edit theme options click on the Customize link below
+ * Version: 1.0.11
+ * Author: Templatic
+ * Author URI: http://templatic.com
+ * Template: supreme
+ */
+
+/* Importing the parent theme stylesheet. */
+
+@import url( '../supreme/style.css' );
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+ 
+
+/* ----------------------------------------------------------
+    CHILD THEME STYLES
+-----------------------------------------------------------*/
+
+body  {
+    background: #ffffff;
+    color: #333333;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+a {color: #333333}
+a:hover {color: #333333; text-decoration: underline}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Droid Serif', Gorgia, Times, Serif; color: #333333; font-weight: normal}
+
+h1 {font-size: 36px;line-height: 48px}
+h2 {font-size: 24px;line-height: 36px}
+h3 {font-size: 18px;line-height: 30px}
+h4 {font-size: 16px;line-height: 24px}
+h5 {font-size: 12px;line-height: 21px}
+h6 {font-size: 9px;line-height: 15px}
+
+p {padding: 12px 0}
+
+h2 {font-size: 22px}
+h2.post-title {font-size: 28px; margin-bottom: 5px}
+
+ol, ul {
+	margin: 12px 0 12px 20px;
+}
+
+ul li {
+	padding: 0 0 0 26px;
+	}
+
+ol {
+	list-style: decimal;
+	margin-left: 46px;
+	}
+
+div#menu-primary, #header, div#menu-secondary, .sidebar-after-header, #main, .sidebar-subsidiary, div#menu-subsidiary, #footer {margin: 0 auto; width: 960px}
+
+form {font-family: Helvetica, Arial, sans-serif}
+
+#your-message, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input.input-text, input[type="time"], input[type="url"], input[type="week"], select, textarea, form .form-row textarea, #content .form-row textarea {
+	background-color: #f0f0f0;
+    border: none;
+    *border: 1px solid #cccccc;
+	border: 1px solid #cccccc \0; 
+	border-radius: 4px;
+    box-shadow: 0 1px 1px #8c8c8c inset;
+    font: 14px Helvetica, Arial, sans-serif;
+    color: #666666;
+	outline: 0 none;
+    vertical-align: middle;
+    padding: 10px 10px 10px;
+}
+
+select {height: 38px}
+
+input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input.input-text, input[type="time"], input[type="url"], input[type="week"], select {*height: auto}
+
+address {font-style: normal}
+
+.left {float: left}
+.right {float: right}
+.clearfix {clear: both}
+
+.clearfix:after{
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	}
+	
+a {text-decoration: underline}
+a:hover {text-decoration: none}
+
+
+/* ----------------------------------------------------------
+    HEADER
+-----------------------------------------------------------*/
+
+.header_bg, .header_bg_down {
+	background: url(images/bodybg.png) repeat left bottom; 
+	border-bottom: 1px solid rgba(204,204,204,0.5);
+}
+.header_bg_down {height: 152px}
+
+#site-title a {text-decoration: none}
+
+/*-------- TOP MENU ---------*/
+
+div#menu-primary .wrap {background: none; border: none}
+div#menu-primary .menu {
+    float: left;
+	position: relative;
+	*z-index: 9999999999;
+}
+div#menu-primary .menu li a {
+	background: url(images/sep_top_nav.png) no-repeat right center; 
+	border: none; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 13px; 
+	font-weight: normal; 
+	text-transform: capitalize; 
+	padding: 10px 8px;
+	height: 1%;
+	text-decoration: none;
+}
+div#menu-primary .menu li a:hover {text-decoration: underline} 
+div#menu-primary .menu li:last-child a {background-image: none}
+div#menu-primary .menu li a.with-ul {padding-right: 20px}
+div#menu-primary .menu li a.with-ul span.sub-indicator {top: 17px; right: 9px}
+div#menu-primary .menu li ul li a {background-image: none; *border: none !important}
+div#menu-primary .menu li.current-menu-item a {color: #333333}
+
+/*-------- TOP MENU END ---------*/
+
+#branding {width: 232px; padding: 0; height: 122px}
+.header-wrap {background: none; position: relative}
+#site-title {font-size: 55px; font-weight: normal; padding: 20px 0 0; white-space: nowrap}
+#site-description {font-family: 'Droid Serif',Gorgia,Times,Serif; font-size: 14px; padding-bottom: 18px}
+
+/*-------- NAVIGATION ---------*/
+
+.buttons{
+	display:none;
+}
+.nav_bg {
+	background: url(images/navi_bk1.png) repeat-x scroll 0 0 #000;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 #999 inset, 0 1px 2px #999;
+	padding: 11px 160px 11px 10px; 
+}
+div#menu-secondary .wrap, div#menu-subsidiary .wrap {border-top: none; background: none; position:relative; *z-index: 99999995}
+div#menu-secondary .menu li, div#menu-subsidiary .menu li {margin-right: 15px}
+div#menu-secondary .menu li a, div#menu-subsidiary .menu li a {
+	border: none;
+	-webkit-transition:all ease-in-out .2s;
+	-moz-transition:all ease-in-out .2s;
+	-o-transition:all ease-in-out .2s;
+	transition:all ease-in-out .2s;
+	font-family: 'Droid Serif', Gorgia, Times, Serif;
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 0 -1px rgba(0,0,0,0.5);
+	padding: 8px 10px 8px;
+}
+
+div#menu-secondary .menu li a:hover, div#menu-subsidiary .menu li a:hover, 
+div#menu-secondary .menu li.current-menu-item a, div#menu-subsidiary .menu li.current-menu-item a {
+	background-color: #DDDDDD;
+    box-shadow: 0 -2px 2px #999999 inset;
+    border-radius: 3px;
+	color: #333333;
+    font-weight: normal;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+div#menu-secondary .menu li:hover a {
+	background-color: #DDDDDD;
+    box-shadow: 0 -2px 2px #999999 inset;
+    border-radius: 3px;
+	color: #333333;
+    font-weight: normal;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+div#menu-secondary .menu li a.with-ul, div#menu-subsidiary .menu li a.with-ul {padding-right: 10px}
+div#menu-secondary .menu li a.with-ul span.sub-indicator {display: none}
+
+div#menu-secondary .menu li.current-menu-item li a, div#menu-subsidiary .menu li.current-menu-item li a {border-radius: 0; box-shadow: none; color: #ffffff; text-shadow: 0 -1px rgba(0,0,0,0.5)}
+div#menu-secondary .menu li.current-menu-item li a:hover, div#menu-subsidiary .menu li.current-menu-item li a:hover {color: #333; box-shadow: 0 2px 2px #999999 inset}
+
+/* ------ LEVEL 2 ------*/
+div#menu-secondary .menu ul ul, div#menu-subsidiary .menu ul ul {background: #DDDDDD; border-radius: 0 3px 3px 3px; display: block; margin-top: -3px; box-shadow: 0 -2px 2px #BEBEBE inset}
+div#menu-secondary .menu ul ul ul, div#menu-subsidiary .menu ul ul ul {margin-top: 0}
+div#menu-secondary .menu li li a, div#menu-subsidiary .menu li li a {
+	background: none !important;
+	color: #333333 !important;
+	border-bottom: 1px dotted #BEBEBE !important;
+	border-radius: 0 !important;
+	font-size: 15px !important; 
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5) !important;
+}
+div#menu-secondary .menu li li a:hover, div#menu-subsidiary .menu li li a:hover,
+div#menu-secondary .menu li li.current-menu-item li a:hover, div#menu-subsidiary .menu li li.current-menu-item li a:hover,
+div#menu-secondary .menu li li.current-menu-item a, div#menu-subsidiary .menu li li.current-menu-item a
+{
+	background: #222222 !important;
+	background-image: linear-gradient(bottom, #222222 0%, #444444 100%) !important;
+    background-image: -o-linear-gradient(bottom, #222222 0%, #444444 100%) !important;
+    background-image: -moz-linear-gradient(bottom, #222222 0%, #444444 100%) !important;
+    background-image: -webkit-linear-gradient(bottom, #222222 0%, #444444 100%) !important;
+    background-image: -ms-linear-gradient(bottom, #222222 0%, #444444 100%) !important;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #222222), color-stop(1, #444444)) !important; 
+
+    font-weight: normal;
+	color: #ffffff !important;
+	box-shadow: none;
+	text-shadow: 0 -1px 0 #000000 !important;
+}
+div#menu-secondary .menu li li.current-menu-item li a, div#menu-subsidiary .menu li li.current-menu-item li a {background: #dddddd !important; color: #333333!important; text-shadow: 0 1px 0 rgba(255,255,255,0.5) !important}
+div#menu-secondary .menu li li:last-child a, div#menu-subsidiary .menu li li:last-child a {border-radius: 0 0 3px 3px !important}
+div#menu-secondary .menu li li:first-child a, div#menu-subsidiary .menu li li:first-child a {border-radius: 0 3px 0 0 !important}
+/*-------- NAVIGATION ENDS ---------*/
+
+.header-wrap .widget {float: right; width: auto; clear: none; margin: -38px 0 0 0; position: relative; z-index: 9}
+
+/* ------------ SLIDER ---------- */
+.flexslider {position: relative; overflow: visible !important}
+.flexslider .slides {margin: 0}
+.flexslider .slides li {padding: 0}
+.flexslider .slides li img {width: 100%; height: auto; border-radius: 5px}
+.slider_content{width:960px; margin:0 auto}
+.flex-direction-nav li {background: none}
+.flex-direction-nav li:hover {background: url("images/btn_bk.png") repeat-x left top}
+.flex-direction-nav li a, .flex-flexsliderprev, .flex-flexslidernext {position: absolute; top: 52%}
+.flex-direction-nav a.flex-prev, .flex-flexsliderprev {background: none; display: block; left: -46px; border-radius: 3px 0 0 3px; text-indent: -9999px}
+.flex-direction-nav a.flex-prev, .flex-flexsliderprev {background: url("images/small_icons.png") repeat-x -1px -527px; width: 46px; height: 46px; display: block}
+.flex-direction-nav a.flex-prev:hover, .flex-flexsliderprev:hover, .flexslider:hover a.flex-prev {opacity: .5; left: -46px}
+.flex-direction-nav a.flex-next, .flex-flexslidernext {background: none; display: block; right: -46px; border-radius: 0 3px 3px 0}
+.flex-direction-nav a.flex-next, .flex-flexslidernext {background: url("images/small_icons.png") repeat-x 7px -435px; display: block; width: 46px; height: 46px; text-indent: -9999px}
+.flex-direction-nav a.flex-next:hover, .flex-flexslidernext:hover, .flexslider:hover a.flex-next {opacity: .5;right: -46px; }
+.flex-control-nav {list-style: none; margin: -25px auto 0; padding: 0; text-align: center}
+.flex-control-nav li {display: block; margin-right: 3px}
+.flex-control-nav li a {display: block; background: url(images/bullets.png) repeat-x left top; width: 12px; height: 12px; text-indent: -9999px}
+.flex-control-nav li a:hover, .flex-control-nav li a.flex-active {background: url(images/bullets.png) repeat-x left -30px}
+.slider_content {width: 960px; margin: 77px auto 50px}
+.jcarousel-prev, .jcarousel-next {top: 130px}
+.jcarousel-skin-tango {position: relative}
+.slides_container {overflow: hidden}
+.form-row-first, .form-row-last {*width: 46% !important; *marging: 0 2% !important}
+.col-1 .form-row select, .col-2 .form-row select {*width: 155px !important}
+
+/* ---------- PRODUCT SLIDER ------------ */
+
+#carousel {margin-top: 50px}
+#carousel #mycarousel li {padding: 0 27px 0 0; margin-right: 0}
+#carousel #mycarousel li p {padding: 0}
+.slider_content .widget {margin: 0}
+
+.jcarousel-clip {width: 100%; overflow: hidden}
+
+#menu-secondary .widget{clear: none; float: right; margin: 0; position: absolute; right: 10px; top: 5px; width: 160px}
+.menu-container #searchform #s, #header #searchform #s, .menu-container #search-formhybrid-search input.search-text {
+	background: #fff url(images/small_icons.png) no-repeat 6px 2px;
+	width: 180px;
+	*width: 130px;
+	border: none;
+	border-radius: 4px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+	padding-left: 34px;
+}
+
+.menu-container #searchform #s:focus, #header #searchform #s:focus, .menu-container #search-formhybrid-search input.search-text:focus {
+	width: 190px;
+	width: 170px\0;
+	background-color: #fff;
+	border-color: #fff;
+}
+.menu-container #searchform .assistive-text {display: none}
+
+.menu-container #searchform label.screen-reader-text, #header #searchform label.screen-reader-text {display: none}
+.menu-container #searchform #searchsubmit, #header #searchform #searchsubmit {margin-bottom: 0; display: none}
+
+.header-wrap .widget #searchform {padding-top: 74px}
+
+.header-wrap .widget h3 {padding: 4px 0}
+.header-wrap .widget .menu-main-navigation-container ul {margin: 10px 0 15px}
+.header-wrap .widget .menu-main-navigation-container ul li {padding: 0}
+
+.menu-container .widget h3 {display: none}
+
+
+
+/* ----------------------------------------------------------
+    CONTENT
+-----------------------------------------------------------*/
+
+#content {width: 710px}
+#container #main .wrap {padding: 50px 0 20px}
+#main .wrap {background: none}
+
+.hfeed {border: none}
+.loop-meta {border: none; padding: 0}
+
+#breadcrumb, .breadcrumb, .bbp-breadcrumb {background: none; border: none; font-size: 13px; padding: 0; margin-bottom: 20px}
+.breadcrumb span.sep, .bbp-breadcrumb span.sep {margin: 0 1px}
+
+.loop-title, h1.entry-title, #comments-number, #reply-title {float: none !important; background: url(images/bodybg.png) repeat left bottom; border-bottom: 1px solid #e9e9e9 !important; font-family: 'Droid Serif', Gorgia, Times, Serif; font-size: 22px; color: #333333; font-weight: normal; text-transform: capitalize; padding: 12px 15px 9px; margin-bottom: 20px; height: 1%}
+
+.entry-content {padding: 0}
+
+#content h1 {margin-bottom: 25px}
+
+
+/* ----------------------------------------------------------
+    SIDEBAR
+-----------------------------------------------------------*/
+
+#sidebar-primary, #sidebar-secondary {width: 218px; border-left: 1px solid #dddddd; padding-left: 15px}
+.sidebar {padding: 0}
+
+.widget-title, .widget-search .widget-title, #footer .widget h3, .templ-list .widget h3  {position: relative; background: url(images/bodybg.png) repeat left bottom; border-bottom: 1px solid rgba(204,204,204,0.5); font-family: 'Droid Serif', Gorgia, Times, Serif; font-size: 18px; color: #333333; font-weight: normal; line-height: 22px; text-transform: capitalize; padding: 12px 15px 9px}
+.templ-list .widget h3 {margin-bottom: 25px}
+.widget-inside {padding: 0}
+#sidebar-primary, #sidebar-secondary {border: none}
+h3.widget-title {margin-bottom: 12px}
+
+#content h3.widget-title {margin-bottom: 25px}
+
+.sidebar .widget .product_list_widget .star-rating {margin: 0 100% 5px 0px}
+
+.sidebar #searchform {
+	padding: 0;
+	}
+
+.sidebar #searchform input#s {
+	margin-bottom: 15px;
+	}
+	
+.sidebar #searchform label.screen-reader-text {
+	display: none;
+	}
+ 
+/* ----------------------------------------------------------
+    WIDGETS
+-----------------------------------------------------------*/
+
+.widget {margin: 0 0 40px 0}
+.widget ul li {padding: 12px 15px}
+.sidebar .widget ul li {border-bottom: 1px dotted rgba(204,204,204,0.5); background: none}
+.widget-search input[type="text"] {width: 100%; font-size: inherit}
+
+.widget a {text-decoration: none}
+.widget a:hover {text-decoration: underline}
+
+.textwidget {/*padding: 15px;*/ line-height: 20px}
+.widget ul ul {border: none}
+.widget ul ul li {margin: 10px 0}
+
+.sidebar-4c .widget {width: 220px}
+.sidebar-5c .widget {width: 172px}
+.sidebar-2c .widget, .sidebar-3c .widget, .sidebar-4c .widget, .sidebar-5c .widget {margin-left: 0; margin-right: 20px}
+.sidebar-2c .widget:last-child, .sidebar-3c .widget:last-child, .sidebar-4c .widget:last-child, .sidebar-5c .widget:last-child {margin-right: 0}
+
+.widget_title1 p, .widget_title2 p {padding: 10px}
+
+#footer .widget h3 {margin-bottom: 20px}
+#footer .social_media_list li, .social_media_list li {background: none; padding: 0; width: 100%;}
+#footer .social_media_list li a, .social_media_list li a {display: block; margin-bottom: 15px}
+#footer .social_media_list li a, .social_media_list li a {text-decoration: none}
+
+.social_media_list li a.twitter span {background: url(images/social_media.png) no-repeat -11px -10px; padding-left: 30px}
+.social_media_list li a.twitter:hover span {background-position: -11px -47px}
+.social_media_list li a.facebook span {background: url(images/social_media.png) no-repeat -11px -82px; padding-left: 30px}
+.social_media_list li a.facebook:hover span {background-position: -11px -118px}
+.social_media_list li a.linkedin span {background: url(images/social_media.png) no-repeat -11px -153px; padding-left: 30px}
+.social_media_list li a.linkedin:hover span {background-position: -11px -190px}
+.social_media_list li a.rssfeed span {background: url(images/social_media.png) no-repeat -11px -226px; padding-left: 30px}
+.social_media_list li a.rssfeed:hover span {background-position: -11px -261px}
+
+.subscribe_wall {background: url(images/cart_btm_bk1.png) repeat-x left bottom; padding-bottom: 7px}
+.subscribe_cont {background: url(images/subs_top_strip.png) repeat-x left top transparent; padding-top: 20px; line-height: 20px}
+.subscribe_cont p, .subscribe_cont form {padding: 0 15px}
+.subscribe_cont input {margin: 10px 0}
+.subscribe_cont input[type="text"] {width: 100%; *width: auto; margin-bottom: 0px}
+.subscribe_cont input[type="submit"] {margin-top: 10px}
+
+.widget_title1 h3, .widget_title2 h3 {margin-bottom: 10px !important}
+
+.sidebar .social_media_list li {padding: 0}
+.sidebar .social_media_list li a {margin-bottom: 15px}
+
+.footer_widgets .subscribe_cont .replace {margin-bottom: 15px;}
+	
+/*------- SHOPPING CART -------*/
+#woo_shoppingcart_box {height: auto !important; float: right}
+.shoppingcart_box_bg { background: #ffffff; overflow: hidden}
+.shoppingcart_box {background: url("images/cart_btm_bk.png") repeat-x left bottom;  width: 222px !important; border-left: 1px solid #ddd; border-right: 1px solid #ddd; position: absolute; top: 0; right: 0; padding-bottom: 7px}
+.shoppingcart_box .cart_items {background: url(images/small_icons.png) no-repeat 5px -34px; padding: 20px 15px 20px 38px; border-bottom: 1px solid #ddd; *height: 18px}
+.shoppingcart_box .cart_checkout {clear: both; font-size: 18px; line-height: 40px; padding: 12px 15px 10px;float:right;}
+.shoppingcart_box .cart_checkout b {*float: left}
+.cart_checkout .button {float: right; margin-bottom: 0 !important}
+
+#header .templatic_shooping .product_list_widget {clear: both; float: none}
+#header .templatic_shooping .product_list_widget li {padding: 12px !important}
+#respond {border: none}
+
+.header-wrap {*z-index: 999999999; *position: relative}
+
+.header-wrap .widget .product_list_widget li img {margin: 5px 10px 5px 5px; float: left;}
+
+/*------- SHOPPING CART -------*/
+
+.widget .product_list_widget li img, .widget .cart_list li img {
+	-webkit-transition:all ease-in-out .4s;
+	-moz-transition:all ease-in-out .4s;
+	-o-transition:all ease-in-out .4s;
+	transition:all ease-in-out .4s;
+	margin: 0 10px 5px 0; 
+	}
+	
+.widget .product_list_widget li img:hover, .widget .cart_list li img:hover {
+	opacity: .7;
+	}
+.widget .product_list_widget li a, .widget .cart_list li a {width: 100%; display: block; margin-bottom: 2px}
+.widget .product_list_widget li ins, .widget .cart_list li ins {font-style: normal; border-bottom: none; font-size: 14px; *height: auto !important}
+.widget .product_list_widget li del, .widget .cart_list li del {font-size: 12px; color: #999}
+
+.widget_price_filter .price_slider_amount .button {margin-bottom: 8px}
+
+#content .widget {margin-bottom: 0}
+
+.discount_products {margin-left: -10px !important}
+.discount_products li {display: block; width: 48px; height: 48px; float: left; border: 1px solid #dddddd; border-radius: 2px; padding: 0 !important; margin: 0 0 15px 7px !important}
+.discount_products li img {width: 100%; height: auto}
+.discount_products li:hover {border: 1px solid #000000; -moz-transition: all 0.4s ease 0s; opacity: .5}
+
+.widget-title a.more {display: block; position: absolute; top: 10px; right: 10px; float: right; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #ffffff; background: #333333; border-radius: 4px; border-bottom: 1px solid #ffffff; padding: 1px 15px}
+.widget-title a.more:hover {background: #ffffff; color: #333333; text-decoration: none; border-bottom: 1px solid #dddddd}
+
+#header .advt_widget {position: absolute !important; width: 468px; height: 60px; left: 232px; top: 30px; margin-top: 0 !important}
+#header .advt_widget img {max-width: 100%}
+
+.cart_list li a img {margin-bottom: 10px}
+
+.nav_container .widget {margin-bottom: 0}
+
+#woocommerce_login-2 form {margin-bottom: 40px}
+#woocommerce_login-2 p a {display: block}
+
+.sidebar input[type="text"], .sidebar input[type="password"] {width: 100%}
+
+.sidebar .widget_login {margin-bottom: 40px}
+
+.sidebar .browse_by_category li ul {padding-left: 0px}
+.sidebar .browse_by_category li ul li {background-position: left 0 !important}
+
+.sidebar .subscribe_wall {background: none; box-shadow: none; padding-bottom: 0}
+.sidebar .subscribe_cont {background: none; padding-top: 0}
+.sidebar .tagcloud {line-height: 22px}
+
+#woocommerce_login-2 p input, .jigoshop_login_widget p input {margin: 0 0 15px}
+
+#sidebar .product_list_widget li {padding-left: 30px}
+#sidebar .product_list_widget li a {margin-left: -30px}
+
+.browse_by_category li ul {
+	margin-left: 15px !important;
+	}
+
+/* ----------------------------------------------------------
+    FOOTER
+-----------------------------------------------------------*/
+
+.footerbg {clear: both; background-color: #f5f5f5; border-top: 1px solid rgba(204,204,204,0.5)} 
+.footer-wrap {background: none}
+#footer {clear: both; float: none; font-family: Helvetica, Arial, sans-serif; font-size: 14px; padding: 50px 0 0; text-transform: none; line-height: 22px}
+#footer p {padding-top: 0}
+
+.footer_col1 {float: left; width: 222px}
+.footer_col2 {float: left; width: 456px; margin: 0 30px}
+.footer_col3 {float: left; width: 222px}
+
+.footer_widgets {border-bottom: 1px solid #dddddd; padding-bottom: 30px}
+.footer-wrap {border-top: 1px solid #ffffff; font-size: 13px; text-transform: none; padding: 0}
+.footer-wrap .footer-content p {padding-top: 12px !important}
+
+#footer .widget {margin-bottom: 10px}
+#footer .subscribe {border-left: 1px solid rgba(205,205,205,0.5); border-right: 1px solid rgba(205,205,205,0.5)}
+
+#footer .right a img {position: relative; vertical-align: middle; margin-bottom: 2px}
+
+/* ----------------------------------------------------------
+    PRODUCT LISTING
+-----------------------------------------------------------*/
+
+/*----------------------- Shop Page  ------------------------------*/
+body.woocommerce .woocommerce-ordering,
+body.woocommerce-page .woocommerce-ordering {
+       margin: .5em 0 .5em;
+}
+body.woocommerce .woocommerce-ordering select,
+body.woocommerce-page .woocommerce-ordering select {
+		width: auto;
+}
+#content ul.products {
+       margin: 0 0 0 -6.2%;
+}
+.home #content ul.products {
+       margin: 0 0 0 -5%;
+}
+#content ul.products li.product {
+       cursor: pointer;
+       float: none;
+       display: inline-block;
+       *display: inline;
+       zoom: 1;
+       vertical-align: top;
+       margin: 10px 0 30px 6.2%;
+       padding: 0;
+       background-image: none;
+       -webkit-transition:all ease-in-out .2s;
+       -moz-transition:all ease-in-out .2s;
+       -o-transition:all ease-in-out .2s;
+       transition:all ease-in-out .2s;
+       position: relative;
+       width: 26.6%;
+       text-align: center;
+	}
+.home #content ul.products li.product {
+    margin: 10px 0 30px 5%;
+}
+#content ul.products li.product:hover {
+       opacity: .8;
+}
+.home #content ul.products li.product a.post_img {display: block; margin-bottom: 8px;}
+.home #content ul.products li.product .post_content > span {display: block;}
+.home #content ul.products li.product .post_content a.button {margin-top: 8px;}
+body.woocommerce .star-rating,
+body.woocommerce-page .star-rating {
+       margin: 0 auto 0.5em;
+       width: 5em;
+       font-size: inherit !important;
+}
+body.woocommerce .products .star-rating,
+body.woocommerce-page .products .star-rating {
+       margin: 0 auto 0.5em;
+}
+#content ul.products li.product .price{
+       display: block;
+       color: #333333;/*change*/
+       font-size: 20px;
+       font-style: normal;
+}
+#content ul.products li.product .price .from,
+#content ul.products li.product .price del {
+       font-size: 14px;
+       color: #333333;/*change*/
+       line-height: 18px;
+}
+body.woocommerce a.added_to_cart,
+body.woocommerce-page a.added_to_cart {
+       display: block;
+}
+.woocommerce_message .button, 
+.woocommerce_error .button {
+							float: right;
+							margin: 0;
+}
+body.woocommerce #reviews #comments ol.commentlist li .comment-text p,
+body.woocommerce-page #reviews #comments ol.commentlist li .comment-text p {
+		margin: 0;
+}
+
+/* -------------- JIGO SHOP ------------- */
+
+ul.cart_list li a, ul.product_list_widget li a {font-weight: normal !important; line-height: 18px}
+.cart-collaterals .cart_totals {float: none !important; width: auto !important; clear: both}
+
+.product-header .product-summary {width: 300px; float: right}
+div.product #tabs {padding: 0 !important}
+
+.cart-collaterals .cart_totals h2 {float: none !important; margin: 0 !important; text-align: left !important}
+.cart-collaterals .cart_totals tr td, .cart-collaterals .cart_totals tr th {border-top: none !important}
+.cart-collaterals .shipping_calculator {float: left !important; width: 100%}
+
+.cart-collaterals .shipping_calculator .col2-set .col-1, .cart-collaterals .shipping_calculator .col2-set .col-2 {width: 100% !important}
+.form-row-first, .form-row-last {width: 300px}
+
+.form-row label.checkbox {padding: 0}
+#shiptobilling {float: left !important; width: 100%; font-size: 13px !important; margin-top: 12px; padding: 20px 0 10px !important}
+#shiptobilling label {clear: none}
+div.shipping-address {clear: both}
+
+.checkout {
+	margin-bottom: 20px; 
+	}
+
+.checkout .form-row .checkbox {
+	clear: none;
+	}
+	
+.checkout .create-account {
+	clear: both;
+	}
+
+.checkout .form-row label {padding-bottom: 0; margin-bottom: 0}
+#shiptobilling label.checkbox {font-size: 14px; margin-top: 0}
+
+form .form-row textarea, #content .form-row textarea {height: 170px !important; /*max-width: 450px;*/}
+
+.jigoshop_login_widget a {line-height: 24px}
+
+.jigoshop-myaccount .form-row {margin-bottom: 20px !important}
+
+.jigoshop-myaccount .author-admin .entry-content p span.edit {clear: both; margin-left: 20px} 
+
+.jigoshop-cart #content table.shop_table {width: 100%; background: none; border: 1px solid inherit; border-collapse: collapse; border-radius: 0}
+
+.jigoshop-cart #content .shop_table .checkout-button {
+	margin-right: 10px;
+	font-size: 15px !important;
+	}
+	
+.jigoshop-cart #content .shop_table {display: table}
+
+.entry-title {padding: 12px 0}
+
+.sidebar #searchform label.assistive-text {display: none}
+
+.sidebar #searchform div input#searchsubmit {margin-bottom: 15px} 
+
+.sidebar .widget .product_list_widget .js_widget_product_title, .sidebar .widget .cart_list .js_widget_product_title {margin-left: 4px}
+.sidebar .widget .product_list_widget .js_widget_product_price, .widget .cart_list .js_widget_product_price {margin-left: 4px}
+
+#content #content div.jigoshop_error, div.jigoshop_message {padding: 7px 10px 5px 38px !important; border-radius: 4px}
+
+.jigoshop #comments p.add_review {margin: 0 0 0 52px !important}
+
+.widget-jigoshop_cart a.button {padding: 8px 0 !important}
+
+.widget-jigoshop_cart a.checkout {margin-left: 5px}
+
+#billing-company {max-width: 47%}
+#billing-country {width: 100% !important}
+
+.jigoshop_price_filter .price_slider_amount button {float: none !important; margin-bottom: 10px}
+
+.jigoshop #content form.login {border: none; border-radius: 0; padding: 0}
+.jigoshop #content form.login p {margin-bottom: 20px !important}
+.jigoshop #content form.login label {padding-top: 0}
+.jigoshop #content form.login input[type="text"],
+.jigoshop #content form.login input[type="password"] {
+	max-width: 300px;
+	}
+	
+.single_add_to_cart_button { margin-left: 40px\0 !important; }
+.quantity input.input-text { width: 30px\0 !important;  }
+	
+#content form.login input[type="submit"] {
+	margin-top: 0 !important;
+	}
+	
+#content #content {width: 100%}
+#content #content .products ul, #content #content ul.products {width: auto; margin-left: -3.3% !important}
+
+#payment ul.payment_methods li {background: none}
+
+#content div.jigoshop_message {width: auto !important; float: none}
+
+ul.products li.product.last {margin-right: auto !important}
+
+/* -------------- JIGO SHOP END ------------- */
+
+#content .product_list_widget {margin: 0 0 0 -25px}
+.flex-slides li, #content .product_list_widget li {background-image: none; float: none; display: inline-block; *display: inline; zoom: 1; vertical-align: top; width: 100%; max-width: 220px; text-align: center; margin: 0 0 18px 22px; padding: 0; position: relative}
+.flex-slides li a, #content .product_list_widget li a {border-radius: 4px; display: block; text-align: center}
+.flex-slides li a img, #content .product_list_widget li a img {width: 100%; height: auto}
+
+.flex-slides li a img {
+	-webkit-transition:all ease-in-out .4s;
+	-moz-transition:all ease-in-out .4s;
+	-o-transition:all ease-in-out .4s;
+	transition:all ease-in-out .4s;
+	}
+	
+.flex-slides li a img:hover {
+	opacity: .7;
+	}
+
+.flex-slides li a:hover, #content .product_list_widget li a:hover {
+    text-decoration: underline}
+.flex-slides li span.onsale, #content .product_list_widget li span.onsale,
+body.woocommerce span.onsale,
+body.woocommerce-page span.onsale,
+.product-header .onsale,
+ul.products li.product span.onsale,
+ul.products li .onsale {
+    width: 20px; height: 69px; background: url(images/sale_tag.png) no-repeat left bottom; font: 10px Helvetica, Arial, sans-serif; color: #ffffff; text-indent: -9999px; z-index:7; text-transform: uppercase; position: absolute; top: 0px; left: 5px; word-wrap: break-word; border-radius: 0; box-shadow: none; padding: 0; min-height: none; min-width: none;}
+.flex-slides li span a,
+ul.products li.product a.widget-title,
+#content .product_list_widget li.product a.widget-title,
+#content ul.products li.product h3 {
+    text-decoration: none; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; padding: 0 0 12px; background: none; border: 0; display: block;
+}
+.flex-slides li span a:hover,
+ul.products li.product a.widget-title:hover,
+#content .product_list_widget li.product a.widget-title:hover,
+#content ul.products li.product h3:hover {
+    text-decoration: underline
+}
+.flex-slides li.product h3 a:hover {text-decoration: underline}
+.flex-slides li span del  {font-size: 13px; font-weight: bold; margin-bottom: 18px}
+.flex-slides li span ins {border: none; font-size: 20px; font-style: normal; margin-bottom: 18px}
+.flex-slides li a.add_to_cart_button:hover, #content .product_list_widget li a.add_to_cart_button:hover {text-decoration: none}
+
+.flex-slides li a.button {width: 100px; margin-top: 12px}
+.flex-slides li {background: none !important}
+
+.flex-flexsliderviewport {margin-top: 50px; min-height: 350px}
+.flex-flexslidercontrol-nav {display: none}
+.flex-flexsliderdirection-nav li {background: none !important; padding: 0 !important}
+.flex-flexslider {position: relative}
+
+
+/* ----------------------------------------------------------
+    BUTTONS, TAB & PAGINATION
+-----------------------------------------------------------*/
+
+
+button, input[type="reset"], input[type="submit"], input[type="button"],
+.button,
+.product-content .woocommerce_tabs ul.tabs li a,
+.loop-nav span.previous, .loop-nav span.next, .pagination .page-numbers, .comment-pagination .page-numbers, .bbp-pagination .page-numbers,
+.social_media_list li a,
+.sidebar .bbp_widget_login .bbp-logged-in .logout-link {
+    background: #eeeeee;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF));
+    
+    font: 400 15px/36px 'Droid Serif', Gorgia, Times, Serif;
+    color: #333;
+    line-height:normal !important;
+    height:auto !important;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 1px 1px rgba(204,204,204,0.5);
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 8px 15px;
+    margin: 0 auto 20px auto;
+}
+
+button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[type="button"]:hover,
+.button:hover,
+.pagination .current, .comment-pagination .current, .bbp-pagination .current,
+.loop-nav span.previous:hover, .loop-nav span.next:hover, .pagination .page-numbers:hover, .comment-pagination .page-numbers:hover, .bbp-pagination .page-numbers:hover,
+.social_media_list li a:hover,
+.sidebar .bbp_widget_login .bbp-logged-in .logout-link:hover {
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+    background: #343434;
+				background-image: linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -o-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -moz-linear-gradient(bottom, #343434 0%, #666666 100%);
+    background-image: -webkit-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -ms-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #343434), color-stop(1, #555555));
+				border-color: #555555;
+				color: #ffffff;
+				box-shadow: none;
+}
+
+.cart_checkout .button, a.checkout-button, .subscribe_cont .replace, .checkout-button {
+				text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+    background-color: #343434;
+				background-image: linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -o-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -moz-linear-gradient(bottom, #343434 0%, #666666 100%);
+    background-image: -webkit-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -ms-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #343434), color-stop(1, #555555));
+
+	border-color: #555555;
+	color: #ffffff;
+	height: auto;
+	line-height:normal !important;
+	border-radius: 4px;
+	white-space: nowrap;
+    cursor: pointer;
+	padding: 8px 15px;
+}
+.cart_checkout .button:hover, a.checkout-button:hover, .subscribe_cont .replace:hover {
+	background: #eeeeee;
+	background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF));
+
+	font: 400 15px/36px 'Droid Serif', Gorgia, Times, Serif;
+    color: #333;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 1px 1px rgba(204,204,204,0.5);
+	border: 1px solid #dddddd;
+	
+}
+a.button:active, input.button:active, .flex-slides li a.button:active, ul.products li.product .button:active, .jcarousel-list li a.button:active, .cart_checkout .button:active, a.checkout-button:active, .subscribe_cont .replace:active, .checkout-button:active, .social_media_list li a:active, .loop-nav span.previous:active, .loop-nav span.next:active, .pagination .page-numbers:active, .comment-pagination .page-numbers:active, .bbp-pagination .page-numbers:active, .variations_button button:active, .cart button:active, .shop_table .button:active {
+    position: relative;
+    top: 1px;
+}
+
+button, input[type="reset"], input[type="submit"], input[type="button"] {*line-height: normal; line-height: normal \0}
+ 
+.loop-description p {line-height: 22px; padding: 0 0 20px}
+#container #loop ul.product li.product a.button {color: #333333 !important}
+
+/*--- Buttons ---*/
+body.woocommerce a.button,
+body.woocommerce button.button,
+body.woocommerce input.button,
+body.woocommerce #respond input#submit,
+body.woocommerce #content input.button,
+body.woocommerce-page a.button,
+body.woocommerce-page button.button,
+body.woocommerce-page input.button,
+body.woocommerce-page #respond input#submit,
+body.woocommerce-page #content input.button,
+#searchform input[type="submit"],
+body.woocommerce .widget_layered_nav_filters ul li a,
+body.woocommerce-page .widget_layered_nav_filters ul li a,
+div.woocommerce form.track_order input.button,
+body.woocommerce a.button.alt,
+body.woocommerce button.button.alt,
+body.woocommerce input.button.alt,
+body.woocommerce #respond input#submit.alt,
+body.woocommerce #content input.button.alt,
+body.woocommerce-page a.button.alt,
+body.woocommerce-page button.button.alt,
+body.woocommerce-page input.button.alt,
+body.woocommerce-page #respond input#submit.alt,
+body.woocommerce-page #content input.button.alt {
+    background: #eeeeee;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF));
+    
+    font: 400 15px/36px 'Droid Serif', Gorgia, Times, Serif;
+    color: #333;
+    line-height:normal !important;
+    height:auto !important;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 1px 1px rgba(204,204,204,0.5);
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+body.woocommerce a.button:hover,
+body.woocommerce button.button:hover,
+body.woocommerce input.button:hover,
+body.woocommerce #respond input#submit:hover,
+body.woocommerce #content input.button:hover,
+body.woocommerce-page a.button:hover,
+body.woocommerce-page button.button:hover,
+body.woocommerce-page input.button:hover,
+body.woocommerce-page #respond input#submit:hover,
+body.woocommerce-page #content input.button:hover,
+#content input.button:hover,
+#searchform input[type="submit"]:hover,
+body.woocommerce .widget_layered_nav_filters ul li a:hover,
+body.woocommerce-page .widget_layered_nav_filters ul li a:hover,
+div.woocommerce form.track_order input.button:hover,
+body.woocommerce a.button.alt:hover,
+body.woocommerce button.button.alt:hover,
+body.woocommerce input.button.alt:hover,
+body.woocommerce #respond input#submit.alt:hover,
+body.woocommerce #content input.button.alt:hover,
+body.woocommerce-page a.button.alt:hover,
+body.woocommerce-page button.button.alt:hover,
+body.woocommerce-page input.button.alt:hover,
+body.woocommerce-page #respond input#submit.alt:hover,
+body.woocommerce-page #content input.button.alt:hover {
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+    background: #343434;
+				background-image: linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -o-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -moz-linear-gradient(bottom, #343434 0%, #666666 100%);
+    background-image: -webkit-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -ms-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #343434), color-stop(1, #555555));
+				border-color: #555555;
+				color: #ffffff;
+				box-shadow: none;
+}
+
+#header .shoppingcart_box_bg .cart_checkout a.button,
+body.woocommerce table.cart td.actions .button.alt,
+body.woocommerce-page table.cart td.actions .button.alt,
+body.woocommerce #content table.cart td.actions .button.alt,
+body.woocommerce-page #content table.cart td.actions .button.alt,
+body.woocommerce #payment #place_order,
+body.woocommerce-page #payment #place_order,
+.sidebar .widget_shopping_cart a.checkout {
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+    background: #343434;
+				background-image: linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -o-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -moz-linear-gradient(bottom, #343434 0%, #666666 100%);
+    background-image: -webkit-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -ms-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #343434), color-stop(1, #555555));
+				border-color: #555555;
+				color: #ffffff;
+				box-shadow: none;
+}
+#header .shoppingcart_box_bg .cart_checkout a.button:hover,
+body.woocommerce table.cart td.actions .button.alt:hover,
+body.woocommerce-page table.cart td.actions .button.alt:hover,
+body.woocommerce #content table.cart td.actions .button.alt:hover,
+body.woocommerce-page #content table.cart td.actions .button.alt:hover,
+body.woocommerce #payment #place_order:hover,
+body.woocommerce-page #payment #place_order:hover,
+.sidebar .widget_shopping_cart a.checkout:hover{
+    background: #eeeeee;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF));
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 1px 1px rgba(204,204,204,0.5);
+    border: 1px solid #dddddd;
+}
+
+body #content div.product form.cart .single_add_to_cart_button {
+    background: url("images/navi_bk.png") repeat-x scroll 0 0 #000000;
+    border: 1px solid #333333;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'Droid Serif',Gorgia,Times,Serif;
+    font-size: 18px;
+    font-weight: normal;
+    height: 48px !important;
+    margin-top: 19px;
+    text-shadow: 0 -1px 0 #000000;
+    width: auto;
+}
+body #content div.product form.cart .single_add_to_cart_button:hover {
+    background: #eeeeee;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF));
+    color: #222222;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 1px 1px rgba(204,204,204,0.5);
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul.products li a.add_to_cart_button {
+    margin: 6px auto 3px;
+    display: table;
+}
+
+body.woocommerce div.product form.cart .button,
+body.woocommerce-page div.product form.cart .button,
+body.woocommerce #content div.product form.cart .button,
+body.woocommerce-page #content div.product form.cart .button {
+       height: 40px;
+}
+
+body.woocommerce #content .quantity,
+body.woocommerce-page #content .quantity {
+       width: 80px;
+       border: 0;
+       border/*\**/: 1px solid #e5e5e5\9;
+}
+body.woocommerce .quantity input.qty,
+body.woocommerce-page .quantity input.qty,
+body.woocommerce #content .quantity input.qty,
+body.woocommerce-page #content .quantity input.qty {
+    background-color: #F0F0F0;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px #8C8C8C inset;
+    color: #666666;
+    font: 14px Helvetica,Arial,sans-serif;
+    outline: 0 none;
+    padding: 10px;
+    vertical-align: middle;
+    width: auto;
+    height: 48px;
+    padding-right: 32px !important;
+    text-align: center;
+    width: 80px;
+}
+doesnotexist:-o-prefocus, body.woocommerce .quantity input.qty,
+body.woocommerce-page .quantity input.qty,
+body.woocommerce #content .quantity input.qty,
+body.woocommerce-page #content .quantity input.qty {
+				width: 80px;
+}
+body.woocommerce .quantity .plus,
+body.woocommerce-page .quantity .plus,
+body.woocommerce #content .quantity .plus,
+body.woocommerce-page #content .quantity .plus,
+body.woocommerce .quantity .minus,
+body.woocommerce-page .quantity .minus,
+body.woocommerce #content .quantity .minus,
+body.woocommerce-page #content .quantity .minus {
+    background-color: #000000;
+    background-image: url("images/navi_bk.png");
+    background-position: 0 -35px;
+    background-repeat: repeat-x;
+    border: medium none;
+    box-shadow: none;
+    color: #FFFFFF;
+    height: 24px;
+    width: 28px;
+    padding: 3px 0;
+    z-index: 0;
+}
+body.woocommerce .quantity .plus:hover,
+body.woocommerce-page .quantity .plus:hover,
+body.woocommerce #content .quantity .plus:hover,
+body.woocommerce-page #content .quantity .plus:hover,
+body.woocommerce .quantity .minus:hover,
+body.woocommerce-page .quantity .minus:hover,
+body.woocommerce #content .quantity .minus:hover,
+body.woocommerce-page #content .quantity .minus:hover {
+    background: #eeeeee;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF));
+    color: #222222;
+    border: 1px solid #dddddd;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    cursor: pointer;
+    text-decoration: none;
+}
+body.woocommerce .quantity .plus,
+body.woocommerce-page .quantity .plus,
+body.woocommerce #content .quantity .plus,
+body.woocommerce-page #content .quantity .plus {top: 0}
+body.woocommerce .quantity .minus,
+body.woocommerce-page .quantity .minus,
+body.woocommerce #content .quantity .minus,
+body.woocommerce-page #content .quantity .minus {bottom: 0}
+body.woocommerce .cart-collaterals .shipping_calculator .button,
+body.woocommerce-page .cart-collaterals .shipping_calculator .button {
+       width: auto;
+}
+div.product_meta {clear: both}
+.product-content .woocommerce_tabs ul.tabs {
+    padding: 0; border-bottom: 3px solid #333333}
+.product-content .woocommerce_tabs ul.tabs li a {
+    border-radius: 4px 4px 0 0; box-shadow: none; font-size: 15px; color: #000000; font-weight: normal; margin-bottom: 0}
+.product-content .woocommerce_tabs ul.tabs li a:hover, .product-content .woocommerce_tabs ul.tabs li.active a, div.product #tabs ul.tabs li.active a {
+    background: url(images/navi_bk.png) repeat-x 0 0 #000000 !important; border: 1px solid #333333; color: #ffffff !important; text-shadow: 0 -1px 0 #000000; font-weight: normal}
+ul.tabs li a:hover {background: url(images/navi_bk.png) repeat-x scroll 0 0 #000 !important}
+
+#content .product.hentry {position: relative}
+
+/*------- Tabs -------*/
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs:before, 
+body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before {
+       border-bottom: 0;
+       font-size: 20px;
+	}
+body.woocommerce div.product .woocommerce-tabs ul.tabs,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs {
+    padding: 0; border-bottom: 3px solid #333333
+	}
+body.woocommerce div.product .woocommerce-tabs ul.tabs li:before,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li:before,
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs li:before,
+body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:before,
+body.woocommerce div.product .woocommerce-tabs ul.tabs li:after,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li:after,
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs li:after,
+body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:after {
+    display: none;
+	}
+body.woocommerce div.product .woocommerce-tabs ul.tabs li,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li,
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs li,
+body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin: 0 5px 0 0;
+    padding: 0;
+	}
+body.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li a,
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs li a,
+body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a {
+    background: #eeeeee;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF));
+    font: 400 15px/36px 'Droid Serif', Gorgia, Times, Serif;
+    color: #333;
+    line-height:normal !important;
+    height:auto !important;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 1px 1px rgba(204,204,204,0.5);
+    border: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 8px 15px;
+	}
+body.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li a:hover,
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs li a:hover,
+body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a:hover,
+body.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a,
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active a,
+body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active a {
+    background-color: #000000;
+    background-image: url("images/navi_bk.png");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border: medium none;
+    box-shadow: none;
+    color: #FFFFFF;
+    border: 1px solid #333333;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+}
+
+/* ------ PAGINATION --------*/
+
+.loop-nav, .pagination, .comment-pagination, .bbp-pagination {background: none; text-align: center; padding: 0; margin-bottom: 20px}
+
+/*change*/
+body.woocommerce nav.woocommerce-pagination,
+body.woocommerce #content nav.woocommerce-pagination,
+body.woocommerce-page nav.woocommerce-pagination,
+body.woocommerce-page #content nav.woocommerce-pagination {
+				background: none; text-align: center; padding: 0; margin-bottom: 20px;
+}
+nav.woocommerce-pagination ul,
+nav.woocommerce-pagination ul li {
+							border: 0 !important;
+}
+body.woocommerce nav.woocommerce-pagination ul,
+body.woocommerce-page nav.woocommerce-pagination ul,
+body.woocommerce #content nav.woocommerce-pagination ul,
+body.woocommerce-page #content nav.woocommerce-pagination ul {
+       background: none;
+       text-align: center;
+}
+body.woocommerce nav.woocommerce-pagination ul li,
+body.woocommerce-page nav.woocommerce-pagination ul li,
+body.woocommerce #content nav.woocommerce-pagination ul li,
+body.woocommerce-page #content nav.woocommerce-pagination ul li {
+    margin-right: 5px;
+}
+body.woocommerce nav.woocommerce-pagination ul li a,
+body.woocommerce-page nav.woocommerce-pagination ul li a,
+body.woocommerce #content nav.woocommerce-pagination ul li a,
+body.woocommerce-page #content nav.woocommerce-pagination ul li a {
+    background: #eeeeee;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF));
+    
+    font: 400 15px/36px 'Droid Serif', Gorgia, Times, Serif;
+    color: #333;
+    line-height:normal !important;
+    height:auto !important;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 1px 1px rgba(204,204,204,0.5);
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 8px 13px;
+    margin: 0 auto 20px auto;
+}
+/*change*/
+body.woocommerce nav.woocommerce-pagination ul li a:hover,
+body.woocommerce-page nav.woocommerce-pagination ul li a:hover,
+body.woocommerce #content nav.woocommerce-pagination ul li a:hover,
+body.woocommerce-page #content nav.woocommerce-pagination ul li a:hover {
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+    background: #343434;
+				background-image: linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -o-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -moz-linear-gradient(bottom, #343434 0%, #666666 100%);
+    background-image: -webkit-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -ms-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #343434), color-stop(1, #555555));
+				border-color: #555555;
+				color: #ffffff;
+				box-shadow: none;
+}
+/*change*/
+body.woocommerce nav.woocommerce-pagination ul li span.current,
+body.woocommerce-page nav.woocommerce-pagination ul li span.current,
+body.woocommerce #content nav.woocommerce-pagination ul li span.current,
+body.woocommerce-page #content nav.woocommerce-pagination ul li span.current {
+    background: #343434;
+				background-image: linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -o-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -moz-linear-gradient(bottom, #343434 0%, #666666 100%);
+    background-image: -webkit-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -ms-linear-gradient(bottom, #343434 0%, #555555 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #343434), color-stop(1, #555555));
+				border-color: #555555;
+				color: #ffffff;
+				box-shadow: none;
+    font: 400 15px/36px 'Droid Serif', Gorgia, Times, Serif;
+    line-height:normal ;
+    height:auto ;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 1px 1px rgba(204,204,204,0.5);
+    border: 1px solid #333333;
+    border-radius: 4px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 8px 13px;
+    margin: 0 auto 20px auto;
+}
+
+#content .product_list_widget li {clear: none; width: 220px; margin: 0 0 18px 22px}
+
+/* ----------------------------------------------------------
+    PRODUCT DETAIL
+-----------------------------------------------------------*/
+
+/*--------------------- Product detail page  -------------------------*/
+body.woocommerce #reviews #comments ol.commentlist li,
+body.woocommerce-page #reviews #comments ol.commentlist li {
+       padding-bottom: 10px;
+       margin-bottom: 10px;
+}
+body.woocommerce p.stars a:before,
+body.woocommerce p.stars a:before,
+body.woocommerce-page p.stars a:before,
+body.woocommerce-page p.stars a:before {
+       color: #5e5e5e;
+}
+body.woocommerce p.stars a:hover:before,
+body.woocommerce p.stars a:focus:before,
+body.woocommerce p.stars a:active:before,
+body.woocommerce p.stars a.active:before,
+body.woocommerce-page p.stars a:hover:before,
+body.woocommerce-page p.stars a:focus:before,
+body.woocommerce-page p.stars a:active:before,
+body.woocommerce-page p.stars a.active:before {
+       color: #333333;/*change*/
+}
+body.woocommerce p.stars,
+body.woocommerce-page p.stars {
+		width: 5em;
+}
+.pp_woocommerce form#commentform input {
+		display: block;
+}
+
+body.woocommerce p.woocommerce-info,
+body.woocommerce-page p.woocommerce-info,
+body.woocommerce ul.woocommerce-error,
+body.woocommerce-page ul.woocommerce-error {
+       padding: 1em 1em 1em 3.5em !important;
+}
+form.variations_form table.variations td {
+       border: 0;
+}
+.woocommerce-page #content div.product form.cart .variations select#pa_color {
+		width: 98%;
+}
+
+#content div.product .product_title,
+#content div.product .product_title {
+       font-size: 32px;
+       line-height: normal;
+       margin-bottom: 15px;
+}
+#content div.product div.images, #content div.product div.images {
+    float: left;
+    margin-bottom: 2em;
+    width: 48%;
+}
+body.woocommerce div.product div.images div.thumbnails a,
+body.woocommerce #content div.product div.images div.thumbnails a,
+body.woocommerce-page div.product div.images div.thumbnails a,
+body.woocommerce-page #content div.product div.images div.thumbnails a {
+		margin: 0 3.8% 3.8% 0;
+}
+.variations_form table {
+       border: none;
+}
+.product-header .product-summary {
+       float: right;
+       margin-bottom: 2em;
+       width: 48%;
+}	
+.product-summary .cart table td {
+       border: none;
+       padding: 0;
+}
+p.price span.from {
+       font-size: 14px !important;
+}
+	
+body.woocommerce div.product span.price,
+body.woocommerce-page div.product span.price,
+body.woocommerce #content div.product span.price,
+body.woocommerce-page #content div.product span.price,
+body.woocommerce div.product p.price,
+body.woocommerce-page div.product p.price,
+body.woocommerce #content div.product p.price,
+body.woocommerce-page #content div.product p.price {
+       font-size: 24px;
+       color: #333333;/*change*/
+	}
+	
+div.product form.cart .variations label, 
+       #content div.product form.cart .variations label {
+       display: block;
+       margin-top: 12px;
+	}
+body div.product form.cart .variations td.label, 
+body #content div.product form.cart .variations td.label {
+       background: none;
+       font-size: inherit;
+       color: inherit;
+       font-weight: normal;
+       line-height: inherit;
+       text-shadow: none;
+       vertical-align: top;
+}
+body a.reset_variations {
+       display: block;
+       clear: both;
+       height: 0;
+       padding-top: 5px;
+							text-decoration: underline;
+}
+body a.reset_variations:hover {
+		color: #444444;/*change*/
+		text-decoration: none;
+}
+.product_meta .posted_in {
+       font-weight: bold;
+}	
+.product_meta .posted_in a { 
+       font-weight: normal;
+}	
+body div.product form.cart, 
+body #content div.product form.cart {
+       margin-bottom: 0;
+}	
+.single_variation {
+       padding: 20px 0;
+}	
+.single_variation p.stock {
+       color: #090;
+       margin: 0;
+}
+.variations_button {
+       clear: none;
+       float: left;
+       margin-bottom: 20px;
+}	
+body div.product form.cart .button, 
+body #content div.product form.cart .button {
+       clear: none;
+}
+body .quantity input.qty, 
+body #content .quantity input.qty {
+       text-align: center;
+       padding: 12px 30px 9px 7px;
+       margin: 0;
+}
+body .quantity input.qty {
+       width: 50px\9 !important
+}
+.woocommerce_info {
+       padding-bottom: 0 !important;
+}	
+body .quantity .plus, 
+body .quantity .minus, 
+body #content .quantity .plus, 
+body #content .quantity .minus {
+       height: 49.90%;
+       line-height: normal;
+       box-shadow: none;
+}
+body div.product form.cart .button, 
+body #content div.product form.cart .button {
+    color: #FFFFFF;
+    cursor: pointer;
+    vertical-align: top;
+    margin: 0;
+	}
+body div.product .woocommerce_tabs .panel, 
+body #content div.product .woocommerce_tabs .panel {
+       margin-bottom: 40px;
+}
+.woocommerce_tabs .entry-content {
+       padding-top: 15px;
+}	
+.woocommerce_tabs h2,
+.related h2 {
+       float: none !important;
+       font-size: 22px;
+       font-weight: normal;
+       padding: 0 0 10px !important;
+       margin-bottom: 10px;
+}	
+.woocommerce_tabs p {
+       padding-top: 0;
+}	
+body .woocommerce_tabs ul.tabs {
+       height: 32px;
+}	
+.woocommerce_tabs table {
+       margin: 0;
+}	
+.woocommerce_tabs table p {
+       padding: 0;
+}
+.woocommerce_tabs table th,
+.woocommerce_tabs table td {
+       background: none;
+       padding: 10px 20px;
+       line-height: 20px;
+}	
+tr.alt {
+       background: rgba(0,0,0,.05)
+}
+
+body .woocommerce_message:before, 
+body .woocommerce_error:before, 
+body .woocommerce_info:before {
+       top: 16px;
+}    
+body .related ul.products li.product, 
+body .related ul li.product, 
+body .upsells.products ul.products li.product, 
+body .upsells.products ul li.product {
+       margin-top: 5px !important;
+}	
+.show_review_form {
+       color: #333333;/*change*/
+}	
+.show_review_form:hover {
+       color: #AFAFAF;
+}	
+body div.product span.price ins, 
+body div.product p.price ins, 
+body #content div.product span.price ins, 
+body #content div.product p.price ins {
+       font-size: 22px !important;
+}	
+body #review_form #respond p {
+       clear: both;
+}	
+body #review_form #respond p input#submit {
+       margin-top: 15px;
+}
+body #review_form #commentform .required {
+       color: #ff0000;
+}
+.woocommerce-page #comments ol.commentlist {
+       margin: 0 !important;
+}	
+body #reviews #comments ol.commentlist li img {
+       width: 20px;
+       height: 18px;
+       background: none;
+       border/*\**/: 1px solid #e5e5e5\9;
+       border: 1px solid rgba(0,0,0,.1);
+       border-radius: 0;
+       padding: 0;
+       margin: 0;
+}	
+body #reviews #comments ol.commentlist li .comment-text {
+       background: rgba(0,0,0,.05);
+       border: none;
+       padding: 15px;
+       margin: 10px 0 10px 66px;
+       float: none;
+}
+
+.pp_content {height: auto !important; max-height: 640px;}
+body div.pp_woocommerce div.pp_content_container form#commentform {padding-bottom: 0;}
+.pp_content_container div.pp_details {float: none;}
+body div.pp_woocommerce div.pp_content_container form#commentform label { display: inline; }
+body div.pp_woocommerce div.pp_content_container form#commentform input,
+body div.pp_woocommerce div.pp_content_container form#commentform textarea {display: block;}
+body.woocommerce form.login, body.woocommerce-page form.login {border: 0;}
+body .woocommerce-message, body .woocommerce-error, body .woocommerce-info, div.pp_woocommerce div.pp_content_container {
+								border/*\**/: 1px solid #e5e5e5\9; margin: 0 0 2em; padding: 1em 1em 1em 3.5em;
+}
+.woocommerce-message, .woocommerce-error, .woocommerce-info, div.pp_woocommerce .pp_content_container {border/*\**/: 1px solid #e5e5e5\9;}
+.variation-Color p, .variation-Capacity p{ margin-top: -10px;}
+
+/* ------ TABS --------*/
+
+.product-content .woocommerce_tabs p {line-height: 22px}
+.product-content .woocommerce_tabs h2 {padding-bottom: 0}
+.product-content .woocommerce_tabs ul.tabs {*float: left; width: 100%}
+.product-content .woocommerce_tabs ul.tabs li {margin-right: 10px; *float: left}
+.product-content .panel {padding: 10px 0}
+
+.shop_attributes {border: none; border-top: 1px solid #dddddd}
+.shop_attributes tr {border-bottom: 1px solid #dddddd}
+.shop_attributes th {background: none; border: none; vertical-align: middle; padding: 12px}
+.shop_attributes td {background: none; border: none; vertical-align: middle; padding: 12px}
+.shop_attributes th p, .shop_attributes td p {padding: 0}
+
+.entry-title, .byline, .entry-content, .entry-author, .entry-meta {border: none}
+
+#comments li {border: none}
+#comments li li {background: none; border: none; margin: 22px 0 0}
+.woocommerce-page #reviews #comments > div h2 {font-size: 22px}
+.woocommerce-page #reviews #comments > div {border: none}
+.woocommerce-page #comments li .comment_container .avatar {width: 60px; height: auto; border: 1px solid #dddddd; border-radius: 3px; padding: 4px; margin: 10px 0 10px 40px}
+.woocommerce-page #comments li .comment_container .comment-text {padding: 5px 40px 10px 131px}
+.woocommerce-page #comments li .comment_container .comment-text p.meta {padding: 5px 0 0}
+.woocommerce-page #comments li .comment_container .comment-text p.meta strong {font-size: 15px; font-weight: normal}
+.woocommerce-page #comments li .comment_container .comment-text p.meta {font-size: 13px}
+.woocommerce-page #comments p.add_review {padding-top: 0}
+.woocommerce-page #comments p.add_review a { width: auto; margin: 0 0 0 48px; text-decoration: none}
+
+/* ------ TABS END --------*/
+
+.loop-entries li.error {border-bottom: 0}
+
+
+/* ----------------------------------------------------------
+    BLOG
+-----------------------------------------------------------*/
+
+.loop-entries li {border-bottom: 1px solid #dddddd; padding: 0; padding-bottom: 20px; margin-bottom: 20px}
+.loop-entries li .featured-image-link {width: 220px; height: 220px; border-radius: 4px; overflow: hidden; padding: 0; margin: 0 20px 0 0}
+.loop-entries li .featured-image-link img {border: none}
+.loop-entries li .entry-title {padding-top: 0; font-size: 20px}
+.loop-entries li .byline, .loop-entries li .entry-meta, .byline {font-size: 12px; text-transform: capitalize; font-weight: normal; padding-top: 0}
+.loop-entries li .byline .author, .byline .author {font-size: 14px}
+.byline a, .entry-meta a {color: #333333}
+.loop-entries li a:hover {text-decoration: underline}
+
+
+
+/* ----------------------------------------------------------
+    BLOG DETAIL
+-----------------------------------------------------------*/
+
+.entry-title {line-height: 24px; margin-bottom: 15px; font-size: 20px}
+.entry-title a {text-decoration: none}
+.entry-title a:hover {text-decoration: underline}
+.byline {background: none; padding: 0; margin-bottom: 5px}
+
+img.alignleft {margin: 0 20px 20px 0; position: relative; float: left}
+img.alignright {margin: 0 0 20px 20px; position: relative; float: right}
+img.aligncenter {margin: 0 20px 20px}
+img.alignnone {margin: 0 20px 20px 0; position: relative; float: left}
+
+.entry-content {line-height: 22px;}
+.entry-content ul li {list-style: disc; padding: 0 0 0 6px;}
+.entry-author-meta {padding: 20px 0; border: none}
+
+.entry-author-meta img.avatar {width: 60px; height: auto; border: 1px solid #dddddd; border-radius: 3px; padding: 4px; margin: 0 0 10px}
+.entry-author-meta .author-name {font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-weight: normal; text-transform: capitalize; margin-top: 0}
+.entry-author-meta .author-description {padding-top: 0}
+.entry-meta {font-size: 12px; padding: 0; margin-bottom: 36px}
+
+#comments-number, #reply-title {line-height: inherit}
+.comment-header {padding: 0; position: absolute}
+.comment-header img.avatar {width: 60px; height: auto; border: 1px solid #dddddd; border-radius: 3px; text-align: center; padding: 4px; margin: 0}
+.comment-meta {font-family: Helvetica, Arial, sans-serif; font-size: 13px; padding: 0 0 0 92px}
+.comment-meta a {color: #333333}
+.comment-meta .published {color: #333333}
+
+.comment-author {color: #333333}
+.comment-author cite {font-family: Helvetica, Arial, sans-serif; font-size: 15px}
+.comment-reply-link, .comment-reply-login {background: none; height: auto; position: static; text-indent: 0; margin: 10px 0 0 0}
+.comment-text {border: none; padding: 40px 0 0 93px; line-height: 22px}
+
+.comment-list li {margin-bottom: 22px}
+#comments li li .comment-wrap {margin-left: 92px}
+#comments li li li .comment-wrap {margin-left: 184px}
+#comments li li li li .comment-wrap {margin-left: 276px}
+#comments li li li li li .comment-wrap {margin-left: 368px}
+
+form#commentform {padding: 0}
+form#commentform p {clear: both}
+form#commentform p.log-in-out {padding: 0 0 10px 0; background: none; font-size: 13px; font-weight: normal; text-transform: capitalize}
+form#commentform p.log-in-out a {font-weight: normal}
+
+#commentform label span {color: #ff0000}
+form#commentform input[type="text"] {width: 300px} 
+form#commentform textarea {width: 340px; clear: both; display: block;}
+form#commentform .form-submit {padding-left: 0}
+
+#respond #cancel-comment-reply-link {float: right; font-size: 13px; line-height: 26px}
+
+.comment-wrap {position: relative}
+.comment-reply-link, .comment-reply-login {position: absolute; top: 0; right: 0}
+
+.singular .gallery {margin: 0 0 40px}
+.singular .gallery .gallery-row dl {width: auto; margin: 0 10px 10px 0; border: 1px solid #cccccc; border-radius: 3px; overflow: hidden}
+.singular .gallery .gallery-row dl:hover {border: 1px solid #000000; -moz-transition: all 0.4s ease 0s; opacity: .5}
+
+/* ----------------------------------------------------------
+    SHOPPING CART
+-----------------------------------------------------------*/
+
+.shop_table  {margin: 0 0 20px 0}
+.shop_table a {text-decoration: none}
+.shop_table a:hover {text-decoration: underline}
+.shop_table .product-thumbnail img {max-width: 50px; height: auto}
+.shop_table dl {margin-top: 10px}
+.shop_table dl dt {float: left; margin: 0; clear: both}
+.shop_table dl dd {float: left; margin: 0}
+.shop_table td.product-remove {vertical-align: middle; text-align: center}
+
+.shop_table .coupon .button {display: inline-block}
+.shop_table .coupon {float: left; margin-right: 35px; *margin-right: 15px}
+.shop_table #coupon_code {width: 100px; display: inline}
+.shop_table .button, .shop_table .button {float: left; margin: 6px 0 0 10px}
+
+.related, .woocommerce-page .cross-sells, .woocommerce-page .upsells {padding-bottom: 0}
+.shipping-calculator-form p {padding: 0; clear: both}
+
+.shipping-calculator-form p button { margin-top: 5px; margin-right: 10px}
+
+.cart_totals table {border-left: none; border-right: none}
+.cart_totals table th, .cart_totals table td {background: none; border-right: none; padding-left: 0}
+
+.shop_table th {font-weight: bold}
+.shop_table th, .shop_table td {font-size: 14px !important; padding: 12px 10px 6px}
+
+.cart-collaterals table {margin: 0 0 20px 0}
+
+/*.shop_table .checkout-button {height: 37px !important}*/
+
+.cart-collaterals:after {clear: both}
+
+.shipping-calculator-form p.form-row {margin: 0 0 10px 0 !important}
+
+
+
+/*----------------------- Cart page  ---------------------------------*/	
+body table.shop_table {
+       border-left/*\**/: 1px solid #e5e5e5\9;
+       border-left: 1px solid rgba(0,0,0,.05);
+       border-top/*\**/: 1px solid #e5e5e5\9;
+       border-top: 1px solid rgba(0,0,0,.05);
+}
+.shop_table th {
+       background: rgba(0,0,0,.05);
+}
+.shop_table th, .shop_table td {
+       border-bottom/*\**/: 1px solid #e5e5e5\9;
+       border-bottom: 1px solid rgba(0,0,0,.05);
+       border-right/*\**/: 1px solid #e5e5e5\9;
+       border-right: 1px solid rgba(0,0,0,.05); 
+}
+.shop_table .product-thumbnail img {
+       margin: 0;
+       max-width: 40px;
+       height: auto;
+}
+body .shop_table .coupon label {
+       margin: 0;
+       padding-right: 5px;
+}
+#coupon_code {width: 55px\9 !important}
+body table.cart td.actions .coupon .input-text, 
+body #content table.cart td.actions .coupon .input-text {
+       width: 80px;
+       height: 36px;
+       margin: 0;
+}
+body table.cart td.actions .button.alt, 
+body #content table.cart td.actions .button.alt {
+       float: none;
+}
+body table.cart a.remove, #content table.cart a.remove {
+       background-color: none;
+       font-size: 26px;
+}
+.shop_table .coupon {
+       float: left;
+}
+body .shop_table .coupon .button {
+       padding: 13px 15px 11px;
+       margin: 0 !important;
+}
+body .actions input[type="submit"] {
+       padding: 13px 15px 11px;
+       margin: 0 0 0 5px !important;
+}
+body .cart-collaterals .cart_totals {
+       float: left;
+       width: 100%;
+       max-width: 300px;
+       text-align: left;
+       margin-bottom: 20px;
+}
+.shipping_calculator p {
+       padding: 0;
+}
+.shipping_calculator input[type="text"],
+.shipping_calculator select {
+       width: 100% !important;
+       max-width: 300px;
+}
+body .cart-collaterals .cart_totals table { 
+       margin: 10px 0 0;
+}
+.shipping-calculator-form {
+       margin-top: 10px;
+}
+body .cart-collaterals .cart_totals table th {
+       background: rgba(0,0,0,.03)
+}
+body .cart-collaterals .cart_totals tr td, 
+body .cart-collaterals .cart_totals tr th {
+       border-top: 1px solid #D9D9D9;
+}
+body .cart-collaterals .shipping_calculator {
+       clear: both;
+       width: 100%;
+       max-width: 300px;
+       margin-top: 0;
+}
+body .cart-collaterals .shipping_calculator input[type="text"],
+body .cart-collaterals .shipping_calculator select { 
+       margin: 0;
+}
+body form .form-row select,
+body form .form-row input.input-text, 
+body form .form-row textarea,
+#dropdown_product_cat,
+.sidebar #searchform input[type="text"] {
+       vertical-align: 0;
+       width: 100%;
+}
+body.woocommerce div.product form.cart,
+body.woocommerce-page div.product form.cart,
+body.woocommerce #content div.product form.cart,
+body.woocommerce-page #content div.product form.cart {
+    margin-top: 1.5em;   
+}
+body.woocommerce ul.product_list_widget li dl,
+body.woocommerce-page ul.product_list_widget li dl {
+							padding-left: 0;
+							border-left: 0;
+}
+body.woocommerce-page table.shop_table td.actions input.button {
+		margin-bottom: 8px !important;
+}
+body.woocommerce .cart-collaterals .shipping_calculator,
+body.woocommerce-page .cart-collaterals .shipping_calculator {
+    text-align: left;
+}
+
+/*------------------------- Checkout Page ----------------------------*/
+body.woocommerce .checkout #shiptobilling,
+body.woocommerce-page .checkout #shiptobilling {
+       width: 100%;
+       float: left;
+       display: block;
+}
+ul.payment_methods label {
+       margin: 0;
+}
+ul.payment_methods p {
+       padding: 0;
+}
+.entry-summary p {
+       padding: 6px 0;
+}
+#payment ul.payment_methods {
+       padding: 1em 0;
+       margin-bottom: 0;
+       border-bottom/*\**/: 1px solid #e5e5e5\9;
+       border-bottom: 1px solid rgba(0,0,0,.1);
+	}
+#payment ul.payment_methods li {
+       padding: 0;
+       list-style: none;
+	}
+body #payment div.payment_box:after {
+       border-color: transparent transparent rgba(0, 0, 0, 0.1);
+       top: -2px;
+	}
+body #payment div.form-row,
+body #payment ul.payment_methods {
+       border-color: rgba(0, 0, 0, 0.1);
+	}
+.woocommerce-checkout .form-row .chzn-container-single .chzn-single {
+       font-size: 15px;
+       color: #999999;
+	}
+
+/*------------------- Order Receive Page --------------------------*/
+.login, 
+.registration {
+       padding: 0 !important;
+       margin: 0;
+}
+body .order_details li {
+       border-color/*\**/: #999999\9;
+       border-color: rgba(0, 0, 0, 0.4);
+}
+.customer_details dt {
+       clear: both;
+       float: left;
+       width: 120px;
+       font-weight: bold;
+							margin: 0;
+}
+.customer_details dd {
+       float: left;
+}
+.col2-set {
+       clear: both;
+       padding-top: 20px;
+}
+.col2-set label { 
+       margin: 0;
+}
+.col2-set header h3 {
+       margin: 0;
+       padding: 0;
+}
+body table.shop_table td.product-quantity {
+       text-align: left;
+}
+	
+/*-------------------- My Accounts Order Page ------------------------*/
+body.woocommerce table.my_account_orders .order-actions,
+body.woocommerce-page table.my_account_orders .order-actions {
+       text-align: center;
+}
+ins, dfn {
+       font-style: normal;
+       border: none;
+}
+.sidebar .widget .product_list_widget .star-rating {
+       margin: 5px 0;
+       display: list-item;
+}
+.widget a, .widget-small a {
+       font-weight: normal;
+}
+del span.amount {
+       color: #999999;
+}
+ins span.amount {
+       color: #333333;
+}
+.sidebar ins span.amount {
+       font-size: 16px;
+}
+.sidebar ul.cart_list li, 
+.sidebar ul.product_list_widget li {
+       background: none;
+       padding: 6px 0;
+}
+.sidebar ul.cart_list li a, .sidebar ul.product_list_widget li a {
+       display: block;
+}	
+.sidebar .widget .product_list_widget li img, .sidebar .widget .cart_list li img {
+       box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+       float: left;
+       height: auto;
+       margin-left: -46px;
+       width: 32px;
+}
+.sidebar #searchform label {
+       display: block;
+       margin-bottom: 5px;
+}
+.sidebar #searchform input[type="text"] {
+       width: 100%;
+       max-width: 60%;
+       margin: 0;
+}
+.sidebar #searchform input[type="submit"] {
+       margin: 0;
+       vertical-align: top;
+       height: auto;
+}
+.sidebar .widget_login {
+       margin-bottom: 40px;
+}
+.sidebar .star-rating {
+       margin: 5px 0;
+}
+.sidebar #wp-submit {
+       font-weight: normal;
+       text-shadow: none;
+       padding: 7px 14px;
+       text-decoration: none;
+       cursor: pointer;
+}
+.sidebar .widget_layered_nav li .count {
+       background: none;
+}
+.sidebar .widget_login form {
+       margin-bottom: 0;
+}
+.sidebar .widget_login form label { 
+       margin: 0;
+}
+.sidebar .widget_login form p { 
+       padding: 0;
+}
+.sidebar .widget_login form p a { 
+       vertical-align: top;
+       margin-left: 10px;
+}
+.sidebar .widget .product_list_widget li .variation, 
+.sidebar .widget .cart_list li .variation {
+       font-size: 13px;
+}
+.sidebar  .widget_shopping_cart a.button {
+       padding: 4px 14px;
+}
+
+/*--- price filter ---*/	
+body.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+body.woocommerce-page .widget_price_filter .ui-slider .ui-slider-range {
+							background/*\**/: #cccccc\9;
+							background: rgba(0,0,0,.2);
+							box-shadow: none;
+							padding: 0;
+	}
+body.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+body.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle {
+							background: #333333;
+							border: none;
+							top: -0.2em;
+							box-shadow: none;
+	}
+body .sidebar .ui-widget-content {
+       background/*\**/: #cccccc\9;
+							background: rgba(0,0,0,.2);
+       border: none;
+       border-radius: 4px;
+       height: 9px;
+       margin: 15px 0 12px;
+       position: relative;
+       text-align: left;
+}
+body.woocommerce .widget_layered_nav_filters ul li,
+body.woocommerce-page .widget_layered_nav_filters ul li {
+       background: none !important;
+       padding: 0 !important;
+       margin: 5px 8px 0 0;
+}
+
+
+/* ----------------------------------------------------------
+    POPUP BOX
+-----------------------------------------------------------*/
+
+#fancybox-content label {margin-top: 2px}
+#fancybox-content p {margin-bottom: 15px}
+
+
+#fancybox-content form#commentform .form-submit {padding-left: 0}
+#fancybox-content form#commentform #submit {margin-bottom: 0}
+#fancybox-content form#commentform label {float: none; width: auto}
+#fancybox-content form#commentform input[type="text"], #fancybox-content form#commentform textarea {width: 100%; float: none}
+
+#commentform .required {color: #ff0000; margin-right: 3px}
+
+
+/*	--------------------------------------------------
+	:: MEGA MENU
+	-------------------------------------------------- */
+
+.main_nav_in .widget {margin-bottom:0}
+
+.mega-menu ul.mega ul, .mega-menu ul.mega li {list-style: none;  padding: 0;  margin: 0}
+.mega-menu ul.mega ul {display: none; /* Hides non-mega links */}
+.mega-menu ul.mega .sub ul {display: block; /* overrides above hide */}
+
+/* Main menu styles */
+.mega-menu ul.mega {width: 100%;   position: relative; /* Important - required for positioning of mega menu */}
+.mega-menu ul.mega li {float: left}
+.mega-menu ul.mega li a {float: left; display: block; padding: 12px 25px; text-decoration: none}
+
+/* Arrow tag for parent links */
+.mega-menu ul.mega li a.dc-mega {position: relative}
+.mega-menu ul.mega li a .dc-mega-icon {display: block; position: absolute;  top: 12px;  right: 15px;  width: 16px;  height: 16px}
+
+/* Mega Menu Styling */
+.mega-menu ul.mega li .sub-container {background: #dddddd; border-radius: 4px; position: absolute; top: 36px !important; left: auto !important; margin-left: 0 !important}
+.mega-menu ul.mega li .sub {padding: 20px 20px 20px 10px}
+.mega-menu ul.mega li .sub-container.mega .sub {padding: 15px 15px 0px 15px}
+.mega-menu ul.mega li .sub .row {width: 100%;  overflow: hidden;  clear: both}
+.mega-menu ul.mega li .sub li {float: none;  font-size: 13px; font-weight: bold}
+
+/* Sub-menu Headers */
+.mega-menu ul.mega li .sub li.mega-hdr { float: left;  width: 190px; margin: 0; height: auto !important}
+.mega-menu ul.mega li .sub a {padding: 7px 10px; display: block; float: none; text-decoration: none;  font-size: 14px}
+.mega-menu ul.mega li .sub li.mega-hdr a.mega-hdr-a {background: none; box-shadow: none; font-size:16px; color: #333333; text-shadow: 0 1px 0 rgba(255,255,255,0.5); height: auto !important; font-weight: normal; padding: 7px 8px}
+.mega-menu ul.mega li .sub li.mega-hdr a.mega-hdr-a:hover {text-decoration: underline}
+
+/* Style the 3rd level links */
+.mega-menu ul.mega li .sub li ul li {}
+.mega-menu ul.mega .sub li.mega-hdr li a {font-weight: normal;  padding: 5px 0 5px 15px}
+
+/* Styling for items with only 2 levels */
+.mega-menu ul.mega li .sub-container.non-mega .sub {padding: 20px 0 10px}
+.mega-menu ul.mega li .sub-container.non-mega li {width: 190px}
+.mega-menu ul.mega li .sub-container.non-mega li a {padding: 7px 5px 7px 22px; box-shadow: none; font-size: 16px}
+.mega-menu ul.mega li .sub-container.non-mega li a:hover {text-decoration: underline}
+
+.header #sidebar-header {width: auto}
+.mega-menu {position: relative; z-index: 8; width: 960px; margin: 0 auto; clear:both;}
+.mega-menu ul.mega {
+    clear: right;
+    display: block;
+    float: left;
+	margin: 0;
+}
+.mega-menu ul.mega li {
+	background: none;
+    display: block;
+	margin-right: 15px;
+}
+.mega-menu ul.mega li:hover {background: none}
+.mega-menu ul.mega li {padding: 0}
+.mega-menu ul.mega li a {
+	display: block;
+	-webkit-transition:all ease-in-out .2s;
+	-moz-transition:all ease-in-out .2s;
+	-o-transition:all ease-in-out .4s;
+	transition:all ease-in-out .4s;
+	font-family: 'Droid Serif', Gorgia, Times, Serif;
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 0 -1px rgba(0,0,0,0.5);
+	padding: 10px 10px 7px;
+}
+.mega-menu ul.mega li a:hover, .mega-menu ul.mega li:hover a, .mega-menu ul.mega li.current-menu-item a, .mega-menu ul.mega li.current-menu-ancestor a {
+	background-color: #ebebeb;
+    box-shadow: 0 2px 2px #999999 inset;
+    border-radius: 3px;
+	color: #333333;
+    font-weight: normal;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+
+.mega-menu ul.mega li ul.sub-menu { /* change mega container */
+	max-width: 932px;
+	background: #EBEBEB;
+    border-radius: 3px;
+    box-shadow: 0 -2px 2px #BEBEBE inset;
+}
+.mega-menu ul.mega li ul.sub-menu li a {
+	font-size: 16px;
+	color: #333333;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	font-weight: normal;
+}
+.mega-menu ul.mega li:hover ul.sub-menu li a:hover {
+	box-shadow: none;
+}
+
+.mega-menu ul.mega li ul.sub-menu ul {background: none; border: none; border-radius: 0; box-shadow: none; margin: 0 8px 20px 8px}
+.mega-menu ul.mega li ul.sub-menu ul li {margin-right: 0}
+.mega-menu ul.mega li ul.sub-menu ul li a {
+	background: url(images/maga-bullet.png) no-repeat 0px 11px !important;
+    border-bottom: 1px dotted #BEBEBE;
+    border-radius: 0;
+    box-shadow: none;
+    color: #333333;
+    font-size: 14px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+.mega-menu ul.mega li ul.sub-menu ul li a:hover {text-decoration: underline}
+
+.mega-menu #searchform label, .mega-menu #searchform input[type="submit"] {display: none}
+
+.mega-menu #searchform input[type="text"] {
+ 	background: url("images/small_icons.png") no-repeat scroll 1px 1px #FFFFFF;
+	padding-left: 34px;
+	} 
+
+.mega-menu .widget {
+	clear: none;
+    float: right;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 160px;
+	}
+
+/* ----------------------------------------------------------
+    LAYOUT CSS
+-----------------------------------------------------------*/
+
+.layout-3c-c #content, .layout-3c-l #content, .layout-3c-r #content, .layout-hl-2c-l #content, .layout-hl-2c-r #content, .layout-hr-2c-l #content, .layout-hr-2c-r #content {width: 494px}
+.layout-3c-c #sidebar-secondary {right: 508px}
+.layout-3c-c #content {left: 233px}
+.layout-3c-r #sidebar-primary, .layout-3c-r #sidebar-secondary {padding-right: 15px; padding-left: 0}
+.layout-2c-r #sidebar-primary, .layout-2c-r #sidebar-secondary {padding-left: 0}
+.highlight {width: 960px; margin: 0 auto}
+
+/* ----------------------------------------------------------
+    PAGE TEMPLATES
+-----------------------------------------------------------*/
+
+/*- CONTACT US -*/
+
+#content p {line-height: 20px}
+#contact_frm .form-row label {width: 80px}
+#contact_frm .form-row .b_submit {margin: 5px 0 0 100px}
+#contact_frm .form-row .message_error {clear: both; display: block; font-size: 12px; color: #ff0000; margin-left: 102px}
+
+/*- SITEMAP -*/
+
+.arclist {margin-bottom: 40px; clear:both; float: left; width: 100%}
+.arclist .title-container {margin-bottom: 10px}
+.arclist ul {margin: 0; list-style: none}
+.arclist ul li {border-top: 1px dotted #E6E9ED; display: block; float: left; width: 100%; padding: 10px 0; line-height: 20px}
+.arclist ul li span.arclist_date {font-size: 12px}
+.arclist ul li ul {float: left; padding-left: 20px; padding-top: 10px; width: 100%}
+.arclist ul li span.arclist_comment {float: right}
+
+th, td {
+    border-bottom: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    padding: 12px 20px;
+    text-align: left;
+    vertical-align: top;
+}
+
+blockquote {
+	background: url(images/bg_blockquote.png) 10px 15px no-repeat;
+	font: italic normal 18px/30px Georgia, serif;
+	margin: 0 0 20px;
+    padding: 0 0 0 50px;
+}
+
+
+/*- ADVANCE SEARCH -*/
+
+.advanced_left .form_row label {width: 100px}
+.advanced_left .form_row .date-feild { width: 105px !important; }
+.advanced_left .form_row .b_submit {margin: 10px 0 0 100px}
+.advanced_left .adv-chk {padding: 10px 0 0 100px}
+.advanced_left .form-row img.adv_calendar {position: relative; vertical-align: middle; cursor: pointer}
+.advanced_left .form_row input[type="text"], .advanced_left .form_row select {width: 300px}
+.ui-datepicker-trigger, .ui-datepicker-trigger:hover {background: none !important; border: none; box-shadow: none; margin: 0 10px 0 5px; padding: 0 !important}
+
+
+
+/*- 404 error -*/
+
+.error_404 input.search-submit, .error_404 input {margin-top: 20px !important; margin-bottom: 0}
+
+/*- Login -*/
+
+.login .button {margin: 20px 0 15px !important}
+.login .lost_password {margin-left: 0}
+
+.widget-widget_login input {margin: 0 0 15px !important}
+.widget-widget_login p a {display: block}
+
+.widget #wp-calendar caption {font-size: 15px}
+.widget #wp-calendar th, 
+.widget #wp-calendar td {
+	text-align: center;
+	}
+
+.widget .product_list_widget li, .widget .cart_list li {padding: 12px 0 12px 46px !important}
+.widget .product_list_widget li a, .widget .cart_list li a {padding-left: 46px; margin-left: -46px}
+.widget .product_list_widget li a img, .widget .cart_list li a img {margin-left: -46px}
+
+.widget .widget-wrap p a.button {padding: 8px 9px}
+
+/* ----------------------------------------------------------
+    BBpress comptible css
+-----------------------------------------------------------*/
+
+.bbPress a {
+	text-decoration: none;
+	}
+	
+.bbPress a:hover {
+	text-decoration: underline;
+	}
+
+#content .bbp-template-notice {
+	padding: 0;
+	}
+	
+#content .bbp-forum-description, 
+#content .bbp-topic-description {
+	font-size: 12px;
+	color: #666666;
+	}
+	
+#content .bbp-topic-tags {
+	font-size: 12px;
+	padding: 0;
+	margin-bottom: 14px; 
+	}
+	
+#content .bbp-subscribe-links {
+	border: 1px solid #F8F8F8;
+	font-size: 12px;
+	text-transform: capitalize;
+	padding: 14px 12px 10px;
+	margin-top: 14px;
+	}
+
+#content .bbp-admin-links {
+	border-radius: 0;
+	font-size: 12px;
+	padding: 14px 12px 10px;
+	}
+	
+#content .comment-wrap .bbp-admin-links {
+	margin: 0;
+	}
+	
+	
+#content .bbp-pagination {
+	text-align: left;
+	padding: 0 0 12px;
+	}
+	
+#content .bbp-template-notice {
+	color: #999999;
+	padding: 15px 0;
+	}
+
+#content .bbp-the-content-wrapper {
+	margin-bottom: 30px;
+	}
+	
+#content .bbp-template-notice p {
+	color: #333333;
+	line-height: 22px;
+	padding-bottom: 15px; 
+	}
+	
+#content .bbp-author-favorites {
+	margin-bottom: 50px;
+	}
+	
+#content .bbp-author-favorites h2,
+.bbp-single-user h2 {
+	margin-bottom: 0;
+	}
+	
+#content .bbp-form {
+	padding: 0;
+	}
+	
+#content .bbp-form p {
+	padding: 10px 0;
+	}
+	
+#content .bbp-form input[type="text"],
+#content .bbp-form input[type="password"],
+#content .bbp-form select, 
+#content .bbp-form textarea {
+	max-width: 370px;
+	}
+	
+#content .bbp-form select option {
+	padding: 5px 10px;
+	}
+	
+#content .bbp-form h3 {
+	padding-bottom: 0; 
+	}
+	
+#content .bbp-form label {
+	clear: both;
+	display: block;
+	margin-bottom: 0;
+	}
+	
+#content .bbp-form span.description {
+	padding: 0;
+	}
+	
+#content .bbp-form br {
+	display: none;
+	}
+	
+#content .bbp-form input[type="checkbox"] {
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	}
+#content .bbp-form label[for="bbp_topic_subscription"],
+#content .bbp-form label[for="bbp_log_topic_edit"],
+#content .bbp-form label[for="bbp_topic_subscribers"],
+#content .bbp-form label[for="bbp_topic_favoriters"],
+#content .bbp-form label[for="bbp_topic_tags"],
+#content .bbp-form label[for="bbp_log_reply_edit"] {
+	clear: none;
+	padding: 5px 0; 	
+	}
+
+#content .bbp-form label[for="bbp_topic_subscription"]:after {
+	clear:both;
+	}
+	
+#content .forum {
+	border-bottom: 1px solid #F2F2F2;
+    padding: 15px 0;
+	}
+	
+#content .forum	.entry-content {
+	float: none;
+	}
+	
+#content .loop-entries .super-sticky {
+	background: #FFFEE7;
+    border-bottom: 1px solid #E0DF62;
+	padding: 12px;
+	}
+	
+#content .hfeed .bbp-template-notice {
+	background: #fef0f0;
+	border-top: 1px solid #fedcdc;
+	border-bottom: 1px solid #fedcdc;
+	padding: 10px;
+	margin-bottom: 10px;
+	}
+	
+#content .bbp-forum-description a, .bbp-topic-description a {
+	margin-left: 5px;
+	}
+
+#content .hfeed .bbp-template-notice p {
+	padding: 0;
+	}
+	
+#content .hfeed .bbp-pagination {
+	padding-top: 12px;
+	}
+	
+#content .bbp-author-subscriptions,
+#content .bbp-author-favorites,
+#content .bbp-author-topics-started {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+ 	}
+	
+#content .wp-editor-container textarea.wp-editor-area,
+.wp-editor-area {
+	background: none;
+	box-shadow: none;
+	width:99.9%;
+	max-width: 99.9%;
+	}
+	
+#content .bbp-reply-revision-log {
+	margin-top: 0 !important;
+	}
+	
+#content .bbp-topic-revision-log-item, 
+#content #comments .comment-text .bbp-reply-revision-log-item {
+	font-size: 12px;
+	}
+	
+/*------ WIDGET ------*/
+
+.widget_display_topics li {
+	line-height: 22px;
+	}
+	
+.widget_display_topics li div,
+.widget_display_replies li div {
+	font-size: 12px;
+	color: #999999;
+	}
+	
+.widget_display_replies li {
+	line-height: 22px;
+	}
+
+.widget_display_replies ul li .bbp-author-avatar {
+	width: 35px;
+	margin-right: 10px;
+	}
+	
+.widget_display_replies ul li .bbp-author-avatar img {
+	width: 100%;
+	height: auto;
+	}
+	
+.bbp_widget_login .bbp-logged-in .logout-link {
+	box-shadow: none;
+	font-size: 14px !important;
+	font-weight: normal !important;
+	margin-top: 14px;
+	text-transform: capitalize !important;
+	}
+	
+.bbp_widget_login .bbp-logged-in .logout-link:hover {
+	text-shadow: none;
+	color: #999999;
+	}
+
+.bbp-login-links {
+	padding-top: 0 !important;
+	}
+.bbp_widget_login .bbp-login-links a {
+	font-size: 12px !important;
+	}
+	
+.sidebar .bbp_widget_login .bbp-logged-in .logout-link {margin-top: 10px}
+	
+/* ----------------------------------------------------------
+    RESPONSIVE CSS
+-----------------------------------------------------------*/
+
+@media only screen and (max-width: 960px) {
+
+/**
+ * Basic Reset
+ ************************************************/
+ 
+.layout-2c-l .alignleft,
+.layout-2c-l .alignright,
+.layout-2c-r .alignleft,
+.layout-2c-r .alignright,
+.layout-hl-1c .alignleft,
+.layout-hl-1c .alignright,
+.layout-hr-1c .alignleft,
+.layout-hr-1c .alignright {
+	float: none;
+	margin-left: 0;
+	margin-right: 0;
+	}
+
+.layout-2c-l blockquote.alignleft,
+.layout-2c-l blockquote.alignright,
+.layout-2c-r blockquote.alignleft,
+.layout-2c-r blockquote.alignright,
+.layout-hl-1c blockquote.alignleft,
+.layout-hl-1c blockquote.alignright,
+.layout-hr-1c blockquote.alignleft,
+.layout-hr-1c blockquote.alignright {
+	float: none;
+	margin: 0;
+	width: auto;
+	}
+
+.layout-2c-l th,
+.layout-2c-l td,
+.layout-2c-r th,
+.layout-2c-r td,
+.layout-hl-1c th,
+.layout-hl-1c td,
+.layout-hr-1c th,
+.layout-hr-1c td {
+	padding: 10px;
+	}
+
+/**
+ * Containers Reset
+ ************************************************/
+ 
+	div#menu-primary,
+	#header,
+	.slider_content,
+	div#menu-secondary,
+	.sidebar-after-header,
+	#main,
+	.sidebar-subsidiary,
+	div#menu-subsidiary,
+	#footer {
+		width: 96%;
+	}
+
+						#content {
+							width: 74%;
+							}
+
+					#main .wrap {
+						background-position: 360px 0;
+						}
+						
+					.layout-3c-c #main .wrap {
+						background-image: url(images/bg_layout-3-cols-left.png);
+						}
+						.layout-3c-c #content {
+							left: auto;
+							position: static;
+							}
+					.layout-3c-r #main .wrap {
+						background-image: url(images/dot.png);
+						background-position: 319px 0;
+						}
+						
+		.layout-hl-1c #container,
+		.layout-hl-2c-l #container,
+		.layout-hl-2c-r #container,
+		.layout-hr-1c #container,
+		.layout-hr-2c-l #container,
+		.layout-hr-2c-r #container {
+			width: 680px;
+			}
+			.layout-hl-2c-r .container-wrap {
+				background-image: url(images/dot.png);
+				background-position: 319px 0;
+				}
+			.layout-hr-1c .container-wrap,
+			.layout-hr-2c-l .container-wrap,
+			.layout-hr-2c-r .container-wrap {
+				background-image: url(images/dot.png);
+				background-position: 360px 0;
+				}
+				
+				.layout-hl-1c #main,
+				.layout-hl-2c-l #main,
+				.layout-hl-2c-r #main,
+				.layout-hr-1c #main,
+				.layout-hr-2c-l #main,
+				.layout-hr-2c-r #main {
+					width: 360px;
+					}
+
+/**
+ * Menu Reset
+ ************************************************/
+	
+	.mega-menu {width: 96%}
+	.nav_bg {background: url("images/navi_bk2.png") repeat 0 0 #000000}
+	div#menu-secondary .menu li a, div#menu-subsidiary .menu li a {font-size: 1em}
+	div#menu-secondary .menu li li a, div#menu-subsidiary .menu li li a {font-size: 1em !important}
+	#menu-secondary .widget {margin-top: 2px !important}
+	div#menu-secondary .menu li, div#menu-subsidiary .menu li {margin-right: 10px}
+
+			
+/**
+ * Header Reset
+ ************************************************/
+ 
+	#branding {
+		width: 100%;
+		}
+
+/**
+ * Content Reset
+ ************************************************/
+
+			.gallery .col-0, .gallery .col-1{
+				width: 280px;
+				}
+			.gallery .col-2 {
+				width: 120px;
+				}
+			.gallery .col-3,
+			.gallery .col-4,
+			.gallery .col-5,
+			.gallery .col-6,
+			.gallery .col-7,
+			.gallery .col-8,
+			.gallery .col-9  {
+				width: 66px;
+				}
+
+				.gallery .col-3 .gallery-caption,
+				.gallery .col-4 .gallery-caption {
+					display: none;
+					}
+					
+			/* Gallery Variations */
+
+			.layout-1c .gallery .col-0,
+			.layout-1c .gallery .col-1 {
+				width: 600px;
+				}
+			.layout-1c .gallery .col-2 {
+				width: 280px;
+				}
+			.layout-1c .gallery .col-3 {
+				width: 173px;
+				}
+			.layout-1c .gallery .col-4 {
+				width: 120px;
+				}
+			.layout-1c .gallery .col-5 {
+				width: 88px;
+				}
+			.layout-1c .gallery .col-6,
+			.layout-1c .gallery .col-7,
+			.layout-1c .gallery .col-8,
+			.layout-1c .gallery .col-9 {
+				width: 66px;
+				}
+
+				.layout-1c .col-3 .gallery-caption,
+				.layout-1c .col-4 .gallery-caption {
+					display: block;
+					}
+
+.jcarousel-list, #content .product_list_widget {margin: 0 0 0 -3.3%}
+.jcarousel-list li, #content .product_list_widget li {width: 29.4% !important; margin: 0 0 50px 3.3%}
+
+
+
+/**
+ * Comments Template Reset
+ ************************************************/
+ 
+#comments li li {
+	background-image: none;
+	}
+#comments li li .comment-wrap {
+	margin-left: 0 !important;
+	}
+					
+/**
+ * Widgets Reset
+ ************************************************/
+
+.sidebar-2c .widget,
+.sidebar-3c .widget,
+.sidebar-4c .widget,
+.sidebar-5c .widget {
+	width: 280px;
+	}
+ 
+/**
+ * Sidebars Reset
+ ************************************************/
+
+#sidebar-header {
+	padding-top: 0;
+	width: 100%;
+	}
+
+.layout-3c-c #sidebar-primary,
+.layout-3c-c #sidebar-secondary,
+.layout-3c-l #sidebar-primary,
+.layout-3c-l #sidebar-secondary {
+	clear: right;
+	}
+
+.layout-3c-c #sidebar-secondary {
+	position: static;
+	right: auto;
+	}
+	
+.layout-3c-r #sidebar-primary,
+.layout-3c-r #sidebar-secondary {
+	clear: left;
+	float: left;
+	}
+
+.layout-hl-2c-l #sidebar-primary,
+.layout-hl-2c-l #sidebar-secondary,
+.layout-hl-2c-r #sidebar-primary,
+.layout-hl-2c-r #sidebar-secondary,
+.layout-hr-2c-l #sidebar-primary,
+.layout-hr-2c-l #sidebar-secondary,
+.layout-hr-2c-r #sidebar-primary,
+.layout-hr-2c-r #sidebar-secondary {
+	clear: both;
+	width: 100%;
+	}
+	
+#sidebar-primary, #sidebar-secondary {width: 23%}
+
+/* inner pages */
+
+.product-header .images {width: 54.5% !important; margin-right: 3%}
+.product-header .product-summary {width: 42%}
+
+.shop_table td.product-remove {background: #F8F8F8}
+
+.col-1, .col-2 {width: 46.5% !important}
+.col-1 {margin-right: 6.5%}
+#customer_details .form-row input[type="text"], #customer_details .form-row input[type="password"], #customer_details select, #customer_details textarea {width: 100%}
+#customer_details .form-row-first, #customer_details .form-row-last {width: 100% !important}
+ 
+/* footer */
+
+.footer_col1 {width: 23.2%}
+.footer_col2 {width: 47.5%; margin: 0 3%}
+.footer_col3 {width: 23.2%}
+
+/* Sidebar */
+
+#searchform .screen-reader-text {display: block; width: 100%}
+
+.header-wrap .widget {margin: -42px 0 0}
+
+.product-content .woocommerce_tabs ul.tabs li a {font-size: 13px}
+
+.form-row input[type="text"], .form-row input[type="password"] {width: 270px}
+.form-row select {width: 270px !important}
+.form-row textarea {width: 270px}
+
+.slider_content {clear: both}
+.flexslider .slides li img {max-width: 100%; height: auto}
+
+#search-formhybrid-search input.search-text {width: 165px; background-position: left -1px; margin: 0}
+
+#header .advt_widget {display: none}
+
+.jcarousel-skin-tango .jcarousel-container .jcarousel-clip {overflow: hidden; width: 100%}  
+.jcarousel-list li {width: 208px}
+
+#branding {float: left; width: auto}
+.header-wrap .widget {margin: 0}
+#woo_shoppingcart_box {width: 100%; border-top: 1px solid #DDDDDD}  
+.shoppingcart_box {position: static; float: none; width: 100% !important; margin-bottom: 20px}
+.shoppingcart_box .cart_items {border-top: none; border-bottom: none; float: left; padding: 21px 10px 8px 38px}
+.plus_minus {display: none}
+/*#woo_shopping_cart, .cart_checkout b, .header-wrap .widget_shopping_cart h3 {display: none !important}*/
+#woo_shoppingcart_box .cart_checkout {float: right; clear: none; padding: 9px 10px 9px 0}
+#woo_shoppingcart_box .cart_checkout .amount {display: none}
+#woo_shoppingcart_box .cart_checkout .button {margin-bottom: 17px}
+
+.slider_content {margin: 40px auto 50px}
+
+.header_bg_down {height: auto; padding-bottom: 20px}
+
+.advanced_left .form-row .date-feild {width: 90px} 
+
+.header-wrap .widget #searchform {padding-top: 0}
+
+.menu-container #searchform #s, #header #searchform #s, .menu-container #search-formhybrid-search input.search-text {margin-top: -6px; box-shadow: 0px 1px 2px #999; border: 1px solid #c2c2c2}
+
+.flex-direction-nav a.flex-next, .flex-flexslidernext {right: 0px; border-radius: 3px 0 0 3px}
+.flex-direction-nav a.flex-prev, .flex-flexsliderprev {left: 0px; border-radius: 0 3px 3px 0}
+
+.widget .calendar-wrap {
+	overflow-x: scroll;
+	}
+	
+#content .wp-editor-wrap {
+	overflow-x: scroll;
+	}
+	
+.flex-flexsliderviewport {min-height: inherit}
+	
+/* ------ JIGOSHOP ------*/
+
+#content .shop_table {display: table}
+
+#billing-company {max-width: 100% !important}
+
+/*---------------------- Woo Commerce ---------------------*/
+body .shop_table {
+width: 100%;
+border: 1px solid rgba(0, 0, 0, .05);
+}
+body .shop_table td:last-child {
+border-bottom: none;
+}
+body .shop_table th, body .shop_table td {
+border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+border-right: 1px solid rgba(0, 0, 0, 0.05);
+border-top: none;
+}
+.woocommerce-page .author-admin .entry-content p {}
+body table.cart td.actions .button.alt, body #content table.cart td.actions .button.alt {float: right;}
+.coupon p {margin-bottom: 8px;}
+
+} /* End @media max-width: 960px */
+
+
+@media only screen and (max-width: 800px) {
+    
+    .shoppingcart_box .cart_items {width: 0; text-indent: -9999px; cursor: default}
+    .widget_shopping_cart #woo_shopping_cart {display: none !important}
+    
+}
+
+
+@media only screen and (max-width: 679px) {
+
+/**
+ * Containers Reset
+ ************************************************/
+ 
+	
+			#main .wrap {
+				background-image: none !important;
+				}
+				
+				#content {
+					clear: both;
+					width: 100%;
+					}
+
+.layout-hl-1c #container,
+.layout-hl-2c-l #container,
+.layout-hl-2c-r #container,
+.layout-hr-1c #container,
+.layout-hr-2c-l #container,
+.layout-hr-2c-r #container {
+	width: 320px;
+	}
+
+	.layout-hl-1c .container-wrap,
+	.layout-hl-2c-l .container-wrap,
+	.layout-hl-2c-r .container-wrap,
+	.layout-hr-1c .container-wrap,
+	.layout-hr-2c-l .container-wrap,
+	.layout-hr-2c-r .container.wrap {
+		background: #fff;
+		}
+	
+		.layout-hl-1c #header,
+		.layout-hl-2c-l #header,
+		.layout-hl-2c-r #header,
+		.layout-hr-1c #header,
+		.layout-hr-2c-l #header,
+		.layout-hr-2c-r #header {
+			border-bottom: 1px solid #f8f8f8;
+			width: 100%;
+			}
+	
+		.layout-hl-1c #main,
+		.layout-hl-2c-l #main,
+		.layout-hl-2c-r #main,
+		.layout-hr-1c #main,
+		.layout-hr-2c-l #main,
+		.layout-hr-2c-r #main {
+			width: 100%;
+			}
+			
+/**
+ * Content Reset
+ ************************************************/
+
+			.layout-1c .gallery .col-0,
+			.layout-1c .gallery .col-1 {
+				width: 280px;
+				}
+			.layout-1c .gallery .col-2 {
+				width: 120px;
+				}
+			.layout-1c .gallery .col-3,
+			.layout-1c .gallery .col-4,
+			.layout-1c .gallery .col-5,
+			.layout-1c .gallery .col-6,
+			.layout-1c .gallery .col-7,
+			.layout-1c .gallery .col-8,
+			.layout-1c .gallery .col-9 {
+				width: 66px;
+				}
+				.layout-1c .col-3 .gallery-caption,
+				.layout-1c .col-4 .gallery-caption {
+					display: none;
+					}
+
+/**
+ * Widgets Reset
+ ************************************************/
+
+.sidebar-2c .widget,
+.sidebar-3c .widget,
+.sidebar-4c .widget,
+.sidebar-5c .widget {
+	margin-left: 0;
+	width: 100%;
+	}
+		
+	.widget-inside {
+		padding: 0 40px !important;
+		}
+		
+/**
+ * Header
+ ************************************************/		
+
+.header_bg_down {height: auto; padding-bottom: 20px}
+.flexslider .slides li img {max-width: 100%; height: auto}
+#search-formhybrid-search input.search-text {width: 100%; height: 36px; background-position: left -1px}
+
+
+/**
+ * Sidebars 
+ ************************************************/
+ 
+.sidebar {
+	border-top: 3px double #f8f8f8;
+	padding: 18px 0 !important;
+	}
+ 
+#sidebar-primary,
+#sidebar-secondary {
+	clear: both;
+	width: 100%;
+	}
+
+.subscribe_cont input[type="text"] {float: left; width: 37.6%; margin-right: 2%}
+	
+	
+/**
+ * Content
+ ************************************************/
+ 
+ 	.widget-inside {padding: 0 !important}
+ 	#content .product_list_widget li img {margin-right: 0}
+	
+	.product-header .images {width: 100%; margin: 0 0 30px 0}
+	.product-header .product-summary {width: 100%; clear: both}
+	
+	.col-1, .col-2 {width: 100% !important}
+	.col-1 {margin-right: 0%}
+	
+	.author-admin form p#shiptobilling input {width: auto !important}
+
+/**
+ * Footer
+ ************************************************/
+ 
+ 	.subscribe_cont input[type="submit"] {margin-top: 0px}
+
+	.footer_col1, .footer_col2, .footer_col3 {float: none; width: 100%; margin: 0 0 40px; clear: both}
+	#footer .widget {float: none}
+	#footer .social_media_list, .social_media_list {margin-left: -3% !important; position: relative}
+	#footer .social_media_list li, .social_media_list li {float: left; width:47%; margin-left: 3% !important}
+	
+	.form-row label {padding-bottom: 0; margin-bottom: 0}
+	input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], 				input.input-text, input[type="time"], input[type="url"], input[type="week"], select, textarea {margin-top: 0}
+	
+	.quantity input.input-text {padding-left: 0 !important; padding-right: 24px !important; margin-bottom: 0}
+	.quantity input.plus {top: 1px !important}
+	.quantity input.minus {bottom: 0px !important}
+	
+	.product-content .woocommerce_tabs ul.tabs li {margin-bottom: 5px}
+	.product-content .woocommerce_tabs ul.tabs li a {border-radius: 4px}
+	
+	form input.button {margin-left: 0}
+	
+	.loop-entries li .featured-image-link {float: none; margin-bottom: 20px}
+	
+	.layout-3c-c #content, .layout-3c-l #content, .layout-3c-r #content, .layout-hl-2c-l #content, .layout-hl-2c-r #content, .layout-hr-2c-l #content, .layout-hr-2c-r #content {width: 100%}
+	
+	#sidebar .widget-search input[type="text"] {width: 100% !important}
+	
+	.slider_content {margin: 40px auto 50px}
+
+	.subscribe_cont p {margin-bottom: 15px}
+	
+	.footer_widgets {padding-bottom: 0}
+	
+	.advanced_left .form-row .date-feild {width: 218px}
+	.advanced_left .adv-chk {padding-left: 0 !important}
+	.advanced_left .form-row .b_submit {margin-left: 0}
+	
+	#contact_frm .form-row .message_error {margin-left: 0}
+	
+	.header-wrap .widget #searchform {padding-top: 0}
+
+    .login .lost_password, .jigoshop_login_widget .forgot {margin-left: 0}
+	
+	.shop_table .button, .shop_table .button {margin: 0 10px 5px 0}
+	
+	.advanced_left .form-row .date-feild {width: 90px}
+		
+	.form-row-first, .form-row-last {width: 100%}
+	.form-row input[type="text"], .form-row input[type="password"], .form-row select {width: 100% !important}
+	
+	.flex-slides li p.post_content {display: none}
+	
+	/* ----- JIGOSHOP -----*/
+	.sidebar .widget .product_list_widget .star-rating {margin-bottom: 0}
+	
+	.jigoshop-product .jigoshop_message, .jigoshop-product .jigoshop_error {line-height: 20px !important}
+	
+	#jigo_shopping_cart {display: none !important}
+	
+	#billing-company {max-width: 100%}
+	
+	/*------------------- Woo Commerce -------------------*/
+body div.product .woocommerce_tabs ul.tabs {
+							padding-bottom: 10px;
+}
+body div.product .woocommerce_tabs ul.tabs li.active, body #content div.product .woocommerce_tabs ul.tabs li.active {
+							border-color: #D5D5D5;
+}
+body div.product .woocommerce_tabs ul.tabs li.active, body #content div.product .woocommerce_tabs ul.tabs li.active {
+							border-radius: 7px;
+}
+
+} /* End @media max-width: 679px */
+
+
+
+@media only screen and (max-width: 480px) {
+	
+.header_bg #menu-primary-title {background: none; border-radius: 0; box-shadow: none; color: #333333; cursor: pointer}
+.header_bg #menu-primary-title:hover {color: #000000; text-decoration: underline}	
+	
+#branding {width: 100%; text-align: center}
+
+#menu-secondary .widget {margin-top: -9px !important}
+
+.header-wrap .templatic_shooping {
+	margin-top: 0;
+	width: 135px;	
+	position: absolute;
+	top: 0;
+	right: 10px;
+	margin-left: 10px;
+	}
+	
+.shoppingcart_box .cart_items {
+	white-space: nowrap;
+	}
+	
+.header-wrap .templatic_shooping .cart_checkout .button {
+	font-size: 12px;
+	padding: 5px;
+	}
+	
+.header-wrap .templatic_shooping .woo_cart_desc {display: none}
+
+.header-wrap .widget .product_list_widget li img {
+	display: none;
+	}
+	
+.header-wrap {position: inherit}
+
+
+.shoppingcart_box .cart_items {padding: 18px 10px 10px 38px; background-position: 5px -37px}	
+	
+.layout-hl-1c #container,
+.layout-hl-2c-l #container,
+.layout-hl-2c-r #container,
+.layout-hr-1c #container,
+.layout-hr-2c-l #container,
+.layout-hr-2c-r #container {
+	width: 100%;
+	}
+	
+/**
+ * Content Reset
+ ************************************************/
+ 
+ 
+			.gallery {
+				margin: 0;
+				}
+			.gallery-item {
+				margin-left: 0;
+				width: 100% !important;
+				}
+ 
+			.gallery-caption {
+				display: block !important;
+				}
+				
+			.footer-wrap .footer-content .copyright {padding: 10px 0}
+			.footer-wrap .footer-content p {float: none; clear: both; padding: 3px 0 !important}
+			
+			.subscribe_cont input[type="text"] {float: none; width: 100%}
+			
+			.form-row input[type="text"], .form-row input[type="password"], .form-row select, .form-row textarea {width: 100% !important}
+			#contact_frm .form-row .b_submit {margin-left: 0}
+			
+			.nav_bg {
+				background: none;
+				border-radius: 0;
+				box-shadow:non;
+				padding: 0;
+				box-shadow: none; 
+			}
+			div#menu-secondary .menu {
+				background: url(images/navi_bk.png) repeat-x scroll 0 0 #000;
+				border-radius: 3px;
+				box-shadow: 0 2px 0 #999 inset, 0 1px 2px #999;
+				padding: 11px 160px 11px 10px; 
+			}
+			
+			.singular .gallery .gallery-row dl {float: left; clear: none !important}
+			
+			
+			/**
+ * Menus Reset
+ ************************************************/
+	
+	/* Global Menus Reset */
+	
+	div#menu-primary-title,
+	div#menu-secondary-title, 
+	div#menu-subsidiary-title,
+	div#menu-header-primary-title,
+	div#menu-header-secondary-title,
+	div#menu-header-horizontal-title {
+		display: block;
+		}
+		
+	span.sub-indicator {
+		display: none !important;
+		}
+		
+	div#menu-primary .menu,
+	div#menu-secondary .menu,
+	div#menu-subsidiary .menu,
+	div#menu-header-primary .menu,
+	div#menu-header-secondary .menu,
+	div#menu-header-horizontal .menu {
+		display: none;
+		float: none;
+		height: auto;
+		min-height: none;
+		padding: 0;
+		width: 100%;
+		}
+		
+	div#menu-primary .menu.visible,
+	div#menu-secondary .menu.visible,
+	div#menu-subsidiary .menu.visible,
+	div#menu-header-horizontal .menu.visible,
+	div#menu-header-primary .menu.visible,
+	div#menu-header-secondary .menu.visible {/* Works with supreme.js .toggleClass() */
+		display: block;
+		}
+	
+	div#menu-primary .menu ul,
+		div#menu-primary .menu li,
+		div#menu-primary .menu ul ul,
+	div#menu-secondary .menu ul,
+		div#menu-secondary .menu li,
+		div#menu-secondary .menu ul ul,
+	div#menu-subsidiary .menu ul,
+		div#menu-subsidiary .menu li,
+		div#menu-subsidiary .menu ul ul,
+	div#menu-header-primary .menu ul,
+		div#menu-header-primary .menu li,
+		div#menu-header-primary .menu ul ul,
+	div#menu-header-secondary .menu ul,
+		div#menu-header-secondary .menu li,
+		div#menu-header-secondary .menu ul ul,
+	div#menu-header-horizontal .menu ul,
+		div#menu-header-horizontal .menu li,
+		div#menu-header-horizontal .menu ul ul {
+			float: none;
+			width: 100% !important;
+			}
+
+				div#menu-primary .menu ul ul,
+				div#menu-secondary .menu ul ul,
+				div#menu-subsidiary .menu ul ul,
+				div#menu-header-primary .menu ul ul,
+				div#menu-header-secondary .menu ul ul,
+				div#menu-header-horizontal .menu ul ul,
+				.layout-hl-1c div#menu-header-primary .menu ul ul,
+				.layout-hl-1c div#menu-header-secondary .menu ul ul,
+				.layout-hl-2c-l div#menu-header-primary .menu ul ul,
+				.layout-hl-2c-l div#menu-header-secondary .menu ul ul,
+				.layout-hl-2c-r div#menu-header-primary .menu ul ul,
+				.layout-hl-2c-r div#menu-header-secondary .menu ul ul,
+				.layout-hr-1c div#menu-header-primary .menu ul ul,
+				.layout-hr-1c div#menu-header-secondary .menu ul ul,
+				.layout-hr-2c-l div#menu-header-primary .menu ul ul,
+				.layout-hr-2c-l div#menu-header-secondary .menu ul ul,
+				.layout-hr-2c-r div#menu-header-primary .menu ul ul,
+				.layout-hr-2c-r div#menu-header-secondary .menu ul ul,
+				.layout-hl-1c div#menu-header-horizontal .menu ul ul,
+				.layout-hl-2c-l div#menu-header-horizontal .menu ul ul,
+				.layout-hl-2c-r div#menu-header-horizontal .menu ul ul,
+				.layout-hr-1c div#menu-header-horizontal .menu ul ul,
+				.layout-hr-2c-l div#menu-header-horizontal .menu ul ul,
+				.layout-hr-2c-r div#menu-header-horizontal .menu ul ul {
+					bottom: auto !important;
+					display: block !important;
+					left: auto !important;
+					margin: 0 !important;
+					position: static !important;
+					top: auto !important;
+					visibility: visible !important;
+					width: 100% !important;
+					}
+					
+				div#menu-primary .menu li li a,
+				div#menu-secondary .menu li li a,
+				div#menu-subsidiary .menu li li a,
+				div#menu-header-primary .menu li li a,
+				div#menu-header-secondary .menu li li a,
+				div#menu-header-horizontal .menu li li a {
+					padding-left: 38px !important;
+					font-size: 14px;
+					}
+
+					div#menu-primary .menu li li li a,
+					div#menu-secondary .menu li li li a,
+					div#menu-subsidiary .menu li li li a,
+					div#menu-header-primary .menu li li li a,
+					div#menu-header-secondary .menu li li li a,
+					div#menu-header-horizontal .menu li li li a {
+						padding-left: 54px !important;
+						background-position: 40px 19px !important;
+						}
+						div#menu-primary .menu li li li li a,
+						div#menu-secondary .menu li li li li a,
+						div#menu-subsidiary .menu li li li li a,
+						div#menu-header-primary .menu li li li li a,
+						div#menu-header-secondary .menu li li li li a,
+						div#menu-header-horizontal .menu li li li li a {
+							padding-left: 69px !important;
+							background-position: 55px 19px !important;
+							}
+							div#menu-primary .menu li li li li li a,
+							div#menu-secondary .menu li li li li li a,
+							div#menu-subsidiary .menu li li li li li a,
+							div#menu-header-primary .menu li li li li li a,
+							div#menu-header-secondary .menu li li li li li a,
+							div#menu-header-horizontal .menu li li li li li a {
+								padding-left: 85px !important;
+								background-position: 70px 19px !important;
+								}
+								
+	/* Primary Menu */
+	
+	div#menu-primary .menu li a {
+		background: #fff url(images/disc.png) 40px 11px no-repeat;
+		border: 0;
+		border-bottom: 1px dotted #EAE7E7;
+		padding-left: 24px;
+		padding-right: 24px;
+		}
+	div#menu-primary .menu li a:hover {
+		background-color: #fcfcfc;
+		}
+		div#menu-primary .menu li li a {
+			background-color: #fff;
+			background-position: 66px 11px;
+			border-color: #f8f8f8;
+			}
+			div#menu-primary .menu li li li a {background-position: 92px 11px}
+			div#menu-primary .menu li li li li a {background-position: 118px 11px}
+			div#menu-primary .menu li li li li li a {background-position: 144px 11px}
+			div#menu-primary-title, div#menu-secondary-title, div#menu-subsidiary-title, div#menu-header-horizontal-title, div#menu-header-primary-title, div#menu-header-secondary-title {
+				background: url("images/navi_bk.png") repeat-x scroll 0 0 #000000;
+				border-radius: 30px;
+				box-shadow: 0 2px 0 #999999 inset, 1px 1px 2px #666666;
+				padding: 10px 25px;
+				font-family: 'Droid Serif',Gorgia,Times,Serif;
+				font-size: 15px;
+				color: #ffffff;
+				font-weight: normal;
+				width: 45px;
+				text-align: center;
+				margin-top: 0;
+			}	
+	    
+	/* Secondary/Subsidiary Menus */
+	
+	div#menu-secondary .menu li a,
+	div#menu-subsidiary .menu li a {
+		background: #fff url(images/disc.png) 40px 17px no-repeat;
+		border: 0;
+		border-bottom: 1px dotted #EAE7E7;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-shadow: 0 1px #FFFFFF;
+		color: #333333;
+		font-size: 14px;
+		}
+		
+	div#menu-secondary .menu li a:hover,
+	div#menu-subsidiary .menu li a:hover {
+		background-color: #ffffff;
+		box-shadow: none;
+		border-radius: 0;
+		}
+		div#menu-secondary .menu li li a,
+		div#menu-subsidiary .menu li li a {
+			background-color: #fff;
+			background-position: 66px 17px;
+			border-color: #f8f8f8;
+			padding: 10px 0;
+			}
+			div#menu-secondary .menu li li li a,
+			div#menu-subsidiary .menu li li li a {background-position: 92px 17px}
+			div#menu-secondary .menu li li li li a,
+			div#menu-subsidiary .menu li li li li a {background-position: 118px 17px}
+			div#menu-secondary .menu li li li li li a,
+			div#menu-subsidiary .menu li li li li li a {background-position: 144px 17px}
+
+	/* Header Primary/Secondary/Horizontal Menus */
+	
+	div#menu-header-primary,
+	div#menu-header-secondary, 
+	div#menu-header-horizontal {
+		clear: both;
+		float: none !important;
+		margin: 0 !important;
+		padding: 0 40px;
+		width: auto !important;
+		}
+		
+		div#menu-header-primary .wrap,
+		div#menu-header-secondary .wrap,
+		div#menu-header-horizontal .wrap {
+			padding-top: 0;
+			}
+		
+		div#menu-header-primary .menu li a,
+		div#menu-header-secondary .menu li a,
+		div#menu-header-horizontal .menu li a {
+			background: #fff url(images/disc.png) 0 17px no-repeat !important;
+			border: 0;
+			border-bottom: 1px dotted #f8f8f8;
+			padding-left: 26px !important;
+			padding-right: 0;
+			}
+			div#menu-header-primary .menu li li a,
+			div#menu-header-secondary .menu li li a,
+			div#menu-header-horizontal .menu li li a {
+				background: #fff url(images/disc.png) 26px 17px no-repeat !important;
+				padding-left: 52px !important;
+				padding-right: 0;
+				}
+				div#menu-header-primary .menu li li li a,
+				div#menu-header-secondary .menu li li li a,
+				div#menu-header-horizontal .menu li li li a {
+					background-position: 52px 17px !important;
+					padding-left: 78px !important;
+					}
+					div#menu-header-primary .menu li li li li a,
+					div#menu-header-secondary .menu li li li li a,
+					div#menu-header-horizontal .menu li li li li a {
+						background-position: 78px 17px !important;
+						padding-left: 104px !important;
+						}
+						div#menu-header-primary .menu li li li li li a,
+						div#menu-header-secondary .menu li li li li li a,
+						div#menu-header-horizontal .menu li li li li li a {
+							background-position: 104px 17px !important;
+							padding-left: 130px !important;
+							}
+							
+							div#menu-secondary .menu li a:hover, div#menu-subsidiary .menu li a:hover, div#menu-secondary .menu li.current-menu-item a, div#menu-subsidiary .menu li.current-menu-item a {
+								border-radius: 0;
+								box-shadow: none;
+								background: #F8F8F8;
+							}
+							div#menu-secondary .menu li.current-menu-item li a:hover, div#menu-subsidiary .menu li.current-menu-item li a:hover {color: #333333 !important; box-shadow: none}
+							div#menu-secondary .menu li.current-menu-item li a, div#menu-subsidiary .menu li.current-menu-item li a {color: #333333; text-shadow: 0 1px #ffffff}
+							div#menu-secondary .menu li li a, div#menu-subsidiary .menu li li a {background: #ffffff; color: #333333}
+							.nav_container .menu {margin-bottom: 4px; box-shadow: 0 0 3px #999999}
+							
+	div#menu-footer {
+		width: 100%;
+		}
+		div#menu-footer .menu li {
+			margin-left: 0;
+			margin-right: 40px;
+			}
+			
+			.subscribe_cont input[type="text"] {margin-bottom: 10px}
+			
+			.menu-container #searchform #s, #header #searchform #s, .menu-container #search-formhybrid-search input.search-text {width: 180px; float: right}
+			.menu-container #searchform #s:focus, #header #searchform #s:focus, .menu-container #search-formhybrid-search input.search-text:focus {width: 190px}
+			
+			.form-row-first, .form-row-last {clear: both; float: none !important; width: 100% !important}
+			.form-row-first input[type="text"], .form-row-first select .form-row-last input[type="text"], .form-row-last select {width: 100% !important}
+			
+			.advanced_left .form-row img.adv_calendar {margin-bottom: 10px}
+			
+			#fancybox-content {width: 100% !important; background: #ffffff}
+			#fancybox-wrap {width: 70% !important}
+			#fancybox-close {right: -45px !important}
+			#fancybox-content form#commentform label {float: none; width: auto}
+			#fancybox-content form#commentform input[type="text"], #fancybox-content form#commentform textarea {width: 100%; float: none}
+		
+			
+			.flex-flexslider {}
+			
+			.slider_content {margin-bottom: 0}
+			
+			form#commentform .form-submit {padding-left: 0; margin-top: 20px}
+			.comment-reply-link, .comment-reply-login {margin-top: 5px}
+			.comment-text {padding-top: 60px}
+			#respond #cancel-comment-reply-link {float: none; clear: both; display: block}
+			
+			.sidebar .widget .product_list_widget .star-rating {margin-bottom: 0}
+			
+			.menu-container #searchform #s, #header #searchform #s, .menu-container #search-formhybrid-search input.search-text, 
+			.mega-menu #searchform input[type="text"]{border-radius: 60px; height: 41px}
+			
+			
+			/*---- JIGOSHOP -----*/
+			
+			.jigoshop-myaccount .author-admin .entry-content p.form-row-last {margin-bottom: 20px}
+			.author-admin form p.form-row input {float: none; clear: both}
+			.form-row #createaccount {float: left}
+			
+			.jigoshop-cart #content .shop_table .checkout-button {margin-top: 10px !important; margin-right: 0}
+			td.actions .button-alt {float: none !important}
+			
+			.flex-flexsliderviewport {min-height: auto !important}
+			
+			/**
+ * Navigation Menu
+ ************************************************/	
+
+	div#menu-secondary .menu ul ul, div#menu-subsidiary .menu ul ul {background: #ffffff !important; box-shadow: none; border-radius: 0}
+	div#menu-secondary .menu li li a:hover, div#menu-subsidiary .menu li li a:hover, div#menu-secondary .menu li li.current-menu-item a, div#menu-subsidiary .menu li li.current-menu-item a {background: #F8F8F8 !important; color: #333333 !important; text-shadow: none !important}
+	div#menu-secondary .menu li:hover a {background: #F8F8F8; box-shadow: none; border-radius: 0}
+	div#menu-secondary .menu li li a, div#menu-subsidiary .menu li li a {font-size: 14px !important; background: url(images/maga-bullet.png) no-repeat 23px 19px !important}
+	div#menu-secondary .menu li li.current-menu-item li a, div#menu-subsidiary .menu li li.current-menu-item li a {background: none !important}
+ 
+  /**
+ * Mega Menu
+ ************************************************/
+ 
+ .mega-menu {width: 96%}
+ .mega-menu ul.mega {display: none; width: 100%; background: #ffffff}
+ .mega-menu ul.mega li {clear: both; float: none; width: 100%}
+ .mega-menu ul.mega li .sub-container {position: static}
+ .mega-menu ul.mega li a {border-bottom: 1px dotted #5E5E5E; color: #333333; text-shadow: 0 1px 1px rgba(255,255,255,0.5); float: none}
+ .mega-menu ul.mega li:last-child a {border-bottom: none}
+ .mega-menu ul.mega li a:hover, .mega-menu ul.mega li:hover a {background: none; box-shadow: none}
+ 
+ .mega-menu ul.mega li .sub li.mega-hdr {width: 630px}
+ .mega-menu ul.mega li ul li a {border-bottom: none}
+ .mega-menu ul.mega li .sub-container.mega .sub {display: block !important; padding: 10 15px 0}
+ .mega-menu ul.mega li .sub-container.mega .sub .row {width: auto !important}
+ .mega-menu ul.mega li ul.sub-menu {background: #F8F8F8; box-shadow: none; border-radius: 0; display: block !important; padding: 5px 0; margin-bottom: 0}
+ .mega-menu ul.mega li a:hover, .mega-menu ul.mega li:hover a, .mega-menu ul.mega li.current-menu-item a, .mega-menu ul.mega li.current-menu-ancestor a {background: none; box-shadow: none; border-radius: 0}
+ 
+ .advanced_left .form_row .date-feild { width: 240px !important; }
+			
+   /* ---------------------- Woo commerce  -------------------------*/
+   #content ul.products li.product {width: 43%;}
+#content div.product div.images {width: 60%;}
+#content div.product .product-header div.images {width: 100%;}
+#content div.product .product-header .images .zoom img {margin: 0 auto;}
+.product-header .product-summary {width: 100%;}
+.col2-set .col-1, .col2-set .col-2 {width: 100% !important;}
+form .form-row-first, form .form-row-last {width: 98%;}
+.col2-set input[type="text"], .col2-set input[type="password"], .col2-set select, .col2-set textarea {margin: 0 !important;}
+.customer_details dt {width: 100%;}
+body .woocommerce_tabs ul.tabs {height: auto;}
+.shop_table .button, .shop_table .checkout-button {margin-bottom: 5px;}
+body table.cart td.actions .button.alt, body #content table.cart td.actions .button.alt {float: none;}
+.shop_table #coupon_code {width: 60px !important;}
+
+} /* End @media max-width: 359px */
+
+
+@media only screen and (max-width: 320px) {
+
+/* -------------------------- Woo commerce  ---------------------------*/
+#content ul.products {
+margin-left: 0;
+}
+#content ul.products li.product {
+display: block;
+width: 80%;
+text-align: center;
+margin: 30px auto;
+}
+ul.products li.product.last {
+margin-right: auto !important;
+}
+body .actions input[type="submit"] {
+margin: 5px 0 !important;
+}
+.grid02 ul.list li p.tevolution_field_title,
+.grid02 ul.list li p.tevolution_field_value {width: 99%; clear: both;}
+.indexlist .post a.post_img img {width: auto; float: none; margin: 0 auto;}
+
+}
+
+.browse_by_category .children {display:none}
+
+.shipping_calculator {margin-bottom: 30px !important}
+
+.inline show_review_form {text-decoration: underline !important}
+.inline show_review_form:hover {text-decoration: none !important}
+
+.adv-chk {padding-left: 100px !important}
+
+.entry-content .woocommerce_info{display:none}
+
+	
+

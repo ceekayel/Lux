@@ -1,0 +1,248 @@
+Templatic theme - Catalog      (Initial Launched on 16th October 2012).
+================================================================================================================================================================================================================
+26th February 2014 (1.0.11)
+----------------------------------------------
+Fix: Design issues with WooCommerce 2.1
+----------------------------------------------
+style.css
+----------------------------------------------
+31st January 2014 (Version : 1.0.10)
+---------------------------------------------------------
+Fix: Removed unnecessary <p> tag from catalog cart page
+---------------------------------------------------------
+/Catalog/functions.php
+------------------------------------------------------------------------------
+Fix- in WooCommerce detail page - review pop up - rating was not coming good
+--------------------------------------------------------------------------------
+style.css
+------------------------------------------------------------------------
+Fix: Remove the code which include the date picker not necessary here
+---------------------------------------------------------------------
+functions.php
+----------------------------------------------------------------
+General PHP notices and warnings related improvement in code
+---------------------------------------------------------------
+functions.php
+templatic_login.php
+wp-updates-theme.php
+------------------------------------------------------
+19th October 2013 (Version : 1.0.9)
+---------------------------------------------------
+FIX : Issue of Image URL in Home page Slider widget.
+---------------------------------------------------
+functions/widget_functions.php
+
+------------------------------------------------------------------
+FIX : Images were not getting cropped properly with featured image.
+------------------------------------------------------------------
+functions/widget_functions.php
+functions/custom_functions.php
+
+------------------------------------------
+FIX : Issue of "Header Search" widget area.
+------------------------------------------
+functions/widget_functions.php
+menu-secondary.php
+style.css
+
+
+
+3rd September 2013 (Version : 1.0.8)
+--------------------------------------------------------------
+FIX :
+Responsive view Woo shopping cart widget in header right area.
+Issue of woo commerce plus minus button for z-index property.
+--------------------------------------------------------------
+style.css
+
+-----------------------------------------------
+FIX : Header right area is not working(Removed).
+-----------------------------------------------
+functions/widget_functions.php
+
+---------------------------------------------------
+FIX : shortcode plugin was getting conflicted with js.
+---------------------------------------------------
+functions.php
+
+
+
+17th June 2013 (Version : 1.0.7)
+------------------------------------------------------------------------------------
+FIX : changes for menu search design, slider navigation design & content <ul> <li> tags.
+------------------------------------------------------------------------------------
+style.css
+
+------------------------------------------------------
+FIX : Add code to set common folder for dummy images.
+------------------------------------------------------
+functions/auto_install/auto_install_data.php
+
+--------------------------------------------------------------------------------------
+FIX : Mega menu plugin related changes becasue of wrong widget area was getting called.
+--------------------------------------------------------------------------------------
+functions/widget_functions.php
+menu-secondary.php
+
+
+
+22nd April 2013 (Version : 1.0.6)
+----------------------------------
+Added Auto update feature - Done.
+----------------------------------
+Modified files :
+functions/custom_functions.php
+functions.php
+
+New added files :
+templatic_login.php
+wp-updates-theme.php
+
+-----------------------------------
+Issue of mega menu design - Solved.
+onsale tag design - Solved.
+-----------------------------------
+style.css
+
+--------------------------------------------------------
+woocommerce shopping cart widget not updating - Solved.
+woocommerce cart style issue - Solved.
+--------------------------------------------------------
+functions/widget_functions.php
+style.css
+
+
+
+19th March 2013 (Version : 1.0.5)
+---------------------------------------
+Compatibility for WooCommerce2 - Done.
+---------------------------------------
+Modified files :
+footer.php
+style.css
+
+New added file :
+woocommerce.php
+
+
+6th March - 2013 (1.0.4)
+---------------------------
+Issue of fatal error - Solved.
+---------------------------
+css/admin-style.php
+
+----------------------------------
+Issue of fatal error (slider) - Solved.
+----------------------------------
+functions.php
+
+----------------------------------------
+clear both add to .nav_bg class - Solved.
+----------------------------------------
+style.css
+
+
+
+28th Jan - 2013 (1.0.3)
+------------------------------------------------------------
+added option of favicon image icon
+--------------------------------------------
+header.php
+functions.php
+--------------------------------------
+image path issue in network
+-------------------------------
+functions/auto_install/auto_install_data.php
+-----------------------------------------------
+removed mega menu from child theme
+--------------------------------------------
+functions/mega_menu_widget.php - deleted
+js/jquery.megamenu.1.2.js - deleted
+functions/widget_functions.php
+----------------------------------------------------------
+Added code for show / hide comments on page or post option
+---------------------------------------------------------
+post.php
+functions/custom_functions.php
+
+
+3rd Jan - 2013 (1.0.2)
+---------------------------------------------------------
+Coupon was not displaying on Woo checkout page - Solved.
+Issue of detail page main image responsive issue - Solved.
+Issueof iPhone megamenu font size - Solved.
+---------------------------------------------------------
+style.css
+
+--------------------------------------------------------------------------------
+Issue of slider now using featured image first instead of 1st image in gallery - Done.
+--------------------------------------------------------------------------------
+functions/widget_functions.php
+
+------------------
+changed footer link
+------------------
+functions/auto_install/auto_install_data.php
+
+--------------------------------------
+error in wordpress version 3.5 - Solved.
+changed function for WP 3.5
+--------------------------------------
+functions/widget_functions.php
+functions.php
+header.php
+
+Notice:
+get_current_theme is deprecated since version 3.4! Use wp_get_theme() instead. in /httpdocs/wp-includes/functions.php on line 2638
+
+------------------------------------
+breadcrumbs related changes - Done.
+------------------------------------
+page-template-advanced_search.php
+functions/auto_install/auto_install.php
+post.php
+
+
+
+
+17th Nov - 2012 (v:1.0.1)
+-----------------------------------------------------------------------------------------------
+Issue of backend colorscheme changes for border color - Solved.
+-----------------------------------------------------------------------------------------------
+css/admin-style.php
+style.css
+
+-------------------------------------------------------s-----------------------------------
+Removed a js file - conflicting with shortcodes plugin - Solved.
+------------------------------------------------------------------------------------------
+functions/custom_functions.php
+
+------------------------------------------------------------------------
+colorscheme backend settings changed - Solved.
+------------------------------------------------------------------------
+css/admin-style.php
+images/bodybg.png
+style.css
+New added --> images/cart_btm_bk1.png
+New added --> images/navi_bk1.png
+
+----------------------------------------------------------------------------------------------------------------------------
+Issue of Slider now using featured image first instead of 1st image in gallery - Solved.
+----------------------------------------------------------------------------------------------------------------------------
+functions/widget_functions.php
+
+--------------------------------------------------------------------
+added advanced search page template - Done.
+--------------------------------------------------------------------
+New added --> page-template-advanced_search.php
+
+--------------------------------------------------------------------------------------
+Issue of slider widget first time jquery no tworking - Solved.
+--------------------------------------------------------------------------------------
+functions/widget_functions.php
+functions.php
+
+------------------------------------------------------------------------------------------------
+Issue of issue with 3 level menu with flex slider in safari - Solved .
+------------------------------------------------------------------------------------------------
+functions/widget_functions.php
