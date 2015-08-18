@@ -41,6 +41,26 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/ceekayel/Directory.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ceekayel/Tevolution-Directory.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ceekayel/Tevolution-LocationManager.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ceekayel/Video.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ceekayel/Catalog.git"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/ceekayel/duplicator.git"
     }
   ],
@@ -51,7 +71,13 @@
     "trick-e/x-theme": "^4.0",
     "trick-e/cornerstone": "^1.0",
     "trick-e/revslider": "^4.6",
-    "trick-e/duplicator": "^0.5.24"
+    "trick-e/duplicator": "^0.5.24",
+    "wpackagist-plugin/woocommerce": "^2.4",
+    "trick-e/video-theme": "^1.1",
+    "trick-e/directory-theme": "^2.0",
+    "trick-e/tevolution-directory-plugin": "^2.0",
+    "trick-e/tevolution-location-manager-plugin": "^2.0",
+    "trick-e/catalog-theme": "^1.0"
   },
   "extra"       : {
     "wordpress-install-dir": "wp"
