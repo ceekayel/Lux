@@ -30,13 +30,28 @@
     {
       "type": "vcs",
       "url": "../themeforest/x"
+    },
+    {
+      "type": "vcs",
+      "url": "../themeforest/cornerstone"
+    },
+    {
+      "type": "vcs",
+      "url": "../themeforest/x-shortcodes"
+    },
+    {
+      "type": "vcs",
+      "url": "../themeforest/revslider"
     }
   ],
   "require": {
     "php": ">=5.4 <5.7",
     "johnpbloch/wordpress" : ">=4.2 <4.3",
     "wpackagist-plugin/jonradio-multiple-themes": ">=7.1 <7.2",
-    "trick-e/x-theme": "^4.0"
+    "trick-e/x-theme": "^4.0",
+    "trick-e/cornerstone": "^1.0",
+    "trick-e/revslider": "^4.6",
+    "trick-e/x-shortcodes": "^3.0"
   },
   "extra"       : {
     "wordpress-install-dir": "wp"

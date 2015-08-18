@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a17a7d8f707cb5973f3dfd20a3f807d2",
+    "hash": "d9da3d3dd0a22719ce2f2025f3ebf5e0",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,16 +187,115 @@
             "time": "2015-06-11 15:15:30"
         },
         {
-            "name": "trick-e/x-theme",
-            "version": "4.0",
+            "name": "trick-e/cornerstone",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
-                "url": "../themeforest/x",
-                "reference": "edeb61a06b91743d9f3c54f2b20716046dd71670"
+                "url": "../themeforest/cornerstone",
+                "reference": "5d827c37ffe92fc365c0a7320d945c959d6981b1"
             },
             "require": {
                 "composer/installers": "^1.0",
                 "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Cornerstone Wordpress Plugin for X.",
+            "keywords": [
+                "cornerstone",
+                "plugin",
+                "plugins",
+                "wordpress",
+                "x-theme"
+            ],
+            "time": "2015-08-18 03:03:59"
+        },
+        {
+            "name": "trick-e/revslider",
+            "version": "4.6.93",
+            "source": {
+                "type": "git",
+                "url": "../themeforest/revslider",
+                "reference": "1c9301b7d3d647ff2bf0e015fe0823c6aefa3f93"
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Revslider Wordpress Plugin for X.",
+            "keywords": [
+                "plugin",
+                "plugins",
+                "revslider",
+                "wordpress",
+                "x-theme"
+            ],
+            "time": "2015-08-18 13:36:10"
+        },
+        {
+            "name": "trick-e/x-shortcodes",
+            "version": "3.0.5",
+            "source": {
+                "type": "git",
+                "url": "../themeforest/x-shortcodes",
+                "reference": "3d713c49077ef99a71b14818b42bd9a4c918e5f3"
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Shortcodes Wordpress Plugin for X.",
+            "keywords": [
+                "plugin",
+                "plugins",
+                "shortcodes",
+                "wordpress",
+                "x-theme"
+            ],
+            "time": "2015-08-18 13:37:35"
+        },
+        {
+            "name": "trick-e/x-theme",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "../themeforest/x",
+                "reference": "1b4934ac25ddca00244c15ed46e3930abfd06151"
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "suggest": {
+                "wpackagist-plugin/cornerstone": "^0.7.2 required for this theme to operate"
             },
             "type": "wordpress-theme",
             "license": [
@@ -216,7 +315,7 @@
                 "wordpress",
                 "x"
             ],
-            "time": "2015-08-13 23:25:12"
+            "time": "2015-08-18 02:28:49"
         },
         {
             "name": "wpackagist-plugin/jonradio-multiple-themes",

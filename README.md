@@ -1,3 +1,14 @@
 ## General Overview
 
 This is the Lux Blox website project which includes wordpress and several themes and plugins
+
+##Database
+
+```
+CREATE USER 'lux'@'localhost' IDENTIFIED BY PASSWORD '*665ADFA36435490D997F17246EF5B4D3D78BA5B2'; 
+GRANT USAGE ON *.* TO 'lux'@'localhost' IDENTIFIED BY PASSWORD '*665ADFA36435490D997F17246EF5B4D3D78BA5B2' REQUIRE NONE; 
+GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'localhost' WITH GRANT OPTION;
+GRANT USAGE ON *.* TO 'lux'@'lux.local' IDENTIFIED BY PASSWORD '*665ADFA36435490D997F17246EF5B4D3D78BA5B2';
+GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'lux.local' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'%' WITH GRANT OPTION;
+```
