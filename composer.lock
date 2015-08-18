@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9da3d3dd0a22719ce2f2025f3ebf5e0",
+    "hash": "88676dc8e8018cd53e19526184b4a6e0",
     "packages": [
         {
             "name": "composer/installers",
@@ -217,6 +217,37 @@
                 "x-theme"
             ],
             "time": "2015-08-18 03:03:59"
+        },
+        {
+            "name": "trick-e/duplicator",
+            "version": "0.5.26",
+            "source": {
+                "type": "git",
+                "url": "../duplicator",
+                "reference": "dee126f1a23ad4959a2b7aa6f0d9ccb356737db9"
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Duplicator Wordpress Plugin.",
+            "keywords": [
+                "duplicator",
+                "plugin",
+                "plugins",
+                "wordpress"
+            ],
+            "time": "2015-08-18 13:55:10"
         },
         {
             "name": "trick-e/revslider",
