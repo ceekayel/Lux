@@ -29,23 +29,19 @@
     },
     {
       "type": "vcs",
-      "url": "../themeforest/x"
+      "url": "https://github.com/ceekayel/x.git"
     },
     {
       "type": "vcs",
-      "url": "../themeforest/cornerstone"
+      "url": "https://github.com/ceekayel/cornerstone.git"
     },
     {
       "type": "vcs",
-      "url": "../themeforest/x-shortcodes"
+      "url": "https://github.com/ceekayel/revslider.git"
     },
     {
       "type": "vcs",
-      "url": "../themeforest/revslider"
-    },
-    {
-      "type": "vcs",
-      "url": "../duplicator"
+      "url": "https://github.com/ceekayel/duplicator.git"
     }
   ],
   "require": {
