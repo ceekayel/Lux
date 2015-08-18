@@ -1,0 +1,4034 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Supreme v1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-06-04 09:44+0530\n"
+"Last-Translator: admin <shakil@templatic.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ supreme
+#: 404.php:33
+msgid "Not Found"
+msgstr ""
+
+# @ supreme
+#: 404.php:35
+msgid "Sorry! This page does not exist."
+msgstr ""
+
+# @ supreme
+#: 404.php:40
+#, php-format
+msgid "You looked for %1$s,  which doesn't exist. Please check & search again."
+msgstr ""
+
+# @ supreme
+# @ hybrid-core
+#: 404.php:52 library/classes/widget-pages.php:44
+#: library/classes/widget-pages.php:123 loop-error.php:25
+#: page-template-sitemap.php:34
+msgid "Pages"
+msgstr ""
+
+# @ supreme
+#: 404.php:86 loop-error.php:61
+#, php-format
+msgid "%s Categories"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:37 functions/admin.php:37
+msgid "General"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: admin/functions-admin.php:47 functions/admin.php:47
+#: library/extensions/theme-layouts.php:377
+#: library/extensions/theme-layouts.php:485
+msgid "Layout"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:66 functions/admin.php:66
+msgid "Logo:"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:71 functions/admin.php:71
+msgid ""
+"Upload logo (image) then click button &quot;Insert Into Post&quot;. If it "
+"fails, just copy-paste image address in the above input field, now click "
+"&quot;Settings&quot; button (At the page bottom). Image displays "
+"automatically after settings are saved."
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:85 functions/admin.php:85
+#: templatic_customizer.php:246
+msgid "Hide Site Description"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:92 functions/admin.php:92
+msgid "Display Excerpts"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:96 functions/admin.php:96
+msgid "Display excerpts on archive pages."
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:101
+msgid "Display Excerpts on front (blog) page."
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:106 functions/admin.php:106
+msgid "Display Excerpts on search result pages."
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:109
+msgid ""
+"By default, the front/blog, archive pages, and search result page display "
+"the excerpt."
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:116
+msgid "Search Forms In Header"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:120
+msgid "Shows search form under Header Primary Menu"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:125
+msgid "Shows search form under Header Secondary Menu"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:128
+msgid ""
+"By default, search forms in the header are not displayed. Use this option to "
+"make them visible."
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:129
+msgid ""
+"Primary Search dependents on whether Header Primary Menu is active or not? "
+"If it is not, Primary Search will not be seen at all, regardless of your "
+"setting. The same goes for Secondary Search and Header Secondary Menu as "
+"well."
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:136
+msgid "Author&acute;s Biography and Avatar"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:140 functions/admin.php:140
+msgid "Show On Posts:"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:145 functions/admin.php:145
+msgid "Show On Pages:"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:147 functions/admin.php:147
+msgid ""
+"This controls the display of the author's biography box in the loop-entry-"
+"author.php file, which includes an avatar and biography (from your user "
+"profile page)."
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:168 functions/admin.php:168
+msgid "Global Layout:"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:173 admin/functions-admin.php:239
+msgid "layout_default"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:175 admin/functions-admin.php:240
+msgid "layout_1c"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:178 admin/functions-admin.php:241
+msgid "layout_2c_l"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:181 admin/functions-admin.php:242
+msgid "layout_2c_r"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:184 admin/functions-admin.php:243
+msgid "layout_3c_c"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:187 admin/functions-admin.php:244
+msgid "layout_3c_l"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:190 admin/functions-admin.php:245
+msgid "layout_3c_r"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:193 admin/functions-admin.php:246
+msgid "layout_hl_1c"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:196 admin/functions-admin.php:247
+msgid "layout_hl_2c_l"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:199 admin/functions-admin.php:248
+msgid "layout_hl_2c_r"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:202 admin/functions-admin.php:249
+msgid "layout_hr_1c"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:205 admin/functions-admin.php:250
+msgid "layout_hr_2c_l"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:208 admin/functions-admin.php:251
+msgid "layout_hr_2c_r"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:211
+msgid ""
+"Set the layout for the entire site. The default layout is 2 columns with "
+"content on the left, therefore, layout_default and layout_2c_l will display "
+"the same layout."
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:213
+msgid "Layout Guide"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:214
+msgid "layout_default: Default"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:215
+msgid "layout_1c: 1 Column"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:216
+msgid "layout_2c_l: 2 Columns, Left"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:217
+msgid "layout_2c_r: 2 Columns, Right"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:218
+msgid "layout_3c_c: 3 Columns, Center"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:219
+msgid "layout_3c_l: 3 Columns, Left"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:220
+msgid "layout_3c_r: 3 Columns, Right"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:221
+msgid "layout_hl_1c: Header Left 1 Column"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:222
+msgid "layout_hl_2c_l: Header Left 2 Columns, Left"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:223
+msgid "layout_hl_2c_r: Header Left 2 Columns, Right"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:224
+msgid "layout_hr_1c: Header Right 1 Column"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:225
+msgid "layout_hr_2c_l: Header Right 2 Columns, Left"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:226
+msgid "layout_hr_2c_r: Header Right 2 Columns, Right"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:235 functions/admin.php:220
+msgid "bbPress Layout:"
+msgstr ""
+
+# @ supreme
+#: admin/functions-admin.php:253 functions/admin.php:238
+msgid ""
+"To set the custom layout for all the bbPress pages (need bbPress installed), "
+"you can choose to set &quot;per forum&quot; or &quot;per topic layout&quot;. "
+"Choose your forum/topic to edit via &quot;All Forums&quot; or &quot;All "
+"Topics&quot; management page & click the \"Edit link\" to set the custom "
+"layout."
+msgstr ""
+
+# @ supreme
+#: attachment.php:52
+#, php-format
+msgid "Download \"%s\";"
+msgstr ""
+
+# @ supreme
+#: attachment.php:57 index.php:44 loop.php:30 page-template-contact.php:91
+#: page.php:39 post.php:44 singular.php:44
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+# @ supreme
+#: attachment.php:58 index.php:45 loop.php:31 page.php:40 post.php:45
+#: singular.php:45
+msgid "Pages:"
+msgstr ""
+
+# @ supreme
+#: attachment.php:63
+msgid "Gallery"
+msgstr ""
+
+# @ bbpress
+# @ hybrid-core
+#: bbpress/content-single-topic-lead.php:14 bbpress/loop-single-reply.php:26
+#: library/functions/shortcodes.php:376 single-reply.php:34
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+# @ fanwood
+#: bbpress/content-single-topic-lead.php:42
+msgid "Started by:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/content-single-user-edit.php:20
+#, php-format
+msgid "User %s Profile"
+msgstr ""
+
+# @ bbpress
+#: bbpress/content-single-user-edit.php:20
+msgid "Back to Profile"
+msgstr ""
+
+# @ bbpress
+#: bbpress/feedback-logged-in.php:13
+msgid "You are already logged in."
+msgstr ""
+
+# @ bbpress
+#: bbpress/feedback-no-access.php:13
+msgid "Private"
+msgstr ""
+
+# @ bbpress
+#: bbpress/feedback-no-access.php:16
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+# @ bbpress
+#: bbpress/feedback-no-forums.php:13
+msgid "Oh bother! No forums were found here!"
+msgstr ""
+
+# @ bbpress
+#: bbpress/feedback-no-topics.php:13
+msgid "Oh bother! No topics were found here!"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-anonymous.php:16
+msgid "Author Information"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-anonymous.php:16
+msgid "Your information:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-anonymous.php:21
+msgid "Name (required):"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-anonymous.php:26
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-anonymous.php:31
+msgid "Website:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:33 bbpress/form-topic.php:33
+#, php-format
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:35
+#, php-format
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:35
+msgid "Create New Forum"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:45
+msgid ""
+"This forum is closed to new content, however your account still allows you "
+"to do so."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:53 bbpress/form-reply.php:37
+#: bbpress/form-topic.php:53
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:65
+#, php-format
+msgid "Forum Name (Maximum Length: %d):"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:76
+msgid "Forum Description:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:91 bbpress/form-reply.php:66
+#: bbpress/form-topic.php:93
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:100
+msgid "Forum Type:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:109
+msgid "Status:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:118
+msgid "Visibility:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:127
+msgid "Parent Forum:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:132
+msgid "(No Parent)"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:147 bbpress/form-reply.php:134
+#: bbpress/form-topic-merge.php:78 bbpress/form-topic-split.php:79
+#: bbpress/form-topic.php:185
+msgid "Submit"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:171
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:179
+msgid "You cannot create new forums at this time."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-forum.php:179
+msgid "You must be logged in to create new forums."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-protected.php:13
+msgid "Protected"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:22
+#, php-format
+msgid "Reply To: %s"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:29
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:51 bbpress/form-topic.php:78
+msgid "Reply:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:75
+msgid "Tags:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:91 bbpress/form-topic.php:146
+msgid "Notify the author for follow-up replies via email"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:95 bbpress/form-topic.php:150
+msgid "Notify me for follow-up replies via email"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:109 bbpress/form-topic.php:164
+msgid "Revision"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:112 bbpress/form-topic.php:167
+msgid "Keep a log of this edit:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:116 bbpress/form-topic.php:171
+msgid "Optional reason for editing:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:156
+#, php-format
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:164 bbpress/form-topic.php:209
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:172
+msgid "You cannot reply to this topic."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-reply.php:172
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:20
+#, php-format
+msgid "Merge topic \"%s\""
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:23
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:24
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:28
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be updated "
+"to second earlier than this one."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:31
+msgid "Destination"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:36
+msgid "Merge with this topic:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:45
+msgid "No topics were found to merge!"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:51
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:57 bbpress/form-topic-split.php:58
+msgid "Topic Extras"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:63
+msgid "Merge topic subscribers"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:67
+msgid "Merge topic favoriters"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:69
+msgid "Merge topic tags"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:74 bbpress/form-topic-split.php:75
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:91 bbpress/form-topic-split.php:93
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-merge.php:91 bbpress/form-topic-split.php:93
+msgid "You cannot edit this topic."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:20
+#, php-format
+msgid "Split topic \"%s\""
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:23
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:27
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:30
+msgid "Split Method"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:33
+#, php-format
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:35
+#, php-format
+msgid "Split: %s"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:41
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:50
+msgid "No other topics found!"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:64
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:68
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-split.php:70
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:20
+msgid "Rename"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:23
+msgid "Leave the slug empty to generate it automatically."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:27
+msgid ""
+"Changing the slug affects its permalink. Any link to the old slug will stop "
+"working."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:33
+msgid "Name:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:38
+msgid "Slug:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:43
+msgid "Update"
+msgstr ""
+
+# @ bbpress
+# @ breadcrumb-trail
+#: bbpress/form-topic-tag.php:57 bbpress/form-topic-tag.php:71
+#: library/extensions/breadcrumb-trail.php:418
+msgid "Merge"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:60
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:66
+msgid "Existing tag:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:72
+#, php-format
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:87 bbpress/form-topic-tag.php:101
+msgid "Delete"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:90
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:94
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:95
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic-tag.php:102
+#, php-format
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic.php:35
+#, php-format
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic.php:35
+msgid "Create New Topic"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic.php:45
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic.php:67
+#, php-format
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic.php:102
+msgid "Topic Tags:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic.php:113
+msgid "Forum:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic.php:127
+msgid "Topic Type:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic.php:217
+msgid "You cannot create new topics at this time."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-topic.php:217
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+# @ bbpress
+# @ jigoshop
+# @ hybrid-core
+# @ supreme
+#: bbpress/form-user-edit.php:17 jigoshop/single-product-reviews.php:97
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-tags.php:168 library/functions/comments.php:187
+#: page-template-contact.php:138
+msgid "Name"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:22
+msgid "First Name"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:27
+msgid "Last Name"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:32
+msgid "Nickname"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:37
+msgid "Display name publicly as"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:45
+msgid "Contact Info"
+msgstr ""
+
+# @ bbpress
+# @ supreme
+# @ hybrid-core
+#: bbpress/form-user-edit.php:50 comments.php:75
+#: library/functions/comments.php:189
+msgid "Website"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:65
+msgid "About Yourself"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:65
+msgid "About the user"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:70
+msgid "Biographical Info"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:72
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:77
+msgid "Account"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:82 bbpress/form-user-login.php:17
+#: bbpress/form-user-register.php:22
+msgid "Username"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:84
+msgid "Usernames cannot be changed."
+msgstr ""
+
+# @ bbpress
+# @ jigoshop
+# @ hybrid-core
+# @ supreme
+#: bbpress/form-user-edit.php:88 bbpress/form-user-register.php:27
+#: jigoshop/single-product-reviews.php:99
+#: library/classes/widget-authors.php:137 library/functions/comments.php:188
+#: page-template-contact.php:146
+msgid "Email"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:99
+#, php-format
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s"
+"\">Cancel</a>"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:107
+msgid "New Password"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:109
+msgid ""
+"To change the password, please type the new one. Otherwise leave it blank."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:113
+msgid "Enter Password Again"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:119
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:124
+msgid "Role:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:133
+msgid "Super Admin"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:135
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:146
+msgid "Update Profile"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-edit.php:146
+msgid "Update User"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-login.php:14 bbpress/form-user-login.php:33
+msgid "Log In"
+msgstr ""
+
+# @ bbpress
+# @ supreme
+#: bbpress/form-user-login.php:22 templatic_login.php:130
+msgid "Password"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-login.php:28
+msgid "Keep me signed in"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-lost-pass.php:14
+msgid "Lost Password"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-lost-pass.php:17
+msgid "Username or Email"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-lost-pass.php:23
+msgid "Reset my password"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-register.php:14
+msgid "Create an Account"
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-register.php:17
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-register.php:18
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
+msgstr ""
+
+# @ bbpress
+#: bbpress/form-user-register.php:34
+msgid "Register"
+msgstr ""
+
+# @ bbpress
+#: bbpress/loop-single-forum.php:24
+msgid "Topics:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/loop-single-forum.php:27 bbpress/loop-single-topic.php:46
+msgid "Replies:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/loop-single-forum.php:31 bbpress/loop-single-topic.php:50
+msgid "Freshness:"
+msgstr ""
+
+# @ bbpress
+#: bbpress/loop-single-topic.php:63
+#, php-format
+msgid "<a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-details.php:15
+#, php-format
+msgid "About %s"
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-details.php:19
+#, php-format
+msgid "Edit Profile of %s"
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-details.php:19
+msgid "(Edit)"
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-favorites.php:15
+msgid "Favorite Forum Topics"
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-favorites.php:25
+msgid "You currently have no favorite topics."
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-favorites.php:25
+msgid "This user has no favorite topics."
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-subscriptions.php:20
+msgid "Subscribed Forum Topics"
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-subscriptions.php:31
+msgid "You are not currently subscribed to any topics."
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-subscriptions.php:31
+msgid "This user is not currently subscribed to any topics."
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-topics-created.php:16
+msgid "Forum Topics Created"
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-topics-created.php:26
+msgid "You have not created any topics."
+msgstr ""
+
+# @ bbpress
+#: bbpress/user-topics-created.php:26
+msgid "This user has not created any topics."
+msgstr ""
+
+# @ supreme
+#: comment.php:32
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# @ supreme
+#: comments.php:14
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+# @ supreme
+#: comments.php:29
+msgid "No Comments"
+msgstr ""
+
+# @ supreme
+#: comments.php:29
+msgid "One Comment"
+msgstr ""
+
+# @ supreme
+#: comments.php:29 page-template-archives.php:65
+msgid "% Comments"
+msgstr ""
+
+# @ supreme
+#: comments.php:35
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+# @ supreme
+#: comments.php:51
+#, php-format
+msgid ""
+"Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this post"
+"\">trackbacks</a> and pingbacks are open."
+msgstr ""
+
+# @ supreme
+#: comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+# @ supreme
+#: comments.php:67
+msgid "Your name"
+msgstr ""
+
+# @ supreme
+#: comments.php:71
+msgid "Email Address"
+msgstr ""
+
+# @ supreme
+#: comments.php:77 library/functions/loadpopularpost.php:92
+msgid "Comments"
+msgstr ""
+
+# @ supreme
+#: comments.php:81
+msgid "Add a comment"
+msgstr ""
+
+# @ supreme
+#: content-aside.php:1 content-gallery.php:8 content-image.php:8
+#: content-link.php:2 content-quote.php:2 content-status.php:1
+msgid "Published by [entry-author] on [entry-published] [entry-permalink]"
+msgstr ""
+
+# @ supreme
+#: content.php:15
+msgid "by [entry-author] on [entry-published] [entry-permalink]"
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:82
+msgid "Site Description:"
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:109
+msgid ""
+"By default, the archive pages and search result page display the full post."
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:136
+msgid "Author's Biography and Avatar"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:172 functions/admin.php:224 functions/admin.php:251
+#: functions/admin.php:301 functions.php:526
+#: library/extensions/theme-layouts.php:295
+msgid "Default"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:174 functions/admin.php:225 functions/admin.php:253
+#: functions/admin.php:303 functions.php:527
+#: library/extensions/theme-layouts.php:296
+msgid "One Column"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:177 functions/admin.php:226 functions/admin.php:256
+#: functions/admin.php:306 functions.php:528
+#: library/extensions/theme-layouts.php:297
+msgid "Two Columns, Left"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:180 functions/admin.php:227 functions/admin.php:259
+#: functions/admin.php:309 functions.php:529
+#: library/extensions/theme-layouts.php:298
+msgid "Two Columns, Right"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:183 functions/admin.php:228 functions/admin.php:262
+#: functions/admin.php:312 functions.php:530
+#: library/extensions/theme-layouts.php:301
+msgid "Three Columns, Center"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:186 functions/admin.php:229 functions/admin.php:265
+#: functions/admin.php:315 functions.php:531
+#: library/extensions/theme-layouts.php:299
+msgid "Three Columns, Left"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:189 functions/admin.php:230 functions/admin.php:268
+#: functions/admin.php:318 functions.php:532
+#: library/extensions/theme-layouts.php:300
+msgid "Three Columns, Right"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:192 functions/admin.php:231 functions/admin.php:271
+#: functions/admin.php:321 functions.php:533
+msgid "Header Left One Column"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:195 functions/admin.php:232 functions/admin.php:324
+#: functions.php:534
+msgid "Header Left Two Columns, Left"
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:198
+msgid "Header Left, Two Columns Right"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:202 functions/admin.php:234 functions/admin.php:281
+#: functions/admin.php:331 functions.php:536
+msgid "Header Right One Column"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:205 functions/admin.php:235 functions/admin.php:284
+#: functions/admin.php:334 functions.php:537
+msgid "Header Right Two Columns, Left"
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:209 functions/admin.php:236 functions/admin.php:287
+#: functions.php:538
+msgid "Header Right Two Columns, Right"
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:213
+msgid ""
+"Set the layout for the entire site. The default design is Two Columns Left, "
+"therefore, Default and Two Columns Left will display the same layout."
+msgstr ""
+
+# @ supreme
+# @ theme-layouts
+#: functions/admin.php:233 functions/admin.php:278 functions/admin.php:328
+#: functions/admin.php:337 functions.php:535
+msgid "Header Left Two Columns, Right"
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:247
+msgid "Jigoshop Layout:"
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:274
+msgid "Header Left Two Columns Left"
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:290
+msgid ""
+"If Jigoshop (e-commerce) is installed then use this option if you want to "
+"set a custom layout for all Jigoshop pages."
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:297
+msgid "WooCommerce Layout:"
+msgstr ""
+
+# @ supreme
+#: functions/admin.php:340
+msgid ""
+"If WooCommerce (e-commerce) is installed then use this option if you want to "
+"set a custom layout for all WooCommerce pages."
+msgstr ""
+
+# @ supreme
+#: functions/templatic_news.php:11
+msgid "Templatic News"
+msgstr ""
+
+# @ bbpress
+#: functions.php:667
+msgid "favorites"
+msgstr ""
+
+# @ bbpress
+#: functions.php:668
+msgid "?"
+msgstr ""
+
+# @ bbpress
+#: functions.php:669
+#, php-format
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr ""
+
+# @ bbpress
+#: functions.php:670
+#, php-format
+msgid "%favAdd% (%favLinkNo%)"
+msgstr ""
+
+# @ bbpress
+#: functions.php:671
+msgid "&times;"
+msgstr ""
+
+# @ bbpress
+#: functions.php:672
+msgid "Add this topic to your favorites"
+msgstr ""
+
+# @ bbpress
+# @ supreme
+#: functions.php:681 library/classes/widget-subscribe.php:29
+msgid "Subscribe"
+msgstr ""
+
+# @ bbpress
+#: functions.php:682
+msgid "Unsubscribe"
+msgstr ""
+
+# @ supreme
+#: functions.php:778
+msgctxt "nav menu location"
+msgid "Header Primary"
+msgstr ""
+
+# @ supreme
+#: functions.php:779
+msgctxt "nav menu location"
+msgid "Header Secondary"
+msgstr ""
+
+# @ supreme
+#: functions.php:780
+msgctxt "nav menu location"
+msgid "Header Horizontal"
+msgstr ""
+
+# @ supreme
+#: functions.php:781
+msgctxt "nav menu location"
+msgid "Footer"
+msgstr ""
+
+# @ supreme
+#: functions.php:795
+msgctxt "sidebar"
+msgid "Subsidiary 2 Columns"
+msgstr ""
+
+# @ supreme
+#: functions.php:796
+msgid "A 2-column widget area loaded before the footer of the site."
+msgstr ""
+
+# @ supreme
+#: functions.php:805
+msgctxt "sidebar"
+msgid "Subsidiary 3 Columns"
+msgstr ""
+
+# @ supreme
+#: functions.php:806
+msgid "A 3-column widget area loaded before the footer of the site."
+msgstr ""
+
+# @ supreme
+#: functions.php:815
+msgctxt "sidebar"
+msgid "Subsidiary 4 Columns"
+msgstr ""
+
+# @ supreme
+#: functions.php:816
+msgid "A 4-column widget area loaded before the footer of the site."
+msgstr ""
+
+# @ supreme
+#: functions.php:825
+msgctxt "sidebar"
+msgid "Subsidiary 5 Columns"
+msgstr ""
+
+# @ supreme
+#: functions.php:826
+msgid "A 5-column widget area loaded before the footer of the site."
+msgstr ""
+
+# @ supreme
+#: functions.php:835
+msgctxt "sidebar"
+msgid "After Header"
+msgstr ""
+
+# @ supreme
+#: functions.php:836
+msgid "A 1-column widget area loaded after the header of the site."
+msgstr ""
+
+# @ supreme
+#: functions.php:845
+msgctxt "sidebar"
+msgid "After Header 2 Columns"
+msgstr ""
+
+# @ supreme
+#: functions.php:846
+msgid "A 2-column widget area loaded after the header of the site."
+msgstr ""
+
+# @ supreme
+#: functions.php:855
+msgctxt "sidebar"
+msgid "After Header 3 Columns"
+msgstr ""
+
+# @ supreme
+#: functions.php:856
+msgid "A 3-column widget area loaded after the header of the site."
+msgstr ""
+
+# @ supreme
+#: functions.php:865
+msgctxt "sidebar"
+msgid "After Header 4 Columns"
+msgstr ""
+
+# @ supreme
+#: functions.php:866
+msgid "A 4-column widget area loaded after the header of the site."
+msgstr ""
+
+# @ supreme
+#: functions.php:875
+msgctxt "sidebar"
+msgid "After Header 5 Columns"
+msgstr ""
+
+# @ supreme
+#: functions.php:876
+msgid "A 5-column widget area loaded after the header of the site."
+msgstr ""
+
+# @ supreme
+#: functions.php:885
+msgctxt "sidebar"
+msgid "Entry"
+msgstr ""
+
+# @ supreme
+#: functions.php:886
+msgid "Loaded directly before the entry content texts."
+msgstr ""
+
+# @ sidebar
+#: functions.php:895
+msgid "Widgets Template"
+msgstr ""
+
+# @ supreme
+#: functions.php:896
+msgid "Used on widgets only page template."
+msgstr ""
+
+# @ supreme
+#: functions.php:906
+msgid "JQuery Mega Menu"
+msgstr ""
+
+# @ supreme
+#: functions.php:907
+msgid ""
+"Place the jQuery Mega menu widget in this area. Create a menu first in "
+"Appearance -> Menus."
+msgstr ""
+
+# @ supreme
+#: functions.php:916
+msgid "Contact Page Widget Area"
+msgstr ""
+
+# @ supreme
+#: functions.php:917
+msgid "Displays widgets on contact us page."
+msgstr ""
+
+# @ supreme
+#: functions.php:1038
+msgid "Read more &raquo;"
+msgstr ""
+
+# @ supreme
+#: functions.php:1050
+#, php-format
+msgid "<a href=\"%s\" class=\"more\">%s</a>"
+msgstr ""
+
+# @ supreme
+#: functions.php:1052
+#, php-format
+msgid "<a href=\"%s\" class=\"more\">Read More...</a>"
+msgstr ""
+
+# @ supreme
+# @ dcjq-mega-menu
+# @ dcjqmegamenu
+#: functions.php:1065 functions.php:1067
+#: library/classes/widget-mega_menu.php:15
+#: library/classes/widget-mega_menu.php:19
+#: library/classes/widget-social_media.php:33
+#: library/classes/widget-testimonials.php:49
+#: library/classes/widget-testimonials.php:56
+#: library/classes/widget-testimonials.php:57
+#: library/classes/widget_flicker.php:16
+#: library/functions/loadpopularpost.php:128 library/functions/widgets.php:312
+#: library/functions/widgets.php:419 page-template-sitemap.php:108
+#: page-template-sitemap.php:141 templatic_login.php:117
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ supreme
+#: functions.php:1084
+#, php-format
+msgid "<a href='%s'>%s</a>"
+msgstr ""
+
+# @ supreme
+#: functions.php:1086
+#, php-format
+msgid "<a href='%s'>Read More...</a>"
+msgstr ""
+
+# @ supreme
+#: functions.php:1148
+msgid "[entry-terms taxonomy=\"\"] [entry-terms taxonomy=\"\" before=\""
+msgstr ""
+
+# @ supreme
+#: index.php:38 loop.php:24
+#, php-format
+msgid ""
+"Published by [entry-author] on [entry-published] [entry-comments-link zero="
+"\"Respond\" one=\"%1$s\" more=\"%1$s\"] [entry-edit-link] [entry-permalink]"
+msgstr ""
+
+# @ supreme
+#: index.php:49 loop.php:35 post.php:55 singular.php:51
+msgid ""
+"Filed under: [entry-terms taxonomy=\"category\"] [entry-terms taxonomy="
+"\"post_tag\" before=\"and Tagged: \"]"
+msgstr ""
+
+# @ supreme
+#: index.php:63
+msgid "No Entries"
+msgstr ""
+
+# @ supreme
+#: index.php:66
+msgid "Apologies, but no entries were found."
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/archive-product.php:36
+msgid "Search Results:"
+msgstr ""
+
+# @ jigoshop
+# @ woocommerce
+#: jigoshop/archive-product.php:38 woocommerce/archive-product.php:16
+msgid "All Products"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:50
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:50
+msgid "out of 5"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:52
+#, php-format
+msgid "%s Review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:57
+msgid "Reviews"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:76
+msgid "Add Review"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:78
+msgid "Add a review"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:82
+msgid "Be the first to review "
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:84
+msgid ""
+"There are no reviews yet, would you like to <a href=\"#review_form\" class="
+"\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:102
+msgid "Submit Review"
+msgstr ""
+
+# @ jigoshop
+# @ hybrid-core
+#: jigoshop/single-product-reviews.php:105
+#: library/classes/widget-bookmarks.php:181
+msgid "Rating"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:106
+msgid "Rate..."
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:107
+msgid "Perfect"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:108
+msgid "Good"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:109
+msgid "Average"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:110
+msgid "Not that bad"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:111
+msgid "Very Poor"
+msgstr ""
+
+# @ jigoshop
+#: jigoshop/single-product-reviews.php:113
+msgctxt "noun"
+msgid "Your Review"
+msgstr ""
+
+# @ hybrid-core
+#: library/admin/meta-box-post-seo.php:37
+msgid "SEO"
+msgstr ""
+
+# @ hybrid-core
+#: library/admin/meta-box-post-seo.php:70
+msgid "Document Title:"
+msgstr ""
+
+# @ hybrid-core
+#: library/admin/meta-box-post-seo.php:76
+msgid "Meta Description:"
+msgstr ""
+
+# @ hybrid-core
+#: library/admin/meta-box-post-seo.php:82
+msgid "Meta Keywords:"
+msgstr ""
+
+# @ hybrid-core
+#: library/admin/meta-box-post-template.php:36
+msgid "Template"
+msgstr ""
+
+# @ hybrid-core
+#: library/admin/meta-box-post-template.php:87
+msgid "No templates exist for this post type."
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"archives."
+msgstr ""
+
+# @ hybrid-core
+# @ supreme
+#: library/classes/widget-archives.php:44
+#: library/classes/widget-archives.php:141 library/functions/context.php:446
+#: loop-meta.php:128 page-template-sitemap.php:163
+msgid "Archives"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:79
+msgid "Select Year"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:82
+msgid "Select Month"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:85
+msgid "Select Week"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:88
+msgid "Select Day"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:91
+msgid "Select Post"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:154
+msgid "Alphabetical"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:154
+msgid "Daily"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:154
+msgid "Monthly"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:154
+msgid "Post By Post"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:154
+msgid "Weekly"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:154
+msgid "Yearly"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:157
+msgid "Custom"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:157
+msgid "HTML"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:157
+msgid "Option"
+msgstr ""
+
+# @ hybrid-core
+# @ supreme
+#: library/classes/widget-archives.php:162
+#: library/classes/widget-authors.php:143
+#: library/classes/widget-bookmarks.php:187
+#: library/classes/widget-calendar.php:108
+#: library/classes/widget-categories.php:170
+#: library/classes/widget-mega_menu.php:124
+#: library/classes/widget-nav-menu.php:133
+#: library/classes/widget-pages.php:157 library/classes/widget-search.php:143
+#: library/classes/widget-subscribe.php:56 library/classes/widget-tags.php:175
+#: library/classes/widget_flicker.php:30 library/functions/widgets.php:1475
+msgid "Title:"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-archives.php:198
+#: library/classes/widget-authors.php:191
+msgid "Show post count?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"author lists."
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:44
+#: library/classes/widget-authors.php:119
+msgid "Authors"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:136
+#: library/classes/widget-bookmarks.php:178
+#: library/classes/widget-bookmarks.php:180
+#: library/classes/widget-categories.php:162
+#: library/classes/widget-pages.php:148 library/classes/widget-tags.php:167
+msgid "Ascending"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:136
+#: library/classes/widget-bookmarks.php:178
+#: library/classes/widget-bookmarks.php:180
+#: library/classes/widget-categories.php:162
+#: library/classes/widget-pages.php:148 library/classes/widget-tags.php:167
+msgid "Descending"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:137
+msgid "Display Name"
+msgstr ""
+
+# @ hybrid-core
+# @ supreme
+#: library/classes/widget-authors.php:137
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-pages.php:149 library/functions/widgets.php:1534
+msgid "ID"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:137
+msgid "Nice Name"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:137
+msgid "Post Count"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:137
+msgid "Registered"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:137
+#: library/classes/widget-bookmarks.php:181
+msgid "URL"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:137
+msgid "Login"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:169
+#: library/classes/widget-categories.php:161
+#: library/classes/widget-tags.php:166
+msgid "List"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:169
+#: library/classes/widget-categories.php:161
+msgid "None"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:187
+msgid "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:195
+msgid "Exclude admin?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:199
+msgid "Show full name?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-authors.php:203
+#: library/classes/widget-categories.php:273
+#: library/classes/widget-tags.php:286
+msgid "Hide empty?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"bookmarks (links)."
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:44
+#: library/classes/widget-bookmarks.php:85
+#: library/classes/widget-bookmarks.php:148
+msgid "Bookmarks"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-tags.php:168
+msgid "Count"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-pages.php:149
+msgid "Slug"
+msgstr ""
+
+# @ hybrid-core
+# @ supreme
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-social_media.php:69
+msgid "Description"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:181
+msgid "Length"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:181
+msgid "Notes"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:181
+msgid "Owner"
+msgstr ""
+
+# @ hybrid-core
+# @ supreme
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-tags.php:167 library/functions/widgets.php:1536
+msgid "Random"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:181
+msgid "Rel"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-categories.php:164
+msgid "RSS"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:181
+msgid "Target"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:181
+msgid "Updated"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:289
+msgid "Categorize?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:293
+msgid "Show description?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:297
+msgid "Hide invisible?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:301
+msgid "Show rating?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:305
+msgid "Show updated?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:309
+msgid "Show images?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:313
+msgid "Show name?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-bookmarks.php:317
+msgid "Show private?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-calendar.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"calendar."
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-calendar.php:44
+#: library/classes/widget-calendar.php:99
+msgid "Calendar"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-calendar.php:113
+msgid "One-letter abbreviation?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-categories.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"category links."
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-categories.php:44
+#: library/classes/widget-categories.php:133
+msgid "Categories"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-categories.php:163
+msgid "Term Group"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-categories.php:164
+msgid "Atom"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-categories.php:164
+msgid "RDF"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-categories.php:164
+msgid "RSS 2.0"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-categories.php:261
+#: library/classes/widget-pages.php:256
+msgid "Hierarchical?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-categories.php:265
+msgid "Use description?"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-categories.php:269
+msgid "Show count?"
+msgstr ""
+
+# @ templatic
+#: library/classes/widget-google_map.php:18
+msgid ""
+"Display a map of a specific location, Use in: Footer areas, Homepage Content "
+"area, Primary, Subsidiary, Subsidiary 2 columns, Contact Page widget area"
+msgstr ""
+
+# @ templatic
+#: library/classes/widget-google_map.php:30
+msgid "T &rarr; Google Map Widget"
+msgstr ""
+
+# @ supreme
+# @ hybrid-core
+#: library/classes/widget-google_map.php:115
+#: library/classes/widget-pages.php:149
+#: library/classes/widget-social_media.php:64
+#: library/classes/widget-testimonials.php:2 library/functions/widgets.php:358
+#: library/functions/widgets.php:1279 library/functions/widgets.php:1532
+#: library/functions/widgets.php:1779
+msgid "Title"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-google_map.php:117
+msgid ""
+"Address <small>(eg: 230 Vine Street And locations throughout Old City, "
+"Philadelphia, PA 19106)</small>"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-google_map.php:120
+msgid "Map Height in pixcels <small>(eg: 200)</small>"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-google_map.php:124
+msgid "Map Zooming Factor"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-google_map.php:137
+msgid "Select Map Type"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-google_map.php:139
+msgid "Road Map"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-google_map.php:140
+msgid "Satellite Map"
+msgstr ""
+
+# @ Templatic
+#: library/classes/widget-mega_menu.php:17
+msgid "Custom Menu"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-mega_menu.php:59 menu-header-horizontal.php:22
+#: menu-header-primary.php:22 menu-header-secondary.php:22 menu-primary.php:20
+#: menu-secondary.php:20 menu-subsidiary.php:20
+msgid "Menu"
+msgstr ""
+
+# @ default
+#: library/classes/widget-mega_menu.php:119
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-mega_menu.php:128
+msgid "Select Menu:"
+msgstr ""
+
+# @ dcjq-mega-menu
+#: library/classes/widget-mega_menu.php:140
+msgid "Click"
+msgstr ""
+
+# @ dcjq-mega-menu
+#: library/classes/widget-mega_menu.php:142
+msgid "Hover"
+msgstr ""
+
+# @ dcjq-mega-menu
+#: library/classes/widget-mega_menu.php:145
+msgid "Number Items Per Row"
+msgstr ""
+
+# @ dcjq-mega-menu
+#: library/classes/widget-mega_menu.php:162
+msgid "Animation Effect:"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-mega_menu.php:164
+msgid "Fade In"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-mega_menu.php:165
+msgid "Slide Down"
+msgstr ""
+
+# @ dcjq-mega-menu
+#: library/classes/widget-mega_menu.php:169
+msgid "Animation Speed:"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-mega_menu.php:171
+msgid "No Animation"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-mega_menu.php:172
+msgid "Fast"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-mega_menu.php:173
+msgid "Normal"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-mega_menu.php:174
+msgid "Slow"
+msgstr ""
+
+# @ dcjq-accordion
+#: library/classes/widget-mega_menu.php:180
+msgid "Set Sub Menu To Full Width"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-nav-menu.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"menus."
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-nav-menu.php:44
+msgid "Navigation Menu"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-nav-menu.php:109
+msgid "Navigation"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-pages.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your page "
+"links."
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-pages.php:149
+msgid "Author"
+msgstr ""
+
+# @ hybrid-core
+# @ supreme
+#: library/classes/widget-pages.php:149 library/functions/widgets.php:1531
+msgid "Date"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-pages.php:149
+msgid "Menu Order"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-pages.php:149 library/classes/widget-pages.php:150
+msgid "Modified"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-pages.php:150
+msgid "Created"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-search.php:33
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"search form."
+msgstr ""
+
+# @ hybrid-core
+# @ supreme
+#: library/classes/widget-search.php:45 library/classes/widget-search.php:131
+#: searchform.php:15
+msgid "Search"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-search.php:147
+msgid "Search Label:"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-search.php:151
+msgid "Search Text:"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-search.php:158
+msgid "Search Submit:"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-search.php:163
+msgid "Use theme's <code>searchform.php</code>?"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-social_media.php:77
+msgid "Social Link"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-social_media.php:83
+msgid "Social Icon"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-social_media.php:89
+msgid "Social Text"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-subscribe.php:7
+msgid ""
+"You can use this widget in sidebar and footer widget areas, can work in "
+"Subsidiary widget area in some themes too"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-subscribe.php:8
+msgid "T &rarr; Newsletter Subscribe"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-subscribe.php:24
+msgid "Your Name"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-subscribe.php:25
+msgid "Your Email Address"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-subscribe.php:61
+msgid "Description Under Title:"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-subscribe.php:66
+msgid "Feedburner ID:"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-tags.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your tags."
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-tags.php:44 library/classes/widget-tags.php:137
+msgid "Tags"
+msgstr ""
+
+# @ hybrid-core
+# @ supreme
+#: library/classes/widget-tags.php:165
+#: library/functions/loadpopularpost.php:77
+msgid "View"
+msgstr ""
+
+# @ hybrid-core
+# @ breadcrumb-trail
+#: library/classes/widget-tags.php:165
+#: library/extensions/breadcrumb-trail.php:389
+#: library/extensions/breadcrumb-trail.php:422
+#: library/extensions/breadcrumb-trail.php:437
+#: library/extensions/breadcrumb-trail.php:465
+#: library/functions/shortcodes.php:204 library/functions/shortcodes.php:446
+msgid "Edit"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-tags.php:166
+msgid "Flat"
+msgstr ""
+
+# @ hybrid-core
+#: library/classes/widget-tags.php:282
+msgid "Pad counts?"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:3
+msgid "Set Time Out"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:4
+msgid "Set the speed"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:5
+msgid "Quote text"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:6
+msgid "Author name"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:13
+msgid "T &rarr; Testimonials"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:103
+msgid "Transition type"
+msgstr ""
+
+# @ supreme
+# @ templatic
+#: library/classes/widget-testimonials.php:105
+#: library/functions/widgets.php:761
+msgid "Fade"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:106
+msgid "Scroll Up"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:107
+msgid "Scroll Right"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:108
+msgid "Shuffle"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:113
+msgid "Quote text: "
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:119
+msgid "Author name: "
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:153
+msgid "Link Text"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget-testimonials.php:158
+msgid "Link Url"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget_flicker.php:35
+msgid "Flickr Id:"
+msgstr ""
+
+# @ supreme
+#: library/classes/widget_flicker.php:40
+msgid "Number of photos:"
+msgstr ""
+
+# @ breadcrumb-trail
+#: library/extensions/breadcrumb-trail.php:42
+msgid "Browse:"
+msgstr ""
+
+# @ breadcrumb-trail
+#: library/extensions/breadcrumb-trail.php:45
+msgid "Home"
+msgstr ""
+
+# @ breadcrumb-trail
+# @ hybrid-core
+#: library/extensions/breadcrumb-trail.php:301
+#: library/functions/context.php:423
+msgid "g:i a"
+msgstr ""
+
+# @ breadcrumb-trail
+#: library/extensions/breadcrumb-trail.php:304
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+# @ breadcrumb-trail
+# @ hybrid-core
+#: library/extensions/breadcrumb-trail.php:304
+#: library/functions/context.php:426
+msgid "i"
+msgstr ""
+
+# @ breadcrumb-trail
+# @ hybrid-core
+#: library/extensions/breadcrumb-trail.php:307
+#: library/functions/context.php:429
+msgid "g a"
+msgstr ""
+
+# @ breadcrumb-trail
+# @ hybrid-core
+#: library/extensions/breadcrumb-trail.php:318
+#: library/extensions/breadcrumb-trail.php:324
+#: library/extensions/breadcrumb-trail.php:329
+#: library/extensions/breadcrumb-trail.php:334
+#: library/extensions/breadcrumb-trail.php:521
+#: library/functions/context.php:435 library/functions/context.php:441
+#: library/functions/core-seo.php:90 library/functions/shortcodes.php:70
+msgid "Y"
+msgstr ""
+
+# @ breadcrumb-trail
+#: library/extensions/breadcrumb-trail.php:319
+#: library/extensions/breadcrumb-trail.php:330
+#: library/extensions/breadcrumb-trail.php:525
+msgid "F"
+msgstr ""
+
+# @ breadcrumb-trail
+#: library/extensions/breadcrumb-trail.php:320
+#: library/extensions/breadcrumb-trail.php:529
+msgid "d"
+msgstr ""
+
+# @ breadcrumb-trail
+#: library/extensions/breadcrumb-trail.php:325
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+# @ breadcrumb-trail
+# @ hybrid-core
+#: library/extensions/breadcrumb-trail.php:325
+#: library/functions/context.php:435
+msgid "W"
+msgstr ""
+
+# @ breadcrumb-trail
+# @ hybrid-core
+#: library/extensions/breadcrumb-trail.php:341
+#: library/functions/context.php:452
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+# @ breadcrumb-trail
+# @ hybrid-core
+#: library/extensions/breadcrumb-trail.php:345
+#: library/functions/context.php:456
+msgid "404 Not Found"
+msgstr ""
+
+# @ breadcrumb-trail
+#: library/extensions/breadcrumb-trail.php:414
+msgid "Split"
+msgstr ""
+
+# @ breadcrumb-trail
+# @ hybrid-core
+#: library/extensions/breadcrumb-trail.php:525
+#: library/functions/core-seo.php:86
+msgid "F Y"
+msgstr ""
+
+# @ breadcrumb-trail
+#: library/extensions/breadcrumb-trail.php:529
+msgid "F j, Y"
+msgstr ""
+
+# @ custom-field-series
+#: library/extensions/custom-field-series.php:86
+msgid "Articles in this series"
+msgstr ""
+
+# @ custom-field-series
+#: library/extensions/custom-field-series.php:212
+msgid "Series"
+msgstr ""
+
+# @ post-stylesheets
+#: library/extensions/post-stylesheets.php:255
+msgid "Stylesheet"
+msgstr ""
+
+# @ theme-layouts
+#: library/extensions/theme-layouts.php:404
+msgid "Layout is a theme-specific structure for the single view of the post."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/comments.php:182
+msgid "*"
+msgstr ""
+
+# @ hybrid-core
+# @ supreme
+#: library/functions/comments.php:195 library/functions/loadpopularpost.php:90
+msgid "Comment"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/comments.php:196
+#, php-format
+msgid ""
+"You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
+"comment."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/comments.php:197
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/comments.php:197
+msgid "Log out of this account"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/comments.php:197
+msgid "Log out &raquo;"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/comments.php:202
+msgid "Leave a Reply"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/comments.php:203
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/comments.php:204
+msgid "Click here to cancel reply."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/comments.php:205
+msgid "Post Comment"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/context.php:423 library/functions/context.php:429
+#: library/functions/context.php:432 library/functions/context.php:438
+#: library/functions/context.php:441
+#, php-format
+msgid "Archive for %1$s"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/context.php:426
+#, php-format
+msgid "Archive for minute %1$s"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/context.php:432
+msgid "F jS, Y"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/context.php:435
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/context.php:460
+#, php-format
+msgid "%1$s Page %2$s"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/core-seo.php:93
+#, php-format
+msgid "Copyright (c) %1$s"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/core-seo.php:112 library/functions/shortcodes.php:218
+#: library/functions/shortcodes.php:376
+msgid "l, F jS, Y, g:i a"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/customize.php:63 library/functions/customize.php:88
+msgid "Footer"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/deprecated.php:572
+#, php-format
+msgid ""
+"<code>%1$s</code> &mdash; This function has been removed or replaced by "
+"another function."
+msgstr ""
+
+# @ supreme
+#: library/functions/loadpopularpost.php:79
+msgid "Views"
+msgstr ""
+
+# @ supreme
+#: library/functions/loadpopularpost.php:85
+msgid "Daily View"
+msgstr ""
+
+# @ supreme
+#: library/functions/loadpopularpost.php:87
+msgid "Daily Views"
+msgstr ""
+
+# @ supreme
+#: library/functions/loadpopularpost.php:118 library/functions/widgets.php:337
+msgid "ago"
+msgstr ""
+
+# @ supreme
+#: library/functions/loadpopularpost.php:130
+msgid "No Popular post found."
+msgstr ""
+
+# @ supreme
+#: library/functions/loadpopularpost.php:236
+msgid ""
+"GD Library Error: imagecreatetruecolor does not exist - please contact your "
+"webhost and ask them to install the GD library"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/menus.php:38
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/menus.php:42
+msgctxt "nav menu location"
+msgid "Secondary"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/menus.php:46
+msgctxt "nav menu location"
+msgid "Subsidiary"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/settings.php:76 library/functions/settings.php:80
+msgid "Copyright &#169; [the-year] [site-link]."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/settings.php:76
+msgid "Powered by [wp-link], [theme-link], and [child-link]."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/settings.php:80
+msgid "Powered by [wp-link] and [theme-link]."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:93
+msgid "State-of-the-art semantic personal publishing platform"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:93
+msgid "WordPress"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:106
+#, php-format
+msgid "%s WordPress Theme"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:134
+msgid "Log out"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:136
+msgid "Log in"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:151
+#, php-format
+msgid "This page loaded in %1$s seconds with %2$s database queries."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:204 library/functions/shortcodes.php:446
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:234
+msgid "Leave a response"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:234
+#, php-format
+msgid "%1$s Response"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:234
+#, php-format
+msgid "%1$s Responses"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:241 library/functions/shortcodes.php:243
+#: library/functions/shortcodes.php:245
+#, php-format
+msgid "Comment on %1$s"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:305
+msgid "(Untitled)"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:324
+msgid "Shortlink"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:348 library/functions/shortcodes.php:425
+msgid "Permalink"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:425
+#, php-format
+msgid "Permalink to comment %1$s"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:465
+msgid "Reply"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/shortcodes.php:466
+msgid "Log in to reply."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:81
+msgctxt "sidebar"
+msgid "Primary"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:82
+msgid "The main (primary) widget area, most often used as a sidebar."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:85
+msgctxt "sidebar"
+msgid "Secondary"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:86
+msgid ""
+"The second most important widget area, most often used as a secondary "
+"sidebar."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:89
+msgctxt "sidebar"
+msgid "Subsidiary"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:90
+msgid "A widget area loaded in the footer of the site."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:93
+msgctxt "sidebar"
+msgid "Header"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:94
+msgid "Displayed within the site's header area."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:97
+msgctxt "sidebar"
+msgid "Before Content"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:98
+msgid "Loaded before the page's main content area."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:101
+msgctxt "sidebar"
+msgid "After Content"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:102
+msgid "Loaded after the page's main content area."
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:105
+msgctxt "sidebar"
+msgid "After Singular"
+msgstr ""
+
+# @ hybrid-core
+#: library/functions/sidebars.php:106
+msgid ""
+"Loaded on singular post (page, attachment, etc.) views before the comments "
+"area."
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:164
+msgid "Twitter username not configured"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:168
+msgid "Number of tweets not valid"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:212
+msgid "Error retrieving tweets"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:233
+msgid "No public tweets"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:241
+#, php-format
+msgid "Unable to get tweets %s"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:322
+msgid "0 seconds"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:325
+msgid "year"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:326
+msgid "month"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:327
+msgid "day"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:328
+msgid "hour"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:329
+msgid "minute"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:330
+msgid "second"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:337
+msgid "s"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:363
+msgid "Twitter Username"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:368
+msgid "Show # of Tweets"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:373
+msgid "Show this linked text for each Tweet"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:378
+msgid ""
+"Twitter button text <small>(for eg. Follow us, Join me on Twitter, etc.)</"
+"small>"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:383
+msgid "Link below tweets with Twitter user"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:389
+msgid "Find and show hyperlinks"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:396
+msgid "widget Templatic twitter"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:396
+msgid "Show your latest tweets on your site. ."
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:397
+msgid "T &rarr; Latest Twitter Feed"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:442
+msgid "Lastest Tweets"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:486
+msgid "widget Templatic Slider"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:486
+msgid ""
+"Home Page Slider that displays either selected post types or custom images "
+"on the Home Page"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:487
+msgid "T &rarr;  Home Page Main Slider"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:758
+msgid "Animation"
+msgstr ""
+
+# @ templatic
+#: library/functions/widgets.php:764
+msgid "Slide"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:771
+msgid "Slide show"
+msgstr ""
+
+# @ templatic
+# @ supreme
+#: library/functions/widgets.php:774 library/functions/widgets.php:1702
+#: library/functions/widgets.php:1710 library/functions/widgets.php:1718
+msgid "Yes"
+msgstr ""
+
+# @ templatic
+# @ supreme
+#: library/functions/widgets.php:777 library/functions/widgets.php:1703
+#: library/functions/widgets.php:1711 library/functions/widgets.php:1719
+msgid "No"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:784
+msgid "Sliding Direction"
+msgstr ""
+
+# @ templatic
+#: library/functions/widgets.php:787
+msgid "Horizontal"
+msgstr ""
+
+# @ templatic
+#: library/functions/widgets.php:790
+msgid "Vertical"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:797
+msgid "Animation Direction"
+msgstr ""
+
+# @ templatic
+#: library/functions/widgets.php:800
+msgid "Right to Left"
+msgstr ""
+
+# @ templatic
+#: library/functions/widgets.php:803
+msgid "Left to Right"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:810
+msgid "Slide Show Speed"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:812
+msgid "Default : 7000 - Set the speed of the slideshow cycle in milliseconds."
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:817
+msgid "Animation Speed"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:819
+msgid "Default : 600 - Set the speed of animations, in milliseconds."
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:826
+msgid "<b>Use custom images?</b>"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:834
+msgid "Select Taxonomy:"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:864
+msgid "Please select the categories of the same post type."
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:868
+msgid "Number of posts"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:882
+msgid "Banner Slider Title 1"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:894
+msgid "Banner Slider Title Link 1"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:903
+msgid ""
+"Banner Slider Image 1 full URL <small>(ex.http://templatic.com/images/"
+"banner1.png. )</small>  :"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:941
+msgid "Remove"
+msgstr ""
+
+# @ templatic
+#: library/functions/widgets.php:948
+msgid "<b>Settings for Carousel slider option?</b>"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:949
+msgid ""
+"If you want to use carousel slider option then you must select the animation "
+"option as slide and sliding direction as horizontal."
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:956
+msgid ""
+"Item Width: <br/><small>(Box-model width of individual items, including "
+"horizontal borders and padding.)</small>"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:962
+msgid ""
+"Min Item (Resizable/Responsive options) <br/><small>(Minimum number of items "
+"that should be visible. Items will resize fluidly when below this.)</small>"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:968
+msgid ""
+"Max Item <br/><small>(Maxmimum number of items that should be visible. Items "
+"will resize fluidly when above this limit.)</small>"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:974
+msgid ""
+"Slide Items <br/><small>(Number of items that should move on animation. If "
+"it&acute;s 0, slider will move all visible items.)</small>"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1024
+msgid "Number of Reviews"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1063 library/functions/widgets.php:1283
+#: library/functions/widgets.php:1480
+msgid "Select Post:"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1174
+msgid "widget Templatic Popular Posts Widget "
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1174
+msgid ""
+"It lists the popular posts as per total views , daily views or comments."
+"( you can also select another post-type)"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1175
+msgid "T &rarr; Popular Posts Widget "
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1299
+msgid "Total Number of Posts"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1304
+msgid "Number of Posts Per Slide"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1309
+msgid "Shows post as per view counting/comments"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1311
+msgid "Total views"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1312
+msgid "Daily views"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1313
+msgid "Total comments"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1319
+msgid "Pagination Position"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1321
+msgid "After Posts"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1322
+msgid "Before Posts"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1341
+msgid "widget Templatic Listing Post"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1341
+msgid ""
+"Shows Listing post with post thumbnail, post title, post content, post "
+"category, gravatar with order by option."
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1342
+msgid "T &rarr; Listing Post"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1363 library/functions/widgets.php:1466
+msgid "By"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1366 library/functions/widgets.php:1469
+msgid "[Read More...]"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1496
+msgid "Select Category:"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1498
+msgid "---Select Category wise recent post ---"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1524
+msgid "Number of posts:"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1529
+msgid "Order By"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1533
+msgid "Parent"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1535
+msgid "Comment Count"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1540
+msgid "Sort Order"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1542
+msgid "Descending (3, 2, 1)"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1543
+msgid "Ascending (1, 2, 3)"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1547
+msgid "Show Author Gravatar"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1549
+msgid "Gravatar Size"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1551
+msgid "Small (45px)"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1552
+msgid "Medium (65px)"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1553
+msgid "Large (85px)"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1554
+msgid "Extra Large (125px)"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1558
+msgid "Show Featured Image"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1560
+msgid "Image Size"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1580
+msgid "Show Post Title"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1583
+msgid "Content Type"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1585
+msgid "Show Content"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1586
+msgid "Show Excerpt"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1587
+msgid "Show Content Limit"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1588
+msgid "No Content"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1592
+msgid "Limit content to"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1592
+msgid "characters"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1595
+msgid "More Text (if applicable)"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1644
+msgid "widget Templatic facebook fans t_facebook_fans"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1644
+msgid "Show your facebook fans on your site."
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1645
+msgid "T &rarr; Facebook Fans"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1690
+msgid "Facebook Page Full URL"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1695
+msgid "Width"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1700
+msgid "Show Faces"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1708
+msgid "Show Stream"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1716
+msgid "Show Header"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1743
+msgid "widget Templatic Advertisements"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1743
+msgid ""
+"Show the advertisements, Here you can use HTML, JavaScript, or an IFrame "
+"too. "
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1744
+msgid "T &rarr; Advertisements"
+msgstr ""
+
+# @ supreme
+#: library/functions/widgets.php:1784
+msgid ""
+"Advertisement code <small>(ex.&lt;a href=\"#\"&gt;&lt;img src=\"http://"
+"templatic.com/banner.png\" /&gt;&lt;/a&gt; and google ads code here )</small>"
+msgstr ""
+
+# @ supreme
+#: loop-entry-author.php:19
+msgid "Published by [entry-author]"
+msgstr ""
+
+# @ supreme
+#: loop-error.php:16
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+# @ supreme
+#: loop-meta.php:91
+#, php-format
+msgid "You are browsing the search results for \"%s\""
+msgstr ""
+
+# @ supreme
+#: loop-meta.php:100
+msgid "Archives by date"
+msgstr ""
+
+# @ supreme
+#: loop-meta.php:104
+msgid "You are browsing the site archives by date."
+msgstr ""
+
+# @ supreme
+#: loop-meta.php:132
+msgid "You are browsing the site archives."
+msgstr ""
+
+# @ supreme
+#: loop-nav.php:16
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr ""
+
+# @ supreme
+#: loop-nav.php:23 loop-nav.php:27 loop-nav.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+# @ supreme
+#: loop-nav.php:24 loop-nav.php:27
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+# @ supreme
+#: loop-nav.php:29
+msgid "Next &rarr;"
+msgstr ""
+
+# @ supreme
+#: page-template-archives.php:60
+msgid "&nbsp;by&nbsp;"
+msgstr ""
+
+# @ supreme
+#: page-template-archives.php:62
+msgid "&nbsp;on&nbsp;"
+msgstr ""
+
+# @ supreme
+#: page-template-archives.php:65
+msgid "&nbsp;No Comments&nbsp;"
+msgstr ""
+
+# @ supreme
+#: page-template-archives.php:65
+msgid "&nbsp;1 Comment&nbsp;"
+msgstr ""
+
+# @ supreme
+#: page-template-archives.php:65
+msgid "&nbsp;Comments Closed&nbsp;"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:119
+msgid "Contact mail successfully sent."
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:134
+msgid "Inquiry Form"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:154
+msgid "Subject"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:162
+msgid "Message"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:176
+msgid "Verify words"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:186
+msgid "Send"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:250
+msgid "Please enter your name"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:285
+msgid "Please enter valid email address"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:304
+msgid "Please enter a subject"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:321
+msgid "Please enter message"
+msgstr ""
+
+# @ supreme
+#: page-template-contact.php:338
+msgid "Please enter captcha"
+msgstr ""
+
+# @ supreme
+#: page-template-sitemap.php:56
+msgid "Posts"
+msgstr ""
+
+# @ supreme
+#: page-template-sitemap.php:65 page-template-sitemap.php:122
+msgid "0 comment"
+msgstr ""
+
+# @ supreme
+#: page-template-sitemap.php:65 page-template-sitemap.php:122
+msgid "1 comment"
+msgstr ""
+
+# @ supreme
+#: page-template-sitemap.php:65 page-template-sitemap.php:122
+msgid "% comments"
+msgstr ""
+
+# @ supreme
+#: page-template-sitemap.php:81
+msgid "Post Categories"
+msgstr ""
+
+# @ supreme
+#: post.php:38
+#, php-format
+msgid ""
+"[entry-author] [entry-published] [entry-comments-link zero=\"Respond\" one="
+"\"%1$s Comment\" more=\"%1$s Comments\"] [entry-edit-link]"
+msgstr ""
+
+# @ supreme
+#: searchform.php:14
+msgid "Search this site..."
+msgstr ""
+
+# @ supreme
+#: singular.php:38
+#, php-format
+msgid ""
+"[entry-author] [entry-published] [entry-comments-link zero=\"Respond\" one="
+"\"%1$s\" more=\"%1$s\"] [entry-edit-link]"
+msgstr ""
+
+# @ bbpress
+#: taxonomy-topic-tag-edit.php:27 taxonomy-topic-tag.php:30
+#, php-format
+msgid "Topic Tag: %s"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:8
+msgid "You do not have sufficient permissions to access this section."
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:234
+msgid " Upload image for logo"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:240
+msgid " Upload favicon icon"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:253
+msgid "Hide autoinstall section"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:261
+msgid "Use custom css"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:268
+msgid "Enable comments on pages and posts"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:276
+msgid "Show author biography on posts"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:282
+msgid "Show author biography on pages"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:289
+msgid "Show Breadcrumb"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:296
+msgid "Global Layout"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:311
+msgid "Jigoshop Layout"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:325
+msgid "WooCommerce Layout"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:339
+msgid "Contact Us Captcha Setting"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:349
+msgid "Display excerpts on Search Result Pages"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:356
+msgid "Display excerpts on archive pages"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:363
+msgid "Excerpt length"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:370
+msgid "Text for Continue reading"
+msgstr ""
+
+# @ supreme
+#: templatic_customizer.php:391
+msgid ""
+"Enter comma saperated post type slug(s) which you want to display on 404 and "
+"on search result not found page"
+msgstr ""
+
+# @ supreme
+#: templatic_login.php:100
+msgid "The new version of supreme is available."
+msgstr ""
+
+# @ supreme
+#: templatic_login.php:102
+msgid ""
+"you can update to the latest version automatically , or download the latest "
+"version of the theme."
+msgstr ""
+
+# @ supreme
+#: templatic_login.php:103
+msgid "Warning"
+msgstr ""
+
+# @ supreme
+#: templatic_login.php:103
+msgid ""
+"Updating will undo all your file customizations so make sure to keep backup "
+"of all files before updating."
+msgstr ""
+
+# @ templatic
+#: templatic_login.php:104
+msgid "Download latest Version"
+msgstr ""
+
+# @ supreme
+#: templatic_login.php:122
+msgid ""
+"Templatic Login , enter your templatic credentials to take the updates of "
+"supreme."
+msgstr ""
+
+# @ supreme
+#: templatic_login.php:126
+msgid "User Name"
+msgstr ""
+
+# @ supreme
+#: templatic_login.php:135
+msgid "Cancel"
+msgstr ""
+
+# @ supreme
+#: templatic_login.php:151
+msgid "You have the latest version of supreme parent theme."
+msgstr ""
+
+# @ supreme
+#: templatic_login.php:152
+#, php-format
+msgid "<strong>Your version:</strong> %s"
+msgstr ""
+
+# @ supreme
+#: wp-updates-theme.php:59 wp-updates-theme.php:114
+msgid "New Version of supreme is available now ."
+msgstr ""
+
+# @ supreme
+#: wp-updates-theme.php:59 wp-updates-theme.php:114
+#, php-format
+msgid "View version %s Details"
+msgstr ""
+
+# @ supreme
+#: wp-updates-theme.php:65
+#, php-format
+msgid "or <a href=\"%s\"  title=\"Supreme Update\">update now</a>."
+msgstr ""
+
+# @ supreme
+#: wp-updates-theme.php:119
+msgid ""
+"or <a href=\"\" class=\"thickbox\" title=\"Supreme Update\">update now</a>."
+msgstr ""

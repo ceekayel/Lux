@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1e92641eb3a5f136ac72e5d0d86f5329",
+    "hash": "c3a75b67a686a501e85bd3e19552f368",
     "packages": [
         {
             "name": "composer/installers",
@@ -103,16 +103,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.2.4",
+            "version": "4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1"
+                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
-                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
+                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-08-04 12:01:12"
+            "time": "2015-08-18 18:16:11"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -233,8 +233,14 @@
             "version": "1.0.5",
             "source": {
                 "type": "git",
-                "url": "../themeforest/cornerstone",
-                "reference": "5d827c37ffe92fc365c0a7320d945c959d6981b1"
+                "url": "https://github.com/ceekayel/cornerstone.git",
+                "reference": "bdfea2c21665e9c23e7793dee260efbf7e5e6e2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/cornerstone/zipball/bdfea2c21665e9c23e7793dee260efbf7e5e6e2e",
+                "reference": "bdfea2c21665e9c23e7793dee260efbf7e5e6e2e",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0",
@@ -258,6 +264,10 @@
                 "wordpress",
                 "x-theme"
             ],
+            "support": {
+                "source": "https://github.com/ceekayel/cornerstone/tree/master",
+                "issues": "https://github.com/ceekayel/cornerstone/issues"
+            },
             "time": "2015-08-18 03:03:59"
         },
         {
@@ -311,8 +321,14 @@
             "version": "0.5.26",
             "source": {
                 "type": "git",
-                "url": "../duplicator",
-                "reference": "dee126f1a23ad4959a2b7aa6f0d9ccb356737db9"
+                "url": "https://github.com/ceekayel/duplicator.git",
+                "reference": "3120947b65364d6c1e97df08189f5efa83c9f0c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/duplicator/zipball/3120947b65364d6c1e97df08189f5efa83c9f0c0",
+                "reference": "3120947b65364d6c1e97df08189f5efa83c9f0c0",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0",
@@ -335,6 +351,10 @@
                 "plugins",
                 "wordpress"
             ],
+            "support": {
+                "source": "https://github.com/ceekayel/duplicator/tree/master",
+                "issues": "https://github.com/ceekayel/duplicator/issues"
+            },
             "time": "2015-08-18 13:55:10"
         },
         {
@@ -342,8 +362,14 @@
             "version": "4.6.93",
             "source": {
                 "type": "git",
-                "url": "../themeforest/revslider",
-                "reference": "1c9301b7d3d647ff2bf0e015fe0823c6aefa3f93"
+                "url": "https://github.com/ceekayel/revslider.git",
+                "reference": "5441f1b47a0118bacdc9abad3a0e784e064f4764"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/revslider/zipball/5441f1b47a0118bacdc9abad3a0e784e064f4764",
+                "reference": "5441f1b47a0118bacdc9abad3a0e784e064f4764",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0",
@@ -367,7 +393,56 @@
                 "wordpress",
                 "x-theme"
             ],
+            "support": {
+                "source": "https://github.com/ceekayel/revslider/tree/master",
+                "issues": "https://github.com/ceekayel/revslider/issues"
+            },
             "time": "2015-08-18 13:36:10"
+        },
+        {
+            "name": "trick-e/supreme",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/supreme.git",
+                "reference": "177446112a7eae89d4439d2e5218d3f6d4382385"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/supreme/zipball/177446112a7eae89d4439d2e5218d3f6d4382385",
+                "reference": "177446112a7eae89d4439d2e5218d3f6d4382385",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "suggest": {
+                "trick-e/supreme-theme": " required - this is a child theme of supreme"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Supreme Wordpress Parent Theme for Catalog, by Templatic.",
+            "keywords": [
+                "catalog",
+                "supreme",
+                "theme",
+                "themes",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/supreme/tree/1.1.4",
+                "issues": "https://github.com/ceekayel/supreme/issues"
+            },
+            "time": "2015-08-18 23:10:29"
         },
         {
             "name": "trick-e/tevolution-directory-plugin",
@@ -458,6 +533,50 @@
             "time": "2015-08-18 20:05:33"
         },
         {
+            "name": "trick-e/tevolution-plugin",
+            "version": "2.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/Tevolution.git",
+                "reference": "635126a6e7d378cd9b0fa7198cc0184562c9f21b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/Tevolution/zipball/635126a6e7d378cd9b0fa7198cc0184562c9f21b",
+                "reference": "635126a6e7d378cd9b0fa7198cc0184562c9f21b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Tevolution Wordpress Plugin for Directory, by Templatic.",
+            "keywords": [
+                "directory-theme",
+                "plugin",
+                "plugins",
+                "templatic",
+                "tevolution",
+                "tevolution-plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/Tevolution/tree/develop",
+                "issues": "https://github.com/ceekayel/Tevolution/issues"
+            },
+            "time": "2015-08-18 21:15:44"
+        },
+        {
             "name": "trick-e/video-theme",
             "version": "1.1",
             "source": {
@@ -467,7 +586,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Video/zipball/7f359713f21d78a66b138e6ce73b426c86f1781c",
+                "url": "https://api.github.com/repos/ceekayel/Video/zipball/2f17f35170a17285738c6a25c2b094885467ff87",
                 "reference": "7f359713f21d78a66b138e6ce73b426c86f1781c",
                 "shasum": ""
             },
@@ -504,11 +623,17 @@
         },
         {
             "name": "trick-e/x-theme",
-            "version": "4.0.2",
+            "version": "4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ceekayel/x.git",
-                "reference": "1b4934ac25ddca00244c15ed46e3930abfd06151"
+                "reference": "5fc126c62693e9cad5772007cae7a31809252cc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/x/zipball/ba735ff54ee970844ad95132cbbe9dde6c397fb9",
+                "reference": "5fc126c62693e9cad5772007cae7a31809252cc6",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0",
@@ -527,7 +652,7 @@
                     "email": "ceekayel@trick-e.com"
                 }
             ],
-            "description": "A Wordpress template called X.",
+            "description": "A Wordpress theme called X, by Themeforest.",
             "keywords": [
                 "theme",
                 "themeforest",
@@ -535,7 +660,11 @@
                 "wordpress",
                 "x"
             ],
-            "time": "2015-08-18 02:28:49"
+            "support": {
+                "source": "https://github.com/ceekayel/x/tree/4.0.6",
+                "issues": "https://github.com/ceekayel/x/issues"
+            },
+            "time": "2015-08-18 20:41:01"
         },
         {
             "name": "wpackagist-plugin/jonradio-multiple-themes",
