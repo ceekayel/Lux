@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d5f882be3f8e419089af34f05e5156f",
+    "hash": "22a23cf6e836de4cbfeda2c6e97e0a89",
     "packages": [
         {
             "name": "composer/installers",
@@ -286,7 +286,7 @@
             "version": "4.0.2",
             "source": {
                 "type": "git",
-                "url": "../themeforest/x",
+                "url": "https://github.com/ceekayel/x.git",
                 "reference": "1b4934ac25ddca00244c15ed46e3930abfd06151"
             },
             "require": {
