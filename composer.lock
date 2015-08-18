@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "88676dc8e8018cd53e19526184b4a6e0",
+    "hash": "8d5f882be3f8e419089af34f05e5156f",
     "packages": [
         {
             "name": "composer/installers",
@@ -280,38 +280,6 @@
                 "x-theme"
             ],
             "time": "2015-08-18 13:36:10"
-        },
-        {
-            "name": "trick-e/x-shortcodes",
-            "version": "3.0.5",
-            "source": {
-                "type": "git",
-                "url": "../themeforest/x-shortcodes",
-                "reference": "3d713c49077ef99a71b14818b42bd9a4c918e5f3"
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.4 <5.7"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Legan",
-                    "email": "ceekayel@trick-e.com"
-                }
-            ],
-            "description": "Shortcodes Wordpress Plugin for X.",
-            "keywords": [
-                "plugin",
-                "plugins",
-                "shortcodes",
-                "wordpress",
-                "x-theme"
-            ],
-            "time": "2015-08-18 13:37:35"
         },
         {
             "name": "trick-e/x-theme",
