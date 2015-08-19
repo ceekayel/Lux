@@ -406,16 +406,16 @@
         },
         {
             "name": "trick-e/duplicator",
-            "version": "0.5.26",
+            "version": "0.5.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ceekayel/duplicator.git",
-                "reference": "3120947b65364d6c1e97df08189f5efa83c9f0c0"
+                "reference": "5203631513ff3d7bbb98ffc23507eb1666bc109a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/duplicator/zipball/3120947b65364d6c1e97df08189f5efa83c9f0c0",
-                "reference": "3120947b65364d6c1e97df08189f5efa83c9f0c0",
+                "url": "https://api.github.com/repos/ceekayel/duplicator/zipball/5203631513ff3d7bbb98ffc23507eb1666bc109a",
+                "reference": "5203631513ff3d7bbb98ffc23507eb1666bc109a",
                 "shasum": ""
             },
             "require": {
@@ -440,10 +440,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/ceekayel/duplicator/tree/master",
+                "source": "https://github.com/ceekayel/duplicator/tree/0.5.28",
                 "issues": "https://github.com/ceekayel/duplicator/issues"
             },
-            "time": "2015-08-18 13:55:10"
+            "time": "2015-08-19 13:35:33"
         },
         {
             "name": "trick-e/revslider",
