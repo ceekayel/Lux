@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a13a33e3d08720389b5f8d8303837091",
+    "hash": "ef465ea79cbf4d3b0079397cf9dbfa5e",
     "packages": [
         {
             "name": "composer/installers",
@@ -188,16 +188,16 @@
         },
         {
             "name": "trick-e/Tevolution",
-            "version": "2.2.9",
+            "version": "2.2.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ceekayel/Tevolution.git",
-                "reference": "737ec894d86aadeb2cb4e307bee6530203d3672a"
+                "reference": "46274488ab9600cffa3a602ff222cf0832f55723"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Tevolution/zipball/737ec894d86aadeb2cb4e307bee6530203d3672a",
-                "reference": "737ec894d86aadeb2cb4e307bee6530203d3672a",
+                "url": "https://api.github.com/repos/ceekayel/Tevolution/zipball/395871fd590225501870aafcbcf9dea9c9710ad8",
+                "reference": "46274488ab9600cffa3a602ff222cf0832f55723",
                 "shasum": ""
             },
             "require": {
@@ -225,67 +225,23 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/ceekayel/Tevolution/tree/2.2.9",
+                "source": "https://github.com/ceekayel/Tevolution/tree/2.2.11",
                 "issues": "https://github.com/ceekayel/Tevolution/issues"
             },
-            "time": "2015-08-19 00:03:18"
-        },
-        {
-            "name": "trick-e/Tevolution-Directory",
-            "version": "2.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ceekayel/Tevolution-Directory.git",
-                "reference": "07aec11814fa610a82e7b37e5ab2ba32497a5e8a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Tevolution-Directory/zipball/07aec11814fa610a82e7b37e5ab2ba32497a5e8a",
-                "reference": "07aec11814fa610a82e7b37e5ab2ba32497a5e8a",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.4 <5.7"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Legan",
-                    "email": "ceekayel@trick-e.com"
-                }
-            ],
-            "description": "Directory Wordpress Plugin for Directory, by Templatic.",
-            "keywords": [
-                "directory-plugin",
-                "directory-theme",
-                "plugin",
-                "plugins",
-                "templatic",
-                "tevolution",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/ceekayel/Tevolution-Directory/tree/2.0.9",
-                "issues": "https://github.com/ceekayel/Tevolution-Directory/issues"
-            },
-            "time": "2015-08-19 00:06:33"
+            "time": "2015-08-19 02:09:38"
         },
         {
             "name": "trick-e/Tevolution-LocationManager",
-            "version": "2.0.8",
+            "version": "2.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ceekayel/Tevolution-LocationManager.git",
-                "reference": "d0a6798d05a96b98ecfa25a4e62613a56acb6fbf"
+                "reference": "8900d1d39a8733b9b89bff01992d39b12b1fff86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Tevolution-LocationManager/zipball/d0a6798d05a96b98ecfa25a4e62613a56acb6fbf",
-                "reference": "d0a6798d05a96b98ecfa25a4e62613a56acb6fbf",
+                "url": "https://api.github.com/repos/ceekayel/Tevolution-LocationManager/zipball/8900d1d39a8733b9b89bff01992d39b12b1fff86",
+                "reference": "8900d1d39a8733b9b89bff01992d39b12b1fff86",
                 "shasum": ""
             },
             "require": {
@@ -313,10 +269,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/ceekayel/Tevolution-LocationManager/tree/2.0.8",
+                "source": "https://github.com/ceekayel/Tevolution-LocationManager/tree/2.0.9",
                 "issues": "https://github.com/ceekayel/Tevolution-LocationManager/issues"
             },
-            "time": "2015-08-19 00:08:02"
+            "time": "2015-08-19 02:32:26"
         },
         {
             "name": "trick-e/catalog-theme",
@@ -620,6 +576,50 @@
                 "issues": "https://github.com/ceekayel/Tevolution-BulkImport/issues"
             },
             "time": "2015-08-18 21:14:58"
+        },
+        {
+            "name": "trick-e/tevolution-directory",
+            "version": "2.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/Tevolution-Directory.git",
+                "reference": "2ea2f6d13355aa4640b7a001cfcdec178466fc01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/Tevolution-Directory/zipball/2ea2f6d13355aa4640b7a001cfcdec178466fc01",
+                "reference": "2ea2f6d13355aa4640b7a001cfcdec178466fc01",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Directory Wordpress Plugin for Directory, by Templatic.",
+            "keywords": [
+                "directory-plugin",
+                "directory-theme",
+                "plugin",
+                "plugins",
+                "templatic",
+                "tevolution",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/Tevolution-Directory/tree/2.0.10",
+                "issues": "https://github.com/ceekayel/Tevolution-Directory/issues"
+            },
+            "time": "2015-08-19 02:40:54"
         },
         {
             "name": "trick-e/video-theme",
