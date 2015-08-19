@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef465ea79cbf4d3b0079397cf9dbfa5e",
+    "hash": "f2d4f4c7f8fff11b93029da95e8d25ad",
     "packages": [
         {
             "name": "composer/installers",
@@ -188,16 +188,16 @@
         },
         {
             "name": "trick-e/Tevolution",
-            "version": "2.2.11",
+            "version": "2.2.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ceekayel/Tevolution.git",
-                "reference": "46274488ab9600cffa3a602ff222cf0832f55723"
+                "reference": "07c869b3b276dc3f7dd258927fa72e626718f4ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Tevolution/zipball/395871fd590225501870aafcbcf9dea9c9710ad8",
-                "reference": "46274488ab9600cffa3a602ff222cf0832f55723",
+                "url": "https://api.github.com/repos/ceekayel/Tevolution/zipball/07c869b3b276dc3f7dd258927fa72e626718f4ce",
+                "reference": "07c869b3b276dc3f7dd258927fa72e626718f4ce",
                 "shasum": ""
             },
             "require": {
@@ -216,19 +216,19 @@
             ],
             "description": "Tevolution Wordpress Plugin for Directory, by Templatic.",
             "keywords": [
+                "Tevolution",
                 "directory-theme",
                 "plugin",
                 "plugins",
                 "templatic",
-                "tevolution",
                 "tevolution-plugin",
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/ceekayel/Tevolution/tree/2.2.11",
+                "source": "https://github.com/ceekayel/Tevolution/tree/2.2.11.2",
                 "issues": "https://github.com/ceekayel/Tevolution/issues"
             },
-            "time": "2015-08-19 02:09:38"
+            "time": "2015-08-19 16:18:38"
         },
         {
             "name": "trick-e/Tevolution-LocationManager",
