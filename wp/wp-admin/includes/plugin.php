@@ -435,7 +435,18 @@ function _get_dropins() {
  * @return bool True, if in the active plugins list. False, not in the list.
  */
 function is_plugin_active( $plugin ) {
-	return in_array( $plugin, (array) get_option( 'active_plugins', array() ) ) || is_plugin_active_for_network( $plugin );
+	return in_arrayi( $plugin, (array) get_option( 'active_plugins', array() ) ) || is_plugin_active_for_network( $plugin );
+}
+
+/**
+ * Special helper function for case insensitive (added for matching for plugin names)
+ * from comment on http://uk3.php.net/manual/en/function.in-array.php#89256
+ * @param $needle the item to match
+ * @param $haystack the array to search
+ * @return bool whether there is a case-insensitive match
+ */
+function in_arrayi($needle, $haystack) {
+	return in_array(strtolower($needle), array_map('strtolower', $haystack));
 }
 
 /**
