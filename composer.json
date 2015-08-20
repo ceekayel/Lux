@@ -92,7 +92,8 @@
     "trick-e/tevolution-bulkimport-plugin": "^1.0",
     "trick-e/tevolution-directory": "^2.0",
     "trick-e/tevolution-locationmanager": "^2.0",
-    "trick-e/Tevolution": "2.2.11.2"
+    "trick-e/Tevolution": "2.2.11.2",
+    "wpackagist-plugin/wp-all-import": "^3.3"
   },
   "extra"       : {
     "wordpress-install-dir": "wp"

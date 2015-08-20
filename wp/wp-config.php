@@ -75,6 +75,7 @@ define('WP_DEBUG', false);
 
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../wp-content' );
 define( 'WP_CONTENT_URL', 'http://lux.local:8080/wp-content' );
+define( 'WP_MEMORY_LIMIT', '96M' );
 
 /* That's all, stop editing! Happy blogging. */
 
