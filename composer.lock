@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "65ea8d1898b3caf301b261f9b5379a18",
+    "hash": "6a3fab9dbbbbd8b04e14cdd1ce4c531e",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,6 +187,137 @@
             "time": "2015-06-11 15:15:30"
         },
         {
+            "name": "trick-e/Catalog",
+            "version": "1.0.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/Catalog.git",
+                "reference": "3a2c113a717370156c74f07193c0bd284783ccbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/Catalog/zipball/3a2c113a717370156c74f07193c0bd284783ccbe",
+                "reference": "3a2c113a717370156c74f07193c0bd284783ccbe",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "A Wordpress theme called Catalog, by Templatic.",
+            "keywords": [
+                "catalog",
+                "templatic",
+                "theme",
+                "themes",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/Catalog/tree/1.0.11.1",
+                "issues": "https://github.com/ceekayel/Catalog/issues"
+            },
+            "time": "2015-08-20 12:37:49"
+        },
+        {
+            "name": "trick-e/Cornerstone",
+            "version": "1.0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/cornerstone.git",
+                "reference": "56f68434549055b97c3d722e659a3394d17361d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/cornerstone/zipball/56f68434549055b97c3d722e659a3394d17361d2",
+                "reference": "56f68434549055b97c3d722e659a3394d17361d2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Cornerstone Wordpress Plugin for X.",
+            "keywords": [
+                "cornerstone",
+                "plugin",
+                "plugins",
+                "wordpress",
+                "x-theme"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/cornerstone/tree/1.0.5.1",
+                "issues": "https://github.com/ceekayel/cornerstone/issues"
+            },
+            "time": "2015-08-20 21:04:13"
+        },
+        {
+            "name": "trick-e/Directory",
+            "version": "2.0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/Directory.git",
+                "reference": "084a0b9381d45b346932867fd5abb51ac837c119"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/Directory/zipball/084a0b9381d45b346932867fd5abb51ac837c119",
+                "reference": "084a0b9381d45b346932867fd5abb51ac837c119",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "suggest": {
+                "trick-e/Tevolution": " required - a plugin for this theme",
+                "trick-e/tevolution-directory-plugin": " required - a plugin for this theme",
+                "trick-e/tevolution-location-manager-plugin": " required - a plugin for this theme"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "A Wordpress template called Directory, by Templatic.",
+            "keywords": [
+                "Templatic",
+                "directory",
+                "theme",
+                "themes",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/Directory/tree/2.0.7.1",
+                "issues": "https://github.com/ceekayel/Directory/issues"
+            },
+            "time": "2015-08-20 15:19:26"
+        },
+        {
             "name": "trick-e/Tevolution",
             "version": "2.2.11.2",
             "source": {
@@ -231,6 +362,50 @@
             "time": "2015-08-19 16:18:38"
         },
         {
+            "name": "trick-e/Tevolution-Directory",
+            "version": "2.0.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/Tevolution-Directory.git",
+                "reference": "11cc407766100376758b739ca6ebb4541f94c133"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/Tevolution-Directory/zipball/11cc407766100376758b739ca6ebb4541f94c133",
+                "reference": "11cc407766100376758b739ca6ebb4541f94c133",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Directory Wordpress Plugin for Directory, by Templatic.",
+            "keywords": [
+                "directory-plugin",
+                "directory-theme",
+                "plugin",
+                "plugins",
+                "templatic",
+                "tevolution",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/Tevolution-Directory/tree/2.0.10.1",
+                "issues": "https://github.com/ceekayel/Tevolution-Directory/issues"
+            },
+            "time": "2015-08-20 20:34:43"
+        },
+        {
             "name": "trick-e/Tevolution-LocationManager",
             "version": "2.0.9",
             "source": {
@@ -273,136 +448,6 @@
                 "issues": "https://github.com/ceekayel/Tevolution-LocationManager/issues"
             },
             "time": "2015-08-19 02:32:26"
-        },
-        {
-            "name": "trick-e/catalog-theme",
-            "version": "1.0.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ceekayel/Catalog.git",
-                "reference": "93acf8973e7b81c45a5796edff5e61aec3755f7f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Catalog/zipball/93acf8973e7b81c45a5796edff5e61aec3755f7f",
-                "reference": "93acf8973e7b81c45a5796edff5e61aec3755f7f",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.4 <5.7"
-            },
-            "type": "wordpress-theme",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Legan",
-                    "email": "ceekayel@trick-e.com"
-                }
-            ],
-            "description": "A Wordpress theme called Catalog, by Templatic.",
-            "keywords": [
-                "catalog",
-                "templatic",
-                "theme",
-                "themes",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/ceekayel/Catalog/tree/1.0.11",
-                "issues": "https://github.com/ceekayel/Catalog/issues"
-            },
-            "time": "2015-08-18 20:11:06"
-        },
-        {
-            "name": "trick-e/cornerstone",
-            "version": "1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ceekayel/cornerstone.git",
-                "reference": "bdfea2c21665e9c23e7793dee260efbf7e5e6e2e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/cornerstone/zipball/bdfea2c21665e9c23e7793dee260efbf7e5e6e2e",
-                "reference": "bdfea2c21665e9c23e7793dee260efbf7e5e6e2e",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.4 <5.7"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Legan",
-                    "email": "ceekayel@trick-e.com"
-                }
-            ],
-            "description": "Cornerstone Wordpress Plugin for X.",
-            "keywords": [
-                "cornerstone",
-                "plugin",
-                "plugins",
-                "wordpress",
-                "x-theme"
-            ],
-            "support": {
-                "source": "https://github.com/ceekayel/cornerstone/tree/master",
-                "issues": "https://github.com/ceekayel/cornerstone/issues"
-            },
-            "time": "2015-08-18 03:03:59"
-        },
-        {
-            "name": "trick-e/directory-theme",
-            "version": "2.0.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ceekayel/Directory.git",
-                "reference": "d6b10adf414f04dec3b32e59effbf4b8e767ef00"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Directory/zipball/d6b10adf414f04dec3b32e59effbf4b8e767ef00",
-                "reference": "d6b10adf414f04dec3b32e59effbf4b8e767ef00",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.4 <5.7"
-            },
-            "suggest": {
-                "trick-e/tevolution-directory-plugin": " a powerful plugin for this theme",
-                "trick-e/tevolution-location-manager-plugin": " a powerful plugin for this theme"
-            },
-            "type": "wordpress-theme",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Legan",
-                    "email": "ceekayel@trick-e.com"
-                }
-            ],
-            "description": "A Wordpress template called Directory, by Templatic.",
-            "keywords": [
-                "Templatic",
-                "directory",
-                "theme",
-                "themes",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/ceekayel/Directory/tree/2.0.7",
-                "issues": "https://github.com/ceekayel/Directory/issues"
-            },
-            "time": "2015-08-18 20:12:31"
         },
         {
             "name": "trick-e/duplicator",
@@ -578,95 +623,6 @@
             "time": "2015-08-18 21:14:58"
         },
         {
-            "name": "trick-e/tevolution-directory",
-            "version": "2.0.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ceekayel/Tevolution-Directory.git",
-                "reference": "2ea2f6d13355aa4640b7a001cfcdec178466fc01"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Tevolution-Directory/zipball/2ea2f6d13355aa4640b7a001cfcdec178466fc01",
-                "reference": "2ea2f6d13355aa4640b7a001cfcdec178466fc01",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.4 <5.7"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Legan",
-                    "email": "ceekayel@trick-e.com"
-                }
-            ],
-            "description": "Directory Wordpress Plugin for Directory, by Templatic.",
-            "keywords": [
-                "directory-plugin",
-                "directory-theme",
-                "plugin",
-                "plugins",
-                "templatic",
-                "tevolution",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/ceekayel/Tevolution-Directory/tree/2.0.10",
-                "issues": "https://github.com/ceekayel/Tevolution-Directory/issues"
-            },
-            "time": "2015-08-19 02:40:54"
-        },
-        {
-            "name": "trick-e/video-theme",
-            "version": "1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ceekayel/Video.git",
-                "reference": "7f359713f21d78a66b138e6ce73b426c86f1781c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Video/zipball/2f17f35170a17285738c6a25c2b094885467ff87",
-                "reference": "7f359713f21d78a66b138e6ce73b426c86f1781c",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.4 <5.7"
-            },
-            "suggest": {
-                "wpackagist-plugin/cornerstone": "^0.7.2 required for this theme to operate"
-            },
-            "type": "wordpress-theme",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Legan",
-                    "email": "ceekayel@trick-e.com"
-                }
-            ],
-            "description": "A Wordpress theme called Video, by Templatic.",
-            "keywords": [
-                "templatic",
-                "theme",
-                "themes",
-                "video",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/ceekayel/Video/tree/master",
-                "issues": "https://github.com/ceekayel/Video/issues"
-            },
-            "time": "2015-08-18 17:09:36"
-        },
-        {
             "name": "trick-e/x-theme",
             "version": "4.0.6",
             "source": {
@@ -712,16 +668,16 @@
             "time": "2015-08-18 20:41:01"
         },
         {
-            "name": "wpackagist-plugin/jonradio-multiple-themes",
-            "version": "7.1",
+            "name": "wpackagist-plugin/better-search-replace",
+            "version": "1.1.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/jonradio-multiple-themes/",
-                "reference": "tags/7.1"
+                "url": "http://plugins.svn.wordpress.org/better-search-replace/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jonradio-multiple-themes.7.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/better-search-replace.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -729,19 +685,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/jonradio-multiple-themes/"
+            "homepage": "https://wordpress.org/plugins/better-search-replace/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "2.4.4",
+            "version": "2.4.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/2.4.4"
+                "reference": "tags/2.4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.4.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.4.5.zip",
                 "reference": null,
                 "shasum": null
             },

@@ -78,22 +78,21 @@
   ],
   "require": {
     "php": ">=5.4 <5.7",
-    "wpackagist-plugin/jonradio-multiple-themes": ">=7.1 <7.2",
     "trick-e/x-theme": "^4.0",
-    "trick-e/cornerstone": "^1.0",
     "trick-e/revslider": "^4.6",
     "trick-e/duplicator": "^0.5.24",
     "wpackagist-plugin/woocommerce": "^2.4",
-    "trick-e/video-theme": "^1.1",
-    "trick-e/directory-theme": "^2.0",
-    "trick-e/catalog-theme": "^1.0",
     "johnpbloch/wordpress": "^4.3",
     "trick-e/supreme": "^1.1",
-    "trick-e/tevolution-bulkimport-plugin": "^1.0",
-    "trick-e/tevolution-directory": "^2.0",
-    "trick-e/tevolution-locationmanager": "^2.0",
     "trick-e/Tevolution": "2.2.11.2",
-    "wpackagist-plugin/wp-all-import": "^3.3"
+    "trick-e/Tevolution-Directory": "^2.0",
+    "trick-e/tevolution-locationmanager": "^2.0",
+    "trick-e/tevolution-bulkimport-plugin": "^1.0",
+    "wpackagist-plugin/wp-all-import": "^3.3",
+    "trick-e/Catalog": "1.0.11.1",
+    "trick-e/Directory": "2.0.7.1",
+    "trick-e/Cornerstone": "1.0.5.1",
+    "wpackagist-plugin/better-search-replace": "^1.1"
   },
   "extra"       : {
     "wordpress-install-dir": "wp"

@@ -1,6 +1,26 @@
 ## General Overview
 
-This is the Lux Blox website project which includes wordpress and several themes and plugins
+This is the Lux Blox website project which includes wordpress and 
+several themes and plugins
+
+The main page 'X theme' requires the following plugin: Cornerstone
+
+and it recommends the following plugins: 
+  * Content Dock
+  * Custom 404 Disqus Comments
+  * Email Forms (MailChimp)
+  * Facebook Comments
+  * Google Analytics
+  * Olark Integration
+  * Smooth Scroll
+  * Terms of Use
+  * Under Construction
+  * Video Lock
+  * Visual Composer
+  * White Label
+  
+The following plugin needs to be updated to its latest version to ensure maximum 
+compatibility with this theme: Soliloquy
 
 ##Database
 
