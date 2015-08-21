@@ -1,0 +1,24 @@
+{
+  "name": "trick-e/Catalog",
+  "description": "A Wordpress theme called Catalog, by Templatic.",
+  "license": "proprietary",
+  "keywords": ["wordpress","theme","themes", "catalog", "templatic"],
+  "authors": [
+    {
+      "name": "Christopher Legan",
+      "email": "ceekayel@trick-e.com"
+    }
+  ],
+  "type"    : "wordpress-theme",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4 <5.7",
+    "composer/installers": "^1.0"
+  },
+  "minimum-stability": "stable"
+}

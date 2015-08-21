@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2015-08-20 12:03:19
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.28
+WORDPRESS:	4.3
+PHP INFO:	5.6.10 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+MEMORY STACK: 57.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP (query limit - 100)
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:40 | filtered:0 | create:40 
+FILTERED: [] 
+SQL CREATED: 20150820_lux_home_progress_55d5c18a9497e1918150820120114_database.sql 
+SQL FILE SIZE: 1.44MB 
+SQL FILE TIME: 2015-08-20 12:03:20 
+SQL RUNTIME: 0.72 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Users/cklegan/Developer/apache/htdocs/lux/wp 
+ARCHIVE FILE: 20150820_lux_home_progress_55d5c18a9497e1918150820120114_archive.zip 
+FILTERS: *ON* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	21.07MB 
+STATS:	Dirs 134 | Files 1,354 
+SQL ADDED: 20150820_lux_home_progress_55d5c18a9497e1918150820120114_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1488
+    [filename] => /Users/cklegan/Developer/apache/htdocs/lux/wp/wp-snapshots/tmp/20150820_lux_home_progress_55d5c18a9497e1918150820120114_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 9.06MB 
+ARCHIVE RUNTIME: 4.26 sec. 
+MEMORY STACK: 57.25MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/Users/cklegan/Developer/apache/htdocs/lux/wp/wp-snapshots/tmp/20150820_lux_home_progress_55d5c18a9497e1918150820120114_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 1.44MB 
+Installer File: 317.82KB 
+Archive File: 9.06MB  
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 5.46 sec.
+PEAK PHP MEMORY USED: 59.75MB
+DONE PROCESSING => 20150820_lux_home_progress 2015-08-20 12:03:25
+ 

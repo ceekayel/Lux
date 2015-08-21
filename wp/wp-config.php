@@ -71,10 +71,18 @@ $table_prefix  = 'wp_lux_';
 define('WP_DEBUG', false);
 
 /* Adding this CKL */
-//define( 'WP_ALLOW_MULTISITE', true );
+define( 'WP_ALLOW_MULTISITE', true );
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true);
+define('DOMAIN_CURRENT_SITE', 'lux.local');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../wp-content' );
-define( 'WP_CONTENT_URL', 'http://lux.local:8080/wp-content' );
+define( 'WP_CONTENT_URL', 'http://lux.local/wp-content' );
+
+define( 'WP_MEMORY_LIMIT', '96M' );
 
 /* That's all, stop editing! Happy blogging. */
 
