@@ -91,8 +91,11 @@
     "wpackagist-plugin/wp-all-import": "^3.3",
     "trick-e/Catalog": "1.0.11.1",
     "trick-e/Directory": "2.0.7.1",
-    "trick-e/Cornerstone": "1.0.5.1",
-    "wpackagist-plugin/better-search-replace": "^1.1"
+    "trick-e/cornerstone": "1.0.5.2",
+    "wpackagist-plugin/better-search-replace": "^1.1",
+    "wpackagist-plugin/google-analytics-for-wordpress": "^5.4",
+    "wpackagist-plugin/smooth-scroll": "^1.0",
+    "wpackagist-plugin/custom-404-pro": "^1.4"
   },
   "extra"       : {
     "wordpress-install-dir": "wp"

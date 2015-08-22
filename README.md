@@ -32,3 +32,15 @@ GRANT USAGE ON *.* TO 'lux'@'lux.local' IDENTIFIED BY PASSWORD '*665ADFA36435490
 GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'lux.local' WITH GRANT OPTION;
 GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'%' WITH GRANT OPTION;
 ```
+
+##Debugging
+
+```
+wget https://phar.phpunit.de/phpunit.phar
+chmod +x phpunit.phar
+sudo mv phpunit.phar /usr/local/bin/PHHPUnit
+```
+
+then add /usr/local/bin/PHPUnit to include_path in /Applications/MAMP/bin/php/php5.6.10/conf/php.ini
+
+Current version is 4.8.5 (note there is an older version of phpunit (lowercase) in MAMP)

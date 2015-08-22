@@ -13,76 +13,80 @@
  *
  * @package WordPress
  */
-
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'wp_lux');
-
-/** MySQL database username */
-define('DB_USER', 'lux');
-
-/** MySQL database password */
-define('DB_PASSWORD', 'lux!blox');
-
-/** MySQL hostname */
-define('DB_HOST', 'lux.local');
-
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
-
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
-
-/**#@+
- * Authentication Unique Keys and Salts.
- *
- * Change these to different unique phrases!
- * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
- *
- * @since 2.6.0
+/**
+ * The basic unique website domain
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
-
-/**#@-*/
-
+$hostingsite = "trick-e";
+$websites = array("lux","shop","directory");
+$suffex_list = array("com", "net", "org");
 /**
  * WordPress Database Table prefix.
- *
- * You can have multiple installations in one database if you give each a unique
- * prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_lux_';
 
 /**
- * For developers: WordPress debugging mode.
+ * Include settings.[environment].php
  *
- * Change this to true to enable the display of notices during development.
- * It is strongly recommended that plugin and theme developers use WP_DEBUG
- * in their development environments.
+ * Get the http host and then start removing pieces to eventually end up with
+ * an environment identifier. The default environment is 'production'.
+ *
+ * Examples:
+ *   yoursite.com = production
+ *   www.yoursite.com = production
+ *   yoursite.hostingsite.com = production
+ *   stage.yoursite.hostingsite.com = stage
+ *   stage.yoursite.com = stage
+ *   local.yoursite.com = local
+ *   local.yoursite = local
+ *   yoursite.local = local
  */
-define('WP_DEBUG', false);
+$my_host = $_SERVER['HTTP_HOST'];
+$my_origin = parse_url($_SERVER['HTTP_REFERER'], PHP_URL_SCHEME) . '://' . parse_url($_SERVER['HTTP_REFERER'], PHP_URL_HOST); //this has http or https portion
 
-/* Adding this CKL */
-define( 'WP_ALLOW_MULTISITE', true );
+$domain_env = $my_host;
+//strip suffixes
+foreach ($suffex_list as $suffex) {
+    $domain_env = str_replace($suffex, '', $my_host);
+}
+
+//strip known site names
+$domain_env = str_replace($hostingsite, '', $domain_env);
+foreach ($websites as $website) {
+    $domain_env = str_replace($website, '', $domain_env);
+}
+//strip prefixes
+$domain_env = str_replace('www.', '', $domain_env);
+
+//strip any separators on ends (.)
+$domain_env = trim($domain_env, '.');
+
+//whatever is left is the environment
+$domain_env = (strlen($domain_env) >= 1) ? $domain_env : 'production';
+
+// Prefix configuration variables with 'my_config_' to avoid any clashes.
+$conf['my_config_environment'] = ucfirst($domain_env);
+$conf['my_config_settings_file'] = 'settings.' . $domain_env . '.php';
+
+// Check if the file exists prior to including it.
+if (file_exists(dirname(__FILE__) . '/../conf/' . $conf['my_config_settings_file'])) {
+    require_once( dirname(__FILE__) . '/../conf/' .  $conf['my_config_settings_file']);
+}
+
+/* If multisite, add these */
+define('WP_ALLOW_MULTISITE', true );
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', true);
-define('DOMAIN_CURRENT_SITE', 'lux.local');
+define('DOMAIN_CURRENT_SITE', $my_host);
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
+/* nice to have wp separated from other content */
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../wp-content' );
-define( 'WP_CONTENT_URL', 'http://lux.local/wp-content' );
+define( 'WP_CONTENT_URL', $my_origin . '/wp-content' );
 
-define( 'WP_MEMORY_LIMIT', '96M' );
+/* generally more is better than default of 40M */
+define( 'WP_MEMORY_LIMIT', '256M' );
 
 /* That's all, stop editing! Happy blogging. */
 

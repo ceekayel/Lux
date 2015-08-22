@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a3fab9dbbbbd8b04e14cdd1ce4c531e",
+    "hash": "6643bac95041953e78d96013c64c640b",
     "packages": [
         {
             "name": "composer/installers",
@@ -229,48 +229,6 @@
             "time": "2015-08-20 12:37:49"
         },
         {
-            "name": "trick-e/Cornerstone",
-            "version": "1.0.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ceekayel/cornerstone.git",
-                "reference": "56f68434549055b97c3d722e659a3394d17361d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/cornerstone/zipball/56f68434549055b97c3d722e659a3394d17361d2",
-                "reference": "56f68434549055b97c3d722e659a3394d17361d2",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.4 <5.7"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Legan",
-                    "email": "ceekayel@trick-e.com"
-                }
-            ],
-            "description": "Cornerstone Wordpress Plugin for X.",
-            "keywords": [
-                "cornerstone",
-                "plugin",
-                "plugins",
-                "wordpress",
-                "x-theme"
-            ],
-            "support": {
-                "source": "https://github.com/ceekayel/cornerstone/tree/1.0.5.1",
-                "issues": "https://github.com/ceekayel/cornerstone/issues"
-            },
-            "time": "2015-08-20 21:04:13"
-        },
-        {
             "name": "trick-e/Directory",
             "version": "2.0.7.1",
             "source": {
@@ -448,6 +406,48 @@
                 "issues": "https://github.com/ceekayel/Tevolution-LocationManager/issues"
             },
             "time": "2015-08-19 02:32:26"
+        },
+        {
+            "name": "trick-e/cornerstone",
+            "version": "1.0.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/cornerstone.git",
+                "reference": "3bd7aa68bfdd9962fdb3f989062465ce42805a86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/cornerstone/zipball/3bd7aa68bfdd9962fdb3f989062465ce42805a86",
+                "reference": "3bd7aa68bfdd9962fdb3f989062465ce42805a86",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Cornerstone Wordpress Plugin for X.",
+            "keywords": [
+                "cornerstone",
+                "plugin",
+                "plugins",
+                "wordpress",
+                "x-theme"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/cornerstone/tree/master",
+                "issues": "https://github.com/ceekayel/cornerstone/issues"
+            },
+            "time": "2015-08-21 22:47:31"
         },
         {
             "name": "trick-e/duplicator",
@@ -686,6 +686,66 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/better-search-replace/"
+        },
+        {
+            "name": "wpackagist-plugin/custom-404-pro",
+            "version": "1.4.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/custom-404-pro/",
+                "reference": "tags/1.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-404-pro.1.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-404-pro/"
+        },
+        {
+            "name": "wpackagist-plugin/google-analytics-for-wordpress",
+            "version": "5.4.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
+                "reference": "tags/5.4.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
+        },
+        {
+            "name": "wpackagist-plugin/smooth-scroll",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/smooth-scroll/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/smooth-scroll.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/smooth-scroll/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
