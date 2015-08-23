@@ -11,17 +11,23 @@
  */
 define('WP_DEBUG', false);
 
+/**
+ * WordPress Database Table prefix.
+ * If you get this WRONG it'll act like you have to set up the database fresh
+ */
+$table_prefix  = 'wp_lux_';
+
 /** The name of the database for WordPress */
-define('DB_NAME', 'wp_yourdb');
+define('DB_NAME', 'trickeco_luxblox_stage');
 
 /** MySQL database username */
-define('DB_USER', 'your_db_user');
+define('DB_USER', 'trickeco_luxblox');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'your!password');
+define('DB_PASSWORD', 'lux!blox');
 
 /** MySQL hostname */
-define('DB_HOST', 'yoursite');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

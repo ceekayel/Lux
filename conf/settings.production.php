@@ -4,6 +4,7 @@
  */
 /**
  * WordPress Database Table prefix.
+ * If you get this WRONG it'll act like you have to set up the database fresh
  */
 $table_prefix  = 'wp_lux_';
 

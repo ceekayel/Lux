@@ -17,12 +17,8 @@
  * The basic unique website domain
  */
 $hostingsite = "trick-e";
-$websites = array("lux","shop","directory");
+$websites = array("luxblox","shop","directory","home");
 $suffex_list = array("com", "net", "org");
-/**
- * WordPress Database Table prefix.
- */
-$table_prefix  = 'wp_lux_';
 
 /**
  * Include settings.[environment].php
@@ -39,9 +35,11 @@ $table_prefix  = 'wp_lux_';
  *   local.yoursite.com = local
  *   local.yoursite = local
  *   yoursite.local = local
+ *   yoursite.dev = dev
  */
 $my_host = $_SERVER['HTTP_HOST'];
-$my_origin = parse_url($_SERVER['HTTP_REFERER'], PHP_URL_SCHEME) . '://' . parse_url($_SERVER['HTTP_REFERER'], PHP_URL_HOST); //this has http or https portion
+$my_scheme = $_SERVER['HTTP_REFERER'] ? parse_url($_SERVER['HTTP_REFERER'], PHP_URL_SCHEME) : "http";
+$my_origin = $my_scheme . '://' . $my_host; //this has http or https portion
 
 $domain_env = $my_host;
 //strip suffixes
@@ -84,6 +82,10 @@ define('BLOG_ID_CURRENT_SITE', 1);
 /* nice to have wp separated from other content */
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../wp-content' );
 define( 'WP_CONTENT_URL', $my_origin . '/wp-content' );
+
+//these help solve the too many redirects problem, usually in general settings
+//define('WP_HOME','http://luxblox.dev');
+//define('WP_SITEURL','http://luxblox.dev');
 
 /* generally more is better than default of 40M */
 define( 'WP_MEMORY_LIMIT', '256M' );

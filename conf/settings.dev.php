@@ -19,7 +19,7 @@ $table_prefix  = 'wp_lux_';
 define('WP_DEBUG', false);
 
 /** The name of the database for WordPress */
-define('DB_NAME', 'wp_lux');
+define('DB_NAME', 'wp_luxblox');
 
 /** MySQL database username */
 define('DB_USER', 'lux');
@@ -28,13 +28,11 @@ define('DB_USER', 'lux');
 define('DB_PASSWORD', 'lux!blox');
 
 /** MySQL hostname */
-define('DB_HOST', 'lux.local');
+define('DB_HOST', 'luxblox.dev');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
-
 
