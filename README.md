@@ -25,22 +25,79 @@ compatibility with this theme: Soliloquy
 ##Database
 
 ```
-CREATE USER 'lux'@'localhost' IDENTIFIED BY PASSWORD '*665ADFA36435490D997F17246EF5B4D3D78BA5B2'; 
-GRANT USAGE ON *.* TO 'lux'@'localhost' IDENTIFIED BY PASSWORD '*665ADFA36435490D997F17246EF5B4D3D78BA5B2' REQUIRE NONE; 
-GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'localhost' WITH GRANT OPTION;
-GRANT USAGE ON *.* TO 'lux'@'lux.local' IDENTIFIED BY PASSWORD '*665ADFA36435490D997F17246EF5B4D3D78BA5B2';
-GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'lux.local' WITH GRANT OPTION;
-GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'%' WITH GRANT OPTION;
+  CREATE USER 'lux'@'localhost' IDENTIFIED BY PASSWORD '*665ADFA36435490D997F17246EF5B4D3D78BA5B2'; 
+  GRANT USAGE ON *.* TO 'lux'@'localhost' IDENTIFIED BY PASSWORD '*665ADFA36435490D997F17246EF5B4D3D78BA5B2' REQUIRE NONE; 
+  GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'localhost' WITH GRANT OPTION;
+  GRANT USAGE ON *.* TO 'lux'@'lux.local' IDENTIFIED BY PASSWORD '*665ADFA36435490D997F17246EF5B4D3D78BA5B2';
+  GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'lux.local' WITH GRANT OPTION;
+  GRANT ALL PRIVILEGES ON `wp_lux`.* TO 'lux'@'%' WITH GRANT OPTION;
 ```
 
 ##Debugging
 
 ```
-wget https://phar.phpunit.de/phpunit.phar
-chmod +x phpunit.phar
-sudo mv phpunit.phar /usr/local/bin/PHHPUnit
+  wget https://phar.phpunit.de/phpunit.phar
+  chmod +x phpunit.phar
+  sudo mv phpunit.phar /usr/local/bin/PHHPUnit
 ```
 
 then add /usr/local/bin/PHPUnit to include_path in /Applications/MAMP/bin/php/php5.6.10/conf/php.ini
 
 Current version is 4.8.5 (note there is an older version of phpunit (lowercase) in MAMP)
+
+##DNS on Mac OSX
+
+```
+  brew install dnsmasq
+  cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf
+  sudo cp -fv /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
+  (^OR)
+  ln -sfv /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
+  cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf
+  nano /usr/local/etc/dnsmasq.conf
+```
+add the following
+
+```
+  address=/.luxblox.dev/127.0.0.1
+  address=/.lux.local/127.0.0.1
+```
+
+create the following
+
+```
+ sudo nano /etc/resolver/luxblox.dev
+```
+
+with the contents
+
+```
+   sudo tee /etc/resolver/luxblox.dev >/dev/null <<EOF
+   nameserver 127.0.0.1
+   EOF
+```
+
+**DNS Control** using the following
+
+```
+  sudo launchctl unload /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
+  sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist  
+```
+
+I found this works for .htaccess file at top-level (redirects plagued me until I removed the line that added a forward-slash to wp-admin)
+
+```
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^(wp-(admin|includes|snapshots).*) wp/$1 [L]
+RewriteRule ^(.*\.php)$ wp/$1 [L]
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+```
