@@ -16,9 +16,26 @@
 /**
  * The basic unique website domain
  */
+
+//Use this when relocating the site, see https://codex.wordpress.org/Changing_The_Site_URL
+//define('RELOCATE',true);
+
 $hostingsite = "trick-e";
 $websites = array("luxblox","shop","directory","home");
 $suffex_list = array("com", "net", "org");
+
+/*
+ * As suggested by http://luxblox.dev/wp-admin/network/setup.php
+ * (should this go into settings.dev.php? does it change with the base URL?)
+ */
+define( 'AUTH_KEY', 'aRu^fP+N@tA.b,%MgsHiBK(F2B|cSJ3V!:6(F)tdk,h[P7[EK+`g%bPqXxYXz]P+' );
+define( 'SECURE_AUTH_KEY', 'w*|r?-uSJ||hN!9<o*AI;;r=4/TTX7:@t>FPQit83=!v1By*0!|vYDsKC[(e!xB<' );
+define( 'LOGGED_IN_KEY', 'UM$d{!o(0YnYa5.+ijxV{UrDZG<ZS|sLxp<;R1<|p+yNmOM~8.-aq5zO|~d6R|N/' );
+define( 'NONCE_KEY', 'DX6*kD~GZ$;m`]sy%O_yFY5}^.`D@sL8$^OR<7v[2n4IV&|w!dE8^jH^&8sL6]EV' );
+define( 'AUTH_SALT', '>Fg4}Q_kxag+wjbC16};OBvZ{?h#&--viZpu&<E/`1Lip?wP4|2.QN0$Zp]@^G_j' );
+define( 'SECURE_AUTH_SALT', '+xLd[+3] u0KX,r4>V%eHMu<}V]wOP&X9zl|v*}1Tbl-++Kyx+6DHWF?uH0omkL*' );
+define( 'LOGGED_IN_SALT', 'CRj-OpfhMN}:!]=wVE/i^jIzDZ2zTmAu?e$@U+=]%oc#[NsV@i=|.L|%Lj(+<|S5' );
+define( 'NONCE_SALT', 'K#V[?j}rGaNsUgKWV^A%l2{e7o2>T+t,U0`-]Mprsf$U#Aj+0{Hn/_L2<rygR]<H' );
 
 /**
  * Include settings.[environment].php
@@ -84,12 +101,12 @@ define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../wp-content' );
 define( 'WP_CONTENT_URL', $my_origin . '/wp-content' );
 
 //these help solve the too many redirects problem, usually in general settings
-//define('WP_HOME','http://luxblox.dev');
-//define('WP_SITEURL','http://luxblox.dev');
+define('WP_HOME','http://luxblox.dev');
+define('WP_SITEURL','http://luxblox.dev');
 
 /* generally more is better than default of 40M */
 define( 'WP_MEMORY_LIMIT', '256M' );
-
+define( 'WP_MAX_MEMORY_LIMIT', '512M' );
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */

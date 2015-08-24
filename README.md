@@ -77,7 +77,7 @@ with the contents
    EOF
 ```
 
-**DNS Control** using the following
+**DNS Control** using the following ( from [this guide](http://asciithoughts.com/posts/2014/02/23/setting-up-a-wildcard-dns-domain-on-mac-os-x/) )
 
 ```
   sudo launchctl unload /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
@@ -101,3 +101,22 @@ RewriteRule . /index.php [L]
 </IfModule>
 # END WordPress
 ```
+
+## Relocating the site
+
+Use this in wp-config.php when relocating the site, see https://codex.wordpress.org/Changing_The_Site_URL
+
+```
+  define('RELOCATE',true);
+```
+
+When doing the above and changing the URLs directly in the database, you will come across instances of the URL being located in the "guid" column in the wp_posts tables.
+
+**It is critical that you do NOT change the contents of this field.**
+
+Generate and install an API key for X theme under a new domain here
+https://theme.co/community/users/ceekayel/licenses/
+
+## Defining the home page
+
+https://developer.wordpress.org/themes/basics/template-hierarchy/
