@@ -115,7 +115,7 @@ if ( !defined('ABSPATH') )
 
 /** Absolute path to the base installation directory, given this installation is in wp subfolder. */
 if ( !defined('ROOTPATH') )
-    define('ROOTPATH', ABSPATH . '../');
+    define('ROOTPATH', ABSPATH . '/..');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
