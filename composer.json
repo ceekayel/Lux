@@ -33,6 +33,30 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/ceekayel/x-content-dock.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ceekayel/x-custom-404.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ceekayel/x-email-mailchimp.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ceekayel/x-smooth-scroll.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ceekayel/x-video-lock.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ceekayel/x-white-label.git"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/ceekayel/cornerstone.git"
     },
     {
@@ -94,8 +118,13 @@
     "trick-e/cornerstone": "1.0.5.2",
     "wpackagist-plugin/better-search-replace": "^1.1",
     "wpackagist-plugin/google-analytics-for-wordpress": "^5.4",
-    "wpackagist-plugin/smooth-scroll": "^1.0",
-    "wpackagist-plugin/custom-404-pro": "^1.4"
+    "wpackagist-plugin/custom-404-pro": "^1.4",
+    "trick-e/x-content-dock": "^1.0",
+    "trick-e/x-custom-404": "^1.0",
+    "trick-e/x-email-mailchimp": "^1.1",
+    "trick-e/x-smooth-scroll": "^1.0",
+    "trick-e/x-white-label": "^1.1",
+    "trick-e/x-video-lock": "^1.1"
   },
   "extra"       : {
     "wordpress-install-dir": "wp"

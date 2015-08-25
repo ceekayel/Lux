@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6643bac95041953e78d96013c64c640b",
+    "hash": "f46eb8e40472ea1b9469fc60be961f36",
     "packages": [
         {
             "name": "composer/installers",
@@ -451,16 +451,16 @@
         },
         {
             "name": "trick-e/duplicator",
-            "version": "0.5.28",
+            "version": "0.5.28.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ceekayel/duplicator.git",
-                "reference": "5203631513ff3d7bbb98ffc23507eb1666bc109a"
+                "reference": "e0d0c89e6be16643d39fdb3413a8d14f1c6b8590"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/duplicator/zipball/5203631513ff3d7bbb98ffc23507eb1666bc109a",
-                "reference": "5203631513ff3d7bbb98ffc23507eb1666bc109a",
+                "url": "https://api.github.com/repos/ceekayel/duplicator/zipball/e0d0c89e6be16643d39fdb3413a8d14f1c6b8590",
+                "reference": "e0d0c89e6be16643d39fdb3413a8d14f1c6b8590",
                 "shasum": ""
             },
             "require": {
@@ -485,10 +485,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/ceekayel/duplicator/tree/0.5.28",
+                "source": "https://github.com/ceekayel/duplicator/tree/enable_wordpress_in_subfolder",
                 "issues": "https://github.com/ceekayel/duplicator/issues"
             },
-            "time": "2015-08-19 13:35:33"
+            "time": "2015-08-25 00:49:54"
         },
         {
             "name": "trick-e/revslider",
@@ -623,17 +623,185 @@
             "time": "2015-08-18 21:14:58"
         },
         {
-            "name": "trick-e/x-theme",
-            "version": "4.0.6",
+            "name": "trick-e/x-content-dock",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ceekayel/x.git",
-                "reference": "5fc126c62693e9cad5772007cae7a31809252cc6"
+                "url": "https://github.com/ceekayel/x-content-dock.git",
+                "reference": "981a70dd575a2ba41bdfc499339005656a49f9ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/x/zipball/ba735ff54ee970844ad95132cbbe9dde6c397fb9",
-                "reference": "5fc126c62693e9cad5772007cae7a31809252cc6",
+                "url": "https://api.github.com/repos/ceekayel/x-content-dock/zipball/981a70dd575a2ba41bdfc499339005656a49f9ef",
+                "reference": "981a70dd575a2ba41bdfc499339005656a49f9ef",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Revslider Wordpress Plugin for X.",
+            "keywords": [
+                "plugin",
+                "plugins",
+                "revslider",
+                "wordpress",
+                "x-theme"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/x-content-dock/tree/1.0.0",
+                "issues": "https://github.com/ceekayel/x-content-dock/issues"
+            },
+            "time": "2015-08-25 01:04:16"
+        },
+        {
+            "name": "trick-e/x-custom-404",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/x-custom-404.git",
+                "reference": "c4a3d3da55cea78eecf2c6d7b9f8c7252f182784"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/x-custom-404/zipball/c4a3d3da55cea78eecf2c6d7b9f8c7252f182784",
+                "reference": "c4a3d3da55cea78eecf2c6d7b9f8c7252f182784",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Revslider Wordpress Plugin for X.",
+            "keywords": [
+                "plugin",
+                "plugins",
+                "revslider",
+                "wordpress",
+                "x-theme"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/x-custom-404/tree/1.0.0",
+                "issues": "https://github.com/ceekayel/x-custom-404/issues"
+            },
+            "time": "2015-08-25 01:05:14"
+        },
+        {
+            "name": "trick-e/x-email-mailchimp",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/x-email-mailchimp.git",
+                "reference": "a6e6f37c93b9edc4e04edd0de1ff806a5aa4927b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/x-email-mailchimp/zipball/a6e6f37c93b9edc4e04edd0de1ff806a5aa4927b",
+                "reference": "a6e6f37c93b9edc4e04edd0de1ff806a5aa4927b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Revslider Wordpress Plugin for X.",
+            "keywords": [
+                "plugin",
+                "plugins",
+                "revslider",
+                "wordpress",
+                "x-theme"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/x-email-mailchimp/tree/1.1.0",
+                "issues": "https://github.com/ceekayel/x-email-mailchimp/issues"
+            },
+            "time": "2015-08-25 01:06:12"
+        },
+        {
+            "name": "trick-e/x-smooth-scroll",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/x-smooth-scroll.git",
+                "reference": "239cfcb90ddeade0c931d2eccc494c4f0ca01983"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/x-smooth-scroll/zipball/239cfcb90ddeade0c931d2eccc494c4f0ca01983",
+                "reference": "239cfcb90ddeade0c931d2eccc494c4f0ca01983",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Revslider Wordpress Plugin for X.",
+            "keywords": [
+                "plugin",
+                "plugins",
+                "revslider",
+                "wordpress",
+                "x-theme"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/x-smooth-scroll/tree/1.0.2",
+                "issues": "https://github.com/ceekayel/x-smooth-scroll/issues"
+            },
+            "time": "2015-08-25 01:06:46"
+        },
+        {
+            "name": "trick-e/x-theme",
+            "version": "4.0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/x.git",
+                "reference": "8e7c1c78a1721b1a0f391a39afc5307f9566a7ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/x/zipball/8e7c1c78a1721b1a0f391a39afc5307f9566a7ee",
+                "reference": "8e7c1c78a1721b1a0f391a39afc5307f9566a7ee",
                 "shasum": ""
             },
             "require": {
@@ -641,7 +809,7 @@
                 "php": ">=5.4 <5.7"
             },
             "suggest": {
-                "wpackagist-plugin/cornerstone": "^0.7.2 required for this theme to operate"
+                "trick-e/cornerstone": "^1.0.5 required for this theme to operate"
             },
             "type": "wordpress-theme",
             "license": [
@@ -662,10 +830,94 @@
                 "x"
             ],
             "support": {
-                "source": "https://github.com/ceekayel/x/tree/4.0.6",
+                "source": "https://github.com/ceekayel/x/tree/4.0.6.1",
                 "issues": "https://github.com/ceekayel/x/issues"
             },
-            "time": "2015-08-18 20:41:01"
+            "time": "2015-08-25 01:59:42"
+        },
+        {
+            "name": "trick-e/x-video-lock",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/x-video-lock.git",
+                "reference": "837e42d996221e56721b13de2b9d874593c4ca06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/x-video-lock/zipball/837e42d996221e56721b13de2b9d874593c4ca06",
+                "reference": "837e42d996221e56721b13de2b9d874593c4ca06",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Revslider Wordpress Plugin for X.",
+            "keywords": [
+                "plugin",
+                "plugins",
+                "revslider",
+                "wordpress",
+                "x-theme"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/x-video-lock/tree/1.1.0",
+                "issues": "https://github.com/ceekayel/x-video-lock/issues"
+            },
+            "time": "2015-08-25 02:20:17"
+        },
+        {
+            "name": "trick-e/x-white-label",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/x-white-label.git",
+                "reference": "fad3a603638d9676ad40696cf9ec14c0e80e9b2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/x-white-label/zipball/fad3a603638d9676ad40696cf9ec14c0e80e9b2e",
+                "reference": "fad3a603638d9676ad40696cf9ec14c0e80e9b2e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Revslider Wordpress Plugin for X.",
+            "keywords": [
+                "plugin",
+                "plugins",
+                "revslider",
+                "wordpress",
+                "x-theme"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/x-white-label/tree/1.1.0",
+                "issues": "https://github.com/ceekayel/x-white-label/issues"
+            },
+            "time": "2015-08-25 01:08:28"
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
@@ -728,36 +980,16 @@
             "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
         },
         {
-            "name": "wpackagist-plugin/smooth-scroll",
-            "version": "1.0",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/smooth-scroll/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/smooth-scroll.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/smooth-scroll/"
-        },
-        {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "2.4.5",
+            "version": "2.4.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/2.4.5"
+                "reference": "tags/2.4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.4.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.4.6.zip",
                 "reference": null,
                 "shasum": null
             },
