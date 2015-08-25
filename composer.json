@@ -103,7 +103,7 @@
   "require": {
     "php": ">=5.4 <5.7",
     "trick-e/x": "^4.0",
-    "trick-e/revslider": "^4.6",
+    "trick-e/revslider": "^5.0",
     "trick-e/duplicator": "^0.5.24",
     "wpackagist-plugin/woocommerce": "^2.4",
     "johnpbloch/wordpress": "^4.3",

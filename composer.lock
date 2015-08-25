@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24b884557e613d71e34c8513466a931b",
+    "hash": "bec44410dcf132a1604f45d47f573e04",
     "packages": [
         {
             "name": "composer/installers",
@@ -492,16 +492,16 @@
         },
         {
             "name": "trick-e/revslider",
-            "version": "4.6.93",
+            "version": "5.0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ceekayel/revslider.git",
-                "reference": "5441f1b47a0118bacdc9abad3a0e784e064f4764"
+                "reference": "838807746b342f24772175706e65f6408efcc020"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/revslider/zipball/5441f1b47a0118bacdc9abad3a0e784e064f4764",
-                "reference": "5441f1b47a0118bacdc9abad3a0e784e064f4764",
+                "url": "https://api.github.com/repos/ceekayel/revslider/zipball/838807746b342f24772175706e65f6408efcc020",
+                "reference": "838807746b342f24772175706e65f6408efcc020",
                 "shasum": ""
             },
             "require": {
@@ -527,10 +527,10 @@
                 "x-theme"
             ],
             "support": {
-                "source": "https://github.com/ceekayel/revslider/tree/master",
+                "source": "https://github.com/ceekayel/revslider/tree/5.0.3.1",
                 "issues": "https://github.com/ceekayel/revslider/issues"
             },
-            "time": "2015-08-18 13:36:10"
+            "time": "2015-08-25 13:23:23"
         },
         {
             "name": "trick-e/supreme",
