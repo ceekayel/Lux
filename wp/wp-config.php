@@ -21,8 +21,8 @@
 //define('RELOCATE',true);
 
 $hostingsite = "trick-e";
-$websites = array("luxblox","shop","directory","home");
-$suffex_list = array("com", "net", "org");
+$websites = array("luxblox","shop","directory","home", "lux");
+$suffex_list = array(".com", ".net", ".org", ".co");
 
 /*
  * As suggested by http://luxblox.dev/wp-admin/network/setup.php
@@ -101,8 +101,8 @@ define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../wp-content' );
 define( 'WP_CONTENT_URL', $my_origin . '/wp-content' );
 
 //these help solve the too many redirects problem, usually in general settings
-define('WP_HOME','http://luxblox.dev');
-define('WP_SITEURL','http://luxblox.dev');
+//define('WP_HOME','http://luxblox.dev');
+//define('WP_SITEURL','http://luxblox.dev');
 
 /* generally more is better than default of 40M */
 define( 'WP_MEMORY_LIMIT', '256M' );
@@ -112,6 +112,10 @@ define( 'WP_MAX_MEMORY_LIMIT', '512M' );
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
     define('ABSPATH', dirname(__FILE__) . '/');
+
+/** Absolute path to the base installation directory, given this installation is in wp subfolder. */
+if ( !defined('ROOTPATH') )
+    define('ROOTPATH', ABSPATH . '../');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

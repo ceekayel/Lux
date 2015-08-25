@@ -11,7 +11,7 @@ RewriteRule ^(wp-(admin|includes|snapshots).*) wp/$1 [L]
 RewriteRule ^(.*\.php)$ wp/$1 [L]
 RewriteRule . /index.php [L]
 #Options -Indexes
-SetEnvIf Origin "^http(s)?://(.+\.)?(luxblox\.dev|luxblox\.com)$" origin_is=$0
+SetEnvIf Origin "^http(s)?://(.+\.)?(http://lux\.stage\.trick-e\.co|luxblox\.dev|luxblox\.com)$" origin_is=$0
 Header always set Access-Control-Allow-Origin %{origin_is}e env=origin_is
 Header always set Access-Control-Allow-Credentials true
 </IfModule>
