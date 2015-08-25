@@ -1,0 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Templatic Shortcode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-05 11:04+0530\n"
+"PO-Revision-Date: 2014-09-05 11:11+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wp40beta\\wp-content\\plugins"
+"\\Templatic-Shortcodes\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wp40beta\\wp-content\\plugins"
+"\\Templatic-Shortcodes\n"
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/popup_form.php:22
+msgid "Insert Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:8
+msgid "Button's Label"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:9
+msgid "Add the button's label"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:13
+msgid "Button Type"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:14
+msgid "Select the button's type"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:27
+msgid "Button Size"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:28
+msgid "Select the button's size"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:39
+msgid "Button URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:40
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:44
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:54
+msgid "Column Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:55
+msgid "Mention the title of the column"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:59
+msgid "Column Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:60
+msgid "Select the column layout"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:75
+msgid "Column's Content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:76
+msgid "Add the column's content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:80
+msgid "Insert Column Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:89
+msgid "Message Type"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:90
+msgid "Select the message type"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:101
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:177
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:286
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:317
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:348
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:399
+msgid "Add Content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:102
+msgid "Add the content for message box"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:106
+msgid "Insert Message Box Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:117
+msgid "Label/Badge Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:118
+msgid "Add a title for label/badge"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:122
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:362
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:442
+msgid "Select Type"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:123
+msgid ""
+"Select the type whether you want to create shortcode for label or a badge"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:131
+msgid "Label/Badge Class"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:132
+msgid "Select the class for label/badge"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:144
+msgid "Insert Label/Badge Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:154
+msgid "Insert Label"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:155
+msgid "Give a label for the button"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:160
+msgid "Select placement"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:161
+msgid "select the place to display the popover"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:171
+msgid "Add Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:172
+msgid "Add the title to display in the popover"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:178
+msgid "Add the content to display in the popover"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:182
+msgid "Insert Popover Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:192
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:233
+msgid "Link Label"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:193
+msgid "Add the label for the link"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:198
+msgid "Modal Content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:199
+msgid "Insert the content to display in the popup"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:203
+msgid "Insert Modal Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:213
+msgid "Insert Content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:214
+msgid "Add the content to display in the scroll"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:218
+msgid "Insert Scroll Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:226
+msgid "Insert Tooltip Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:234
+msgid "Add the label of the link on which you wish to display the tooltip"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:239
+msgid "Mention Position"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:240
+msgid "Mention the position of the tooltip"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:250
+msgid "Tooltip Content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:251
+msgid "Add Tooltip Content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:255
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:404
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:432
+msgid "Add Tab"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:266
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:301
+msgid "Box title"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:267
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:302
+msgid "Mention the title for the content box"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:271
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:306
+msgid "Content Box Type"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:272
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:307
+msgid "Select the type for the box"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:287
+msgid "Add the content for the content box"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:291
+msgid "Insert Content Box Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:318
+msgid "Add the content for content box"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:322
+msgid "Insert Small Content Box Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:331
+msgid "Select Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:332
+msgid "Select the color for the letter"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:342
+msgid "Letter"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:343
+msgid "Mention the letter to use as dropcap"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:349
+msgid "Add the content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:353
+msgid "Insert Dropcap Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:363
+msgid "Select the type for the progress bar"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:374
+msgid "Percent"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:375
+msgid ""
+"Mention the percent of the complated process. Insert only numeric value. You "
+"need to insert comma separated values in order to use the progress type "
+"progress bar."
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:379
+msgid "Insert Progress Bar Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:386
+msgid "Insert Accordion Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:393
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:421
+msgid "Tab Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:394
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:422
+msgid "Add title of the tab"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:400
+msgid "Add content the content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:414
+msgid "Insert Tab Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:427
+msgid "Tab Content"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:428
+msgid "Add content for the tab"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:443
+msgid "Select the type for the icons"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:450
+msgid "Insert Icons Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:457
+msgid "Add List Label"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:458
+msgid ""
+"Add the list label. You can add multiple lists by using HTML tags in this "
+"area"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:461
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:479
+msgid "Add List"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:468
+msgid "Insert menties list Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:475
+msgid "Add The List"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/shortcode_options.php:476
+msgid "Add the list using [yes][/yes] and [no][/no] shortcodes."
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/templatic_login.php:82
+msgid ""
+"Templatic Login , enter your templatic credentials to take the updates of "
+"Templatic Shortcodes."
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/templatic_login.php:86
+msgid "User Name"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/templatic_login.php:90
+msgid "Password"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/templatic_login.php:95
+msgid "Cancel"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/wp-updates-plugin.php:57
+msgid "There is a new version of Shortcode plugin available."
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/wp-updates-plugin.php:57
+#, php-format
+msgid "View version %s Details"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/wp-updates-plugin.php:62
+msgid "Templatic Shortcodes Update"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/wp-updates-plugin.php:62
+msgid "update now"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/wp-updates-plugin.php:104
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/wp-updates-plugin.php:104
+msgid "Try again"
+msgstr ""
+
+#: C:\xampp\htdocs\wp40beta\wp-content\plugins\Templatic-Shortcodes/wp-updates-plugin.php:108
+msgid "An unknown error occurred"
+msgstr ""

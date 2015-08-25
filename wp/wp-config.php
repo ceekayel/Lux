@@ -97,7 +97,8 @@ define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
 /* nice to have wp separated from other content */
-define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/../wp-content' );
+// clip the subfolder rather than using /.. to go up (caused problems in plugins)
+define( 'WP_CONTENT_DIR', str_replace('wp', '', dirname(__FILE__)) . '/wp-content' );
 define( 'WP_CONTENT_URL', $my_origin . '/wp-content' );
 
 //these help solve the too many redirects problem, usually in general settings

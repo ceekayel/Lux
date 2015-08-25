@@ -1,7 +1,7 @@
 <?php ob_start();
-	$file = dirname(__FILE__);
-	$file = substr($file,0,stripos($file, "wp-content"));
-	require($file . "/wp-load.php");
+//	$file = dirname(__FILE__);
+//	$file = substr($file,0,stripos($file, "wp-content"));
+	require(ABSPATH . "/wp-load.php");
 	global $wpdb;
 	if(function_exists('hybrid_get_setting')){
 		$color1 = hybrid_get_setting( 'color_picker_color1' );

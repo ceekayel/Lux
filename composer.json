@@ -97,6 +97,10 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/ceekayel/Templatic-Shortcodes.git"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/ceekayel/duplicator.git"
     }
   ],
@@ -124,7 +128,8 @@
     "trick-e/x-email-mailchimp": "^1.1",
     "trick-e/x-smooth-scroll": "^1.0",
     "trick-e/x-white-label": "^1.1",
-    "trick-e/x-video-lock": "^1.1"
+    "trick-e/x-video-lock": "^1.1",
+    "trick-e/Templatic-Shortcodes": "^1.0"
   },
   "extra"       : {
     "wordpress-install-dir": "wp"

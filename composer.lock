@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bec44410dcf132a1604f45d47f573e04",
+    "hash": "c9a4161fbad44c4857cd8b73c43eedfa",
     "packages": [
         {
             "name": "composer/installers",
@@ -274,6 +274,50 @@
                 "issues": "https://github.com/ceekayel/Directory/issues"
             },
             "time": "2015-08-20 15:19:26"
+        },
+        {
+            "name": "trick-e/Templatic-Shortcodes",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/Templatic-Shortcodes.git",
+                "reference": "6c848dfd05a4e1966387346189ea26d901565e99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/Templatic-Shortcodes/zipball/6c848dfd05a4e1966387346189ea26d901565e99",
+                "reference": "6c848dfd05a4e1966387346189ea26d901565e99",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "Tevolution Wordpress Plugin for Directory, by Templatic.",
+            "keywords": [
+                "Tevolution",
+                "directory-theme",
+                "plugin",
+                "plugins",
+                "templatic",
+                "tevolution-plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/Templatic-Shortcodes/tree/1.0.7",
+                "issues": "https://github.com/ceekayel/Templatic-Shortcodes/issues"
+            },
+            "time": "2015-08-25 14:35:48"
         },
         {
             "name": "trick-e/Tevolution",
@@ -961,15 +1005,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.4.5",
+            "version": "5.4.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.4.5"
+                "reference": "tags/5.4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.6.zip",
                 "reference": null,
                 "shasum": null
             },

@@ -1,0 +1,147 @@
+Templatic - Shortcode Plugin (Version 1.0.7)
+================================================================
+
+28th March 2015 (Version 1.0.7)
+----------------------------------------------------------------
+Fix - Design issue for model pop up.
+
+Fix - Success page mega menu drop down does not work.
+
+Fix - Extra white spacing at end of file.
+
+Fix - On 404 page menu drop down does not work.
+
+Fix - Design issue success page jquery conflict.
+
+Fix - Remove save changes button from shordcode model popup.
+----------------------------------------------------------------
+
+28th October 2014 (Version 1.0.6)
+----------------------------------------------------------------
+Plugin was conflicted in some pages.
+---------------------------------------------------------------
+All files updated
+
+15th May 2013 (Version 1.0.5)
+----------------------------------------------------------------
+FIX : WordPress compatible
+----------------------------------------------------------------
+/templ_plugin.php
+
+----------------------------------------------------------------
+FIX : Conflicts with theme localization & WPML
+----------------------------------------------------------------
+/templatic_login.php
+/templatic_shortcodes.php
+/wp-updates-plugin.php
+
+----------------------------------------------------------------
+FIX : Added languages folder for po mo.
+----------------------------------------------------------------
+Added: /languages
+
+----------------------------------------------------------------
+FIX : Call shortcode js on all pages because its possible that user
+ will use any short code on any page and widget and post content.
+----------------------------------------------------------------
+/templatic_shortcodes.php
+
+----------------------------------------------------------------
+FIX : When this plugin is activated woocommerce cart page 
+generating extra <p> tags when any product is there in shopping cart.
+----------------------------------------------------------------
+/templatic_shortcodes.php
+
+----------------------------------------------------------------
+Improvement : Arrows added for accordian menu
+Update - font awesome 4.0.3
+----------------------------------------------------------------
+Added:
+/images/bullet-arrow-down.png
+/images/bullet-arrow-right.png
+Updated:
+/shortcodes.php
+
+----------------------------------------------------------------
+FIX : Remove - bottom border to active tab of Shortcode.
+IE design issues, tabber issue
+----------------------------------------------------------------
+/css/style.css
+
+
+
+26th October 2013 (Version 1.0.4)
+--------------------------------
+FIX : Regarding minify js changes.
+--------------------------------
+js/admin_shortcodes.js
+js/bootstrap-mini.js
+js/bootstrap.js
+js/jquery.colorbox-min.js
+
+---------------------------------------------------------------------
+FIX : Issue of tab short code function with tab jquery from init function.
+---------------------------------------------------------------------
+shortcodes.php
+templatic_shortcodes.php
+
+---------------------------------------
+FIX : Issue of active Tab bottom border.
+---------------------------------------
+css/style.css
+
+-------------------------------------------------------
+FIX : Issue of widget heading color with plugin activation.
+-------------------------------------------------------
+templatic_shortcodes.php
+
+
+
+13th September 2013 (Version 1.0.3)
+---------------------------------------------------------------
+FIX :
+Issue of p tag with the plugin according to the shortcode function.
+Images were not working with the shortcodes in our theme.
+---------------------------------------------------------------
+shortcodes.php
+
+-----------------------------------------------------
+FIX :
+Colorbox short code script didn't call in archive page.
+Rremoved notice error of PLUGINS_SLUG constant.
+-----------------------------------------------------
+templatic_shortcodes.php
+
+------------------------------------------------------------------
+FIX :
+Design issue of small content box width 100% in mobile view (480px)
+Issue of Tab & According design for IE browser.
+Issue of Taber & Content box design in mobile.
+------------------------------------------------------------------
+css/style.css
+
+-------------------------------
+FIX : Modal popup window issue.
+-------------------------------
+js/bootstrap.js
+
+
+
+
+17th June 2013 (Version 1.0.2)
+-------------------------------------------------------------------------
+FIX - html tag not working in shortcode
+FIX - modal popup box not showing.
+FIX - Accordian shortcode was displaying all content in all collapsible items
+------------------------------------------------------------------------------
+
+
+7 May 2013
+--------------------------------------------------------------------------------------------
+Add amenties list  short code. - to show the list of allow/notallow or yes/no
+------------------------------------------------------------------------------------------
+
+shortcodes.php
+images/yes.png
+images/no.png
+css/style.css
