@@ -102,7 +102,7 @@
   ],
   "require": {
     "php": ">=5.4 <5.7",
-    "trick-e/x-theme": "^4.0",
+    "trick-e/x": "^4.0",
     "trick-e/revslider": "^4.6",
     "trick-e/duplicator": "^0.5.24",
     "wpackagist-plugin/woocommerce": "^2.4",

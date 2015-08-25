@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f46eb8e40472ea1b9469fc60be961f36",
+    "hash": "24b884557e613d71e34c8513466a931b",
     "packages": [
         {
             "name": "composer/installers",
@@ -623,6 +623,51 @@
             "time": "2015-08-18 21:14:58"
         },
         {
+            "name": "trick-e/x",
+            "version": "4.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ceekayel/x.git",
+                "reference": "06f59fc43b4baa6faf2367f922d22d62b58f6464"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ceekayel/x/zipball/06f59fc43b4baa6faf2367f922d22d62b58f6464",
+                "reference": "06f59fc43b4baa6faf2367f922d22d62b58f6464",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.4 <5.7"
+            },
+            "suggest": {
+                "trick-e/cornerstone": "^1.0.5 required for this theme to operate"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Legan",
+                    "email": "ceekayel@trick-e.com"
+                }
+            ],
+            "description": "A Wordpress theme called X, by Themeforest.",
+            "keywords": [
+                "theme",
+                "themeforest",
+                "themes",
+                "wordpress",
+                "x"
+            ],
+            "support": {
+                "source": "https://github.com/ceekayel/x/tree/4.0.7",
+                "issues": "https://github.com/ceekayel/x/issues"
+            },
+            "time": "2015-08-25 02:37:22"
+        },
+        {
             "name": "trick-e/x-content-dock",
             "version": "1.0.0",
             "source": {
@@ -789,51 +834,6 @@
                 "issues": "https://github.com/ceekayel/x-smooth-scroll/issues"
             },
             "time": "2015-08-25 01:06:46"
-        },
-        {
-            "name": "trick-e/x-theme",
-            "version": "4.0.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ceekayel/x.git",
-                "reference": "8e7c1c78a1721b1a0f391a39afc5307f9566a7ee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/x/zipball/8e7c1c78a1721b1a0f391a39afc5307f9566a7ee",
-                "reference": "8e7c1c78a1721b1a0f391a39afc5307f9566a7ee",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.4 <5.7"
-            },
-            "suggest": {
-                "trick-e/cornerstone": "^1.0.5 required for this theme to operate"
-            },
-            "type": "wordpress-theme",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Legan",
-                    "email": "ceekayel@trick-e.com"
-                }
-            ],
-            "description": "A Wordpress theme called X, by Themeforest.",
-            "keywords": [
-                "theme",
-                "themeforest",
-                "themes",
-                "wordpress",
-                "x"
-            ],
-            "support": {
-                "source": "https://github.com/ceekayel/x/tree/4.0.6.1",
-                "issues": "https://github.com/ceekayel/x/issues"
-            },
-            "time": "2015-08-25 01:59:42"
         },
         {
             "name": "trick-e/x-video-lock",
