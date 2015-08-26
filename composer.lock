@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9a4161fbad44c4857cd8b73c43eedfa",
+    "hash": "91d624be6deac2260dc39b9f665eadf3",
     "packages": [
         {
             "name": "composer/installers",
@@ -188,16 +188,16 @@
         },
         {
             "name": "trick-e/Catalog",
-            "version": "1.0.11.1",
+            "version": "1.0.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ceekayel/Catalog.git",
-                "reference": "3a2c113a717370156c74f07193c0bd284783ccbe"
+                "reference": "fe09084aee90bcaad406d04842fbc63229f32c1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Catalog/zipball/3a2c113a717370156c74f07193c0bd284783ccbe",
-                "reference": "3a2c113a717370156c74f07193c0bd284783ccbe",
+                "url": "https://api.github.com/repos/ceekayel/Catalog/zipball/fe09084aee90bcaad406d04842fbc63229f32c1c",
+                "reference": "fe09084aee90bcaad406d04842fbc63229f32c1c",
                 "shasum": ""
             },
             "require": {
@@ -223,10 +223,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/ceekayel/Catalog/tree/1.0.11.1",
+                "source": "https://github.com/ceekayel/Catalog/tree/WP_in_subfolder_requires_path_fix",
                 "issues": "https://github.com/ceekayel/Catalog/issues"
             },
-            "time": "2015-08-20 12:37:49"
+            "time": "2015-08-25 20:44:54"
         },
         {
             "name": "trick-e/Directory",
