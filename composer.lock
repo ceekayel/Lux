@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "91d624be6deac2260dc39b9f665eadf3",
+    "hash": "0eb80cc68e14008ddad26b464b12c5a0",
     "packages": [
         {
             "name": "composer/installers",
@@ -321,16 +321,16 @@
         },
         {
             "name": "trick-e/Tevolution",
-            "version": "2.2.11.2",
+            "version": "2.2.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ceekayel/Tevolution.git",
-                "reference": "07c869b3b276dc3f7dd258927fa72e626718f4ce"
+                "reference": "e98a12b4ea770c44b46869f66ff33b9bf9d8079e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ceekayel/Tevolution/zipball/07c869b3b276dc3f7dd258927fa72e626718f4ce",
-                "reference": "07c869b3b276dc3f7dd258927fa72e626718f4ce",
+                "url": "https://api.github.com/repos/ceekayel/Tevolution/zipball/e98a12b4ea770c44b46869f66ff33b9bf9d8079e",
+                "reference": "e98a12b4ea770c44b46869f66ff33b9bf9d8079e",
                 "shasum": ""
             },
             "require": {
@@ -358,10 +358,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/ceekayel/Tevolution/tree/2.2.11.2",
+                "source": "https://github.com/ceekayel/Tevolution/tree/WP_in_subfolder_requires_path_fix",
                 "issues": "https://github.com/ceekayel/Tevolution/issues"
             },
-            "time": "2015-08-19 16:18:38"
+            "time": "2015-08-26 16:04:33"
         },
         {
             "name": "trick-e/Tevolution-Directory",
