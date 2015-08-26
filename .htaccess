@@ -9,7 +9,11 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 RewriteRule ^(wp-(admin|includes|snapshots).*) wp/$1 [L]
 RewriteRule ^(.*\.php)$ wp/$1 [L]
-RewriteRule . /index.php [L]
+RewriteRule . index\.php [L]
+# .htaccess Fix for 403 Error Infinite Loops
+RewriteEngine On
+RewriteCond %{ENV:REDIRECT_STATUS} 403
+RewriteRule .* - [L]
 #Options -Indexes
 SetEnvIf Origin "^http(s)?://(.+\.)?(http://lux\.stage\.trick-e\.co|luxblox\.dev|luxblox\.com)$" origin_is=$0
 Header always set Access-Control-Allow-Origin %{origin_is}e env=origin_is
