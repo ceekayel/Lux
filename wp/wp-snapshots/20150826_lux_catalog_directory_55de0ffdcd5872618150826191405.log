@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2015-08-26 19:18:10
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.28
+WORDPRESS:	4.3
+PHP INFO:	5.6.10 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (256M default) 
+MEMORY STACK: 39.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP (query limit - 100)
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:115 | filtered:0 | create:115 
+FILTERED: [] 
+SQL CREATED: 20150826_lux_catalog_directory_55de0ffdcd5872618150826191405_database.sql 
+SQL FILE SIZE: 3.62MB 
+SQL FILE TIME: 2015-08-26 19:18:12 
+SQL RUNTIME: 1.92 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Users/cklegan/Developer/apache/htdocs/luxblox 
+ARCHIVE FILE: 20150826_lux_catalog_directory_55de0ffdcd5872618150826191405_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	116.87MB 
+STATS:	Dirs 880 | Files 6,642 
+SQL ADDED: 20150826_lux_catalog_directory_55de0ffdcd5872618150826191405_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7522
+    [filename] => /Users/cklegan/Developer/apache/htdocs/luxblox/wp/wp-snapshots/tmp/20150826_lux_catalog_directory_55de0ffdcd5872618150826191405_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 68.74MB 
+ARCHIVE RUNTIME: 22.11 sec. 
+MEMORY STACK: 41.75MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/Users/cklegan/Developer/apache/htdocs/luxblox/wp/wp-snapshots/tmp/20150826_lux_catalog_directory_55de0ffdcd5872618150826191405_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 3.62MB 
+Installer File: 318.06KB 
+Archive File: 68.74MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 26.40 sec.
+PEAK PHP MEMORY USED: 43.75MB
+DONE PROCESSING => 20150826_lux_catalog_directory 2015-08-26 19:18:36
+ 

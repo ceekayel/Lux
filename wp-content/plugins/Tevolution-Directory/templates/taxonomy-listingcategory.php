@@ -131,7 +131,7 @@ do_action('after_directory_header');
           	endwhile;
 			wp_reset_query(); 
 		else:?>
-          	<p class='nodata_msg'><?php _e( 'Apologies, but no results were found for the requested archive.', 'templatic' ); ?></p>              
+          	<p class='nodata_msg'><?php _e( 'Apologies, but no results were found for the requested archive.', DIR_DOMAIN ); ?></p>              
         <?php endif; 
         
         /* pagination start */
